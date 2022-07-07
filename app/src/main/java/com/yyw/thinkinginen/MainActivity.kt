@@ -9,6 +9,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -27,6 +28,7 @@ import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import java.io.IOException
 
 class MainActivity : ComponentActivity() {
+    private var position = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("wyy", "onCreate")
@@ -38,9 +40,16 @@ class MainActivity : ComponentActivity() {
 //                Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
 //                    Greeting("Android")
 //                }
-                Conversation(getSentences())
+                Conversation(getSentences()) {
+                    position = it
+                }
             }
         }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("wyy", "onPause position:$position")
     }
 
     private fun getSentences(): List<Message> {
@@ -93,11 +102,16 @@ fun Greeting(msg: Message) {
 }
 
 @Composable
-fun Conversation(messages: List<Message>) {
-    LazyColumn {
-        items(messages) { msg ->
-            Greeting(msg)
+fun Conversation(messages: List<Message>, setPosition: (Int) -> Unit) {
+    Box {
+        val listState = rememberLazyListState()
+        LazyColumn(state = listState) {
+            items(messages) { msg ->
+                Greeting(msg)
+            }
         }
+        Log.d("wyy", "first visible item index:${listState.firstVisibleItemIndex}")
+        setPosition(listState.firstVisibleItemIndex)
     }
 }
 
