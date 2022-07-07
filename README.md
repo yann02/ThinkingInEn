@@ -1,2 +1,2 @@
 # ThinkingInEn
-For learn English.
+App contents is for learn English.
