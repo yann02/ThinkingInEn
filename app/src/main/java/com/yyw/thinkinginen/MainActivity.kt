@@ -5,8 +5,11 @@ import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -15,8 +18,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.painter.Painter
@@ -44,13 +46,9 @@ class MainActivity : ComponentActivity() {
     private var position = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d("wyy", "onCreate1")
-//        val messages: List<Message> = getSentences()
-//        Log.d("wyy", "sentences:$messages")
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
                 model.mScrollPosition.collect { sp ->
-                    Log.d("wyy", "sp:$sp")
                     if (sp is Result.Success) {
                         setContent {
                             ThinkingInEnTheme {
@@ -67,7 +65,6 @@ class MainActivity : ComponentActivity() {
 
     override fun onPause() {
         super.onPause()
-        Log.d("wyy", "onPause position:$position")
         model.settingScrollPosition(position)
     }
 
@@ -98,6 +95,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun Greeting(msg: Message) {
     Row(modifier = Modifier.padding(8.dp)) {
@@ -113,8 +111,23 @@ fun Greeting(msg: Message) {
         Column {
             Text(text = msg.role, color = MaterialTheme.colors.secondaryVariant, style = MaterialTheme.typography.subtitle2)
             Spacer(modifier = Modifier.height(2.dp))
-            Surface(elevation = 1.dp, shape = MaterialTheme.shapes.medium) {
-                Text(text = msg.content, style = MaterialTheme.typography.body2, modifier = Modifier.padding(8.dp))
+            var expanded by remember {
+                mutableStateOf(false)
+            }
+            Surface(
+                elevation = 1.dp,
+                shape = MaterialTheme.shapes.medium,
+                modifier = Modifier.clickable { expanded = !expanded }) {
+                Column {
+                    Text(text = msg.content, style = MaterialTheme.typography.body2, modifier = Modifier.padding(8.dp))
+                    AnimatedVisibility(visible = expanded) {
+                        Text(
+                            text = msg.cn,
+                            style = MaterialTheme.typography.body2,
+                            modifier = Modifier.padding(8.dp, 0.dp, 8.dp, 8.dp)
+                        )
+                    }
+                }
             }
         }
     }
@@ -122,9 +135,9 @@ fun Greeting(msg: Message) {
 
 @Composable
 fun Conversation(initPosition: Int, messages: List<Message>, setPosition: (Int) -> Unit) {
-    Log.d("wyy", "Conversation")
-    Log.d("wyy", "initPosition:$initPosition")
-    Log.d("wyy", "messages:${messages.size}")
+    var tempPosition = remember {
+        mutableStateOf(initPosition)
+    }
     Box {
         val listState = rememberLazyListState()
         val coroutineScope = rememberCoroutineScope()
@@ -134,8 +147,12 @@ fun Conversation(initPosition: Int, messages: List<Message>, setPosition: (Int) 
             }
         }
         Log.d("wyy", "first visible item index:${listState.firstVisibleItemIndex}")
+        Log.d("wyy", "first visible item index:${listState.firstVisibleItemScrollOffset}")
         setPosition(listState.firstVisibleItemIndex)
-        if (initPosition != 0) {
+//        if (tempPosition != 0) {
+        if (tempPosition.value != 0) {
+            tempPosition.value = 0
+            Log.d("wyy", "initPosition")
             coroutineScope.launch {
                 listState.animateScrollToItem(initPosition)
             }
