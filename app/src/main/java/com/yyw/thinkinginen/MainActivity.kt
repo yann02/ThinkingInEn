@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.viewModels
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
@@ -15,33 +16,50 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.yyw.thinkinginen.domain.Result
 import com.yyw.thinkinginen.entities.Message
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.launch
 import java.io.IOException
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+    private val model: MainViewModel by viewModels()
+    private val messages: List<Message> by lazy {
+        getSentences()
+    }
     private var position = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d("wyy", "onCreate")
-        val messages: List<Message> = getSentences()
-        Log.d("wyy", "sentences:$messages")
-        setContent {
-            ThinkingInEnTheme {
-                // A surface container using the 'background' color from the theme
-//                Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
-//                    Greeting("Android")
-//                }
-                Conversation(getSentences()) {
-                    position = it
+        Log.d("wyy", "onCreate1")
+//        val messages: List<Message> = getSentences()
+//        Log.d("wyy", "sentences:$messages")
+        lifecycleScope.launch {
+            repeatOnLifecycle(Lifecycle.State.STARTED) {
+                model.mScrollPosition.collect { sp ->
+                    Log.d("wyy", "sp:$sp")
+                    if (sp is Result.Success) {
+                        setContent {
+                            ThinkingInEnTheme {
+                                Conversation(sp.data, messages) {
+                                    position = it
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -50,26 +68,27 @@ class MainActivity : ComponentActivity() {
     override fun onPause() {
         super.onPause()
         Log.d("wyy", "onPause position:$position")
+        model.settingScrollPosition(position)
     }
 
     private fun getSentences(): List<Message> {
         return try {
             val files = assets.list("PeppaPig")
-            Log.d("wyy", "files:$files")
-            Log.d("wyy", "files.size:${files?.size}")
+//            Log.d("wyy", "files:$files")
+//            Log.d("wyy", "files.size:${files?.size}")
             if (!files.isNullOrEmpty()) {
                 for (s in files) {
-                    Log.d("wyy", "s:$s")
+//                    Log.d("wyy", "s:$s")
                     val subFiles = assets.list("PeppaPig/$s")
                     if (!subFiles.isNullOrEmpty()) {
                         for (ss in subFiles) {
-                            Log.d("wyy", "ss:$ss")
+//                            Log.d("wyy", "ss:$ss")
                         }
                     }
                 }
             }
             val jsonString = assets.open("PeppaPig/Season1/episode1.json").bufferedReader().use { it.readText() }
-            Log.d("wyy", "jsonString:$jsonString")
+//            Log.d("wyy", "jsonString:$jsonString")
             val listCountryType = object : TypeToken<List<Message>>() {}.type
             Gson().fromJson(jsonString, listCountryType)
         } catch (ioException: IOException) {
@@ -102,9 +121,13 @@ fun Greeting(msg: Message) {
 }
 
 @Composable
-fun Conversation(messages: List<Message>, setPosition: (Int) -> Unit) {
+fun Conversation(initPosition: Int, messages: List<Message>, setPosition: (Int) -> Unit) {
+    Log.d("wyy", "Conversation")
+    Log.d("wyy", "initPosition:$initPosition")
+    Log.d("wyy", "messages:${messages.size}")
     Box {
         val listState = rememberLazyListState()
+        val coroutineScope = rememberCoroutineScope()
         LazyColumn(state = listState) {
             items(messages) { msg ->
                 Greeting(msg)
@@ -112,6 +135,11 @@ fun Conversation(messages: List<Message>, setPosition: (Int) -> Unit) {
         }
         Log.d("wyy", "first visible item index:${listState.firstVisibleItemIndex}")
         setPosition(listState.firstVisibleItemIndex)
+        if (initPosition != 0) {
+            coroutineScope.launch {
+                listState.animateScrollToItem(initPosition)
+            }
+        }
     }
 }
 
