@@ -1,2 +1,8 @@
 # ThinkingInEn
-App contents is for learn English.
+## Description
+This project is the Android app for learning English.
+## Architecture
+- Jetpack Compose
+- ViewModel
+- DataStore
+- Kotlin Flows
