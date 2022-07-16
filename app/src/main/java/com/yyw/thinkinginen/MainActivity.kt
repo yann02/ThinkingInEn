@@ -97,20 +97,26 @@ class MainActivity : ComponentActivity() {
 
 @OptIn(ExperimentalAnimationApi::class)
 @Composable
-fun Greeting(msg: Message) {
+fun Greeting(msg: Message, isFirstMessageByRole: Boolean) {
     Row(modifier = Modifier.padding(8.dp)) {
-        Image(
-            painter = painterResource(id = R.mipmap.timg), contentDescription = null, modifier = Modifier
-                .size(40.dp)
-                .clip(
-                    CircleShape
-                )
-                .border(1.5.dp, MaterialTheme.colors.secondary, CircleShape)
-        )
-        Spacer(modifier = Modifier.width(8.dp))
+        if (isFirstMessageByRole) {
+            Image(
+                painter = painterResource(id = R.mipmap.timg), contentDescription = null, modifier = Modifier
+                    .size(40.dp)
+                    .clip(
+                        CircleShape
+                    )
+                    .border(1.5.dp, MaterialTheme.colors.secondary, CircleShape)
+            )
+            Spacer(modifier = Modifier.width(8.dp))
+        } else {
+            Spacer(modifier = Modifier.width(48.dp))
+        }
         Column {
-            Text(text = msg.role, color = MaterialTheme.colors.secondaryVariant, style = MaterialTheme.typography.subtitle2)
-            Spacer(modifier = Modifier.height(2.dp))
+            if (isFirstMessageByRole) {
+                Text(text = msg.role, color = MaterialTheme.colors.secondaryVariant, style = MaterialTheme.typography.subtitle2)
+                Spacer(modifier = Modifier.height(2.dp))
+            }
             var expanded by remember {
                 mutableStateOf(false)
             }
@@ -135,19 +141,24 @@ fun Greeting(msg: Message) {
 
 @Composable
 fun Conversation(initPosition: Int, messages: List<Message>, setPosition: (Int) -> Unit) {
-    var tempPosition = remember {
+    val tempPosition = remember {
         mutableStateOf(initPosition)
     }
     Box {
         val listState = rememberLazyListState()
         val coroutineScope = rememberCoroutineScope()
         LazyColumn(state = listState) {
-            items(messages) { msg ->
-                Greeting(msg)
+            for (index in messages.indices) {
+                val prevRole = messages.getOrNull(index - 1)?.role
+                val content = messages[index]
+                val isFirstMessageByRole = prevRole != content.role
+                item {
+                    Greeting(content, isFirstMessageByRole)
+                }
             }
         }
-        Log.d("wyy", "first visible item index:${listState.firstVisibleItemIndex}")
-        Log.d("wyy", "first visible item index:${listState.firstVisibleItemScrollOffset}")
+        Log.d("wyy", "firstVisibleItemIndex:${listState.firstVisibleItemIndex}")
+        Log.d("wyy", "firstVisibleItemScrollOffset:${listState.firstVisibleItemScrollOffset}")
         setPosition(listState.firstVisibleItemIndex)
 //        if (tempPosition != 0) {
         if (tempPosition.value != 0) {
