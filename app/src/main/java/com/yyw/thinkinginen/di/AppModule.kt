@@ -7,6 +7,7 @@ import androidx.datastore.preferences.preferencesDataStore
 import com.yyw.thinkinginen.constants.PreferenceKeys.NAME
 import com.yyw.thinkinginen.data.DataStorePreferenceStorage
 import com.yyw.thinkinginen.data.PreferenceStorage
+import com.yyw.thinkinginen.data.db.AppDatabase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -33,4 +34,10 @@ object AppModule {
     @Provides
     fun providePreferenceStorage(@ApplicationContext context: Context): PreferenceStorage =
         DataStorePreferenceStorage(context.dataStore)
+
+    @Singleton
+    @Provides
+    fun provideAppDatabase(@ApplicationContext context: Context): AppDatabase {
+        return AppDatabase.buildDatabase(context)
+    }
 }
