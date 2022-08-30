@@ -7,70 +7,39 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.lifecycleScope
-import androidx.lifecycle.repeatOnLifecycle
-import androidx.room.Room
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.yyw.thinkinginen.data.db.AppDatabase
 import com.yyw.thinkinginen.domain.Result
 import com.yyw.thinkinginen.entities.Message
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
 import java.io.IOException
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val model: MainViewModel by viewModels()
-
-    //    private val messages: List<Message> by lazy {
-//        getSentences()
-//    }
-//    private var position = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         getSentences()
         setContent {
             ThinkingInEnTheme {
-                Conversation(model)
+                MainActivityWindow(model)
             }
         }
-//        lifecycleScope.launch {
-//            repeatOnLifecycle(Lifecycle.State.STARTED) {
-//                model.mScrollPosition.collect { sp ->
-//                    if (sp is Result.Success) {
-//                        setContent {
-//                            ThinkingInEnTheme {
-//                                Conversation(sp.data, messages) {
-//                                    position = it
-//                                }
-//                            }
-//                        }
-//                    }
-//                }
-//            }
-//        }
     }
 
     override fun onPause() {
@@ -108,7 +77,21 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@OptIn(ExperimentalAnimationApi::class)
+@Composable
+private fun MainActivityWindow(model: MainViewModel) {
+    val messages: Result<List<Message>> by model.mMessages.collectAsState()
+    val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
+    if (messages is Result.Success && lastPosition is Result.Success) {
+        if ((messages as Result.Success<List<Message>>).data.isNotEmpty()) {
+            Conversation(
+                messages = (messages as Result.Success<List<Message>>).data,
+                lastPosition = (lastPosition as Result.Success<Int>).data,
+                onUpdateLastScrollPosition = model::updateLastScrollPosition
+            )
+        }
+    }
+}
+
 @Composable
 fun Greeting(msg: Message, isFirstMessageByRole: Boolean) {
     Row(modifier = Modifier.padding(8.dp)) {
@@ -154,35 +137,22 @@ fun Greeting(msg: Message, isFirstMessageByRole: Boolean) {
 
 @SuppressLint("CoroutineCreationDuringComposition")
 @Composable
-fun Conversation(model: MainViewModel) {
-    val messages: Result<List<Message>> by model.mMessages.collectAsState()
-    val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
-    if (messages is Result.Success && lastPosition is Result.Success) {
-        if ((messages as Result.Success<List<Message>>).data.isNotEmpty()) {
-            Box {
-                val listState = rememberLazyListState()
-                val coroutineScope = rememberCoroutineScope()
-                LazyColumn(state = listState) {
-                    for (index in (messages as Result.Success<List<Message>>).data.indices) {
-                        val prevRole = (messages as Result.Success<List<Message>>).data.getOrNull(index - 1)?.role
-                        val content = (messages as Result.Success<List<Message>>).data[index]
-                        val isFirstMessageByRole = prevRole != content.role
-                        item {
-                            Greeting(content, isFirstMessageByRole)
-                        }
-                    }
-                }
-                Log.d("wyy", "firstVisibleItemIndex:${listState.firstVisibleItemIndex}")
-                Log.d("wyy", "firstVisibleItemScrollOffset:${listState.firstVisibleItemScrollOffset}")
-                model.updateLastScrollPosition(listState.firstVisibleItemIndex)
-                if ((lastPosition as Result.Success<Int>).data != 0) {
-                    Log.d("wyy", "initPosition")
-                    coroutineScope.launch {
-                        listState.scrollToItem((lastPosition as Result.Success<Int>).data)
-                    }
+fun Conversation(messages: List<Message>, lastPosition: Int, onUpdateLastScrollPosition: (Int) -> Unit) {
+    Box {
+        val listState = rememberLazyListState(initialFirstVisibleItemIndex = lastPosition)
+        LazyColumn(state = listState) {
+            for (index in messages.indices) {
+                val prevRole = messages.getOrNull(index - 1)?.role
+                val content = messages[index]
+                val isFirstMessageByRole = prevRole != content.role
+                item {
+                    Greeting(content, isFirstMessageByRole)
                 }
             }
         }
+        Log.d("wyy", "firstVisibleItemIndex:${listState.firstVisibleItemIndex}")
+        Log.d("wyy", "firstVisibleItemScrollOffset:${listState.firstVisibleItemScrollOffset}")
+        onUpdateLastScrollPosition(listState.firstVisibleItemIndex)
     }
 }
 

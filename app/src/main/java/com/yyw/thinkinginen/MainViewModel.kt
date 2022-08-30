@@ -16,6 +16,7 @@ class MainViewModel @Inject constructor(
     mOnScrollPositionUseCase: OnScrollPositionUseCase,
     mOnMessagesUseCase: OnMessagesUseCase,
     val mInsertMessagesUseCase: InsertMessagesUseCase,
+    val mDeleteAllMessagesUseCase: DeleteAllMessagesUseCase,
     val mSettingScrollPositionUseCase: SettingScrollPositionUseCase
 ) : ViewModel() {
     val mScrollPosition =
@@ -29,6 +30,7 @@ class MainViewModel @Inject constructor(
 
     fun insertMessages(messages: List<Message>) {
         viewModelScope.launch {
+            mDeleteAllMessagesUseCase(Unit)
             val rowIds = mInsertMessagesUseCase(messages)
             if (rowIds is Result.Success) {
                 Log.d("wyy", "插入了${rowIds.data.size}条消息")

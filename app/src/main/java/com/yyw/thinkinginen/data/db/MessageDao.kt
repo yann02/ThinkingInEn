@@ -11,6 +11,9 @@ interface MessageDao {
     @Insert
     suspend fun insertAll(messages: List<Message>): List<Long>
 
+    @Query("DELETE FROM Message")
+    suspend fun deleteAll()
+
     @Query("SELECT * FROM Message")
     fun loadAll(): Flow<List<Message>>
 }
