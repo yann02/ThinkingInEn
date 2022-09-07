@@ -2,9 +2,7 @@ package com.yyw.thinkinginen
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -14,32 +12,93 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.*
+import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.core.view.WindowCompat
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.yyw.thinkinginen.components.MyAppBar
+import com.yyw.thinkinginen.components.MyDrawerContent
+import com.yyw.thinkinginen.components.Sentences
 import com.yyw.thinkinginen.domain.Result
-import com.yyw.thinkinginen.entities.Message
+import com.yyw.thinkinginen.domain.data
+import com.yyw.thinkinginen.entities.*
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import dagger.hilt.android.AndroidEntryPoint
 import java.io.IOException
 
+const val TAG = "wyy"
+
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private val model: MainViewModel by viewModels()
+
+    @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
+    @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        WindowCompat.setDecorFitsSystemWindows(window, false)
         getSentences()
-        setContent {
-            ThinkingInEnTheme {
-                MainActivityWindow(model)
-            }
-        }
+        setContentView(
+            ComposeView(this).apply {
+                consumeWindowInsets = false
+                setContent {
+                    ThinkingInEnTheme {
+                        val seasons: Result<List<SeasonWithEpisodeAndMessages>> by model.mSeasons.collectAsState()
+                        val curSeason: Result<Int> by model.mCurrentSeason.collectAsState()
+                        val curEpisode: Result<Int> by model.mCurrentEpisode.collectAsState()
+                        val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
+                        val messages: Result<List<Message>> by model.mMessages.collectAsState()
+                        val episodeName by remember(seasons, curSeason, curEpisode) {
+                            derivedStateOf {
+                                try {
+                                    seasons.data?.get(curSeason.data ?: 0)?.episodes?.get(
+                                        curEpisode.data ?: 0
+                                    )?.episode?.name ?: ""
+                                } catch (e: Exception) {
+                                    ""
+                                }
+                            }
+                        }
+                        if (seasons is Result.Success && curSeason is Result.Success && curEpisode is Result.Success && lastPosition is Result.Success && messages is Result.Success) {
+                            ModalNavigationDrawer(drawerContent = {
+                                MyDrawerContent((seasons as Result.Success<List<SeasonWithEpisodeAndMessages>>).data)
+                            }) {
+                                val topBarState = rememberTopAppBarState()
+                                val scrollBehavior = remember { TopAppBarDefaults.pinnedScrollBehavior(topBarState) }
+                                Surface(modifier = Modifier.windowInsetsPadding(WindowInsets.navigationBars.only(WindowInsetsSides.Horizontal + WindowInsetsSides.Top))) {
+                                    Box(modifier = Modifier.fillMaxSize()) {
+                                        Column(
+                                            Modifier
+                                                .fillMaxSize()
+                                                .nestedScroll(scrollBehavior.nestedScrollConnection)
+                                        ) {
+                                            Sentences(
+                                                data = (messages as Result.Success).data,
+                                                lastPosition = (lastPosition as Result.Success).data,
+                                                modifier = Modifier.weight(1f),
+                                                onUpdateLastScrollPosition = model::updateLastScrollPosition
+                                            )
+                                        }
+                                        MyAppBar(
+                                            scrollBehavior,
+                                            episodeName,
+                                            "Episode ${(curEpisode as Result.Success).data + 1} / Season ${(curSeason as Result.Success).data + 1}"
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            })
     }
 
     override fun onPause() {
@@ -47,24 +106,32 @@ class MainActivity : ComponentActivity() {
         model.settingScrollPosition()
     }
 
-    private fun getSentences(): List<Message> {
+    private fun getSentences() {
+        val seasons = mutableListOf<Season>()
+        val episodes = mutableListOf<Episode>()
         val res = mutableListOf<Message>()
         try {
             val files = assets.list("PeppaPig")
-            Log.d("wyy", "files:$files")
-            Log.d("wyy", "files.size:${files?.size}")
+//            Log.d("wyy", "files:$files")
+//            Log.d("wyy", "files.size:${files?.size}")
             if (!files.isNullOrEmpty()) {
-                for (s in files) {
-                    Log.d("wyy", "s:$s")
+//                for (s in files) {
+                for ((seasonIndex, s) in files.withIndex()) {
+//                    Log.d("wyy", "s:$s")
+                    val season = seasonIndex + 1
+                    seasons.add(Season(season, "Season $season"))
                     val subFiles = assets.list("PeppaPig/$s")
                     if (!subFiles.isNullOrEmpty()) {
-                        for (ss in subFiles) {
-                            Log.d("wyy", "ss:$ss")
+//                        for (ss in subFiles) {
+                        for ((episodeIndex, ss) in subFiles.withIndex()) {
+                            val episode = episodeIndex + 1
+//                            Log.d("wyy", "ss:$ss")
                             val jsonString = assets.open("PeppaPig/$s/$ss").bufferedReader().use { it.readText() }
-                            Log.d("wyy", "jsonString:$jsonString")
+//                            Log.d("wyy", "jsonString:$jsonString")
                             val listCountryType = object : TypeToken<List<Message>>() {}.type
                             val temps: List<Message> = Gson().fromJson(jsonString, listCountryType)
                             res.addAll(temps)
+                            episodes.add(Episode(episode, temps[0].topic, season))
                         }
                     }
                 }
@@ -72,94 +139,7 @@ class MainActivity : ComponentActivity() {
         } catch (ioException: IOException) {
             ioException.printStackTrace()
         }
-        model.insertMessages(res)
-        return res
-    }
-}
-
-@Composable
-private fun MainActivityWindow(model: MainViewModel) {
-    val messages: Result<List<Message>> by model.mMessages.collectAsState()
-    val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
-    if (messages is Result.Success && lastPosition is Result.Success) {
-        if ((messages as Result.Success<List<Message>>).data.isNotEmpty()) {
-            Conversation(
-                messages = (messages as Result.Success<List<Message>>).data,
-                lastPosition = (lastPosition as Result.Success<Int>).data,
-                onUpdateLastScrollPosition = model::updateLastScrollPosition
-            )
-        }
-    }
-}
-
-@Composable
-fun Greeting(msg: Message, isFirstMessageByRole: Boolean) {
-    Row(modifier = Modifier.padding(8.dp)) {
-        if (isFirstMessageByRole) {
-            Image(
-                painter = painterResource(id = R.mipmap.timg), contentDescription = null, modifier = Modifier
-                    .size(40.dp)
-                    .clip(
-                        CircleShape
-                    )
-                    .border(1.5.dp, MaterialTheme.colors.secondary, CircleShape)
-            )
-            Spacer(modifier = Modifier.width(8.dp))
-        } else {
-            Spacer(modifier = Modifier.width(48.dp))
-        }
-        Column {
-            if (isFirstMessageByRole) {
-                Text(text = msg.role, color = MaterialTheme.colors.secondaryVariant, style = MaterialTheme.typography.subtitle2)
-                Spacer(modifier = Modifier.height(2.dp))
-            }
-            var expanded by remember {
-                mutableStateOf(false)
-            }
-            Surface(
-                elevation = 1.dp,
-                shape = MaterialTheme.shapes.medium,
-                modifier = Modifier.clickable { expanded = !expanded }) {
-                Column {
-                    Text(text = msg.content, style = MaterialTheme.typography.body2, modifier = Modifier.padding(8.dp))
-                    AnimatedVisibility(visible = expanded) {
-                        Text(
-                            text = msg.cn,
-                            style = MaterialTheme.typography.body2,
-                            modifier = Modifier.padding(8.dp, 0.dp, 8.dp, 8.dp)
-                        )
-                    }
-                }
-            }
-        }
-    }
-}
-
-@SuppressLint("CoroutineCreationDuringComposition")
-@Composable
-fun Conversation(messages: List<Message>, lastPosition: Int, onUpdateLastScrollPosition: (Int) -> Unit) {
-    Box {
-        val listState = rememberLazyListState(initialFirstVisibleItemIndex = lastPosition)
-        LazyColumn(state = listState) {
-            for (index in messages.indices) {
-                val prevRole = messages.getOrNull(index - 1)?.role
-                val content = messages[index]
-                val isFirstMessageByRole = prevRole != content.role
-                item {
-                    Greeting(content, isFirstMessageByRole)
-                }
-            }
-        }
-        Log.d("wyy", "firstVisibleItemIndex:${listState.firstVisibleItemIndex}")
-        Log.d("wyy", "firstVisibleItemScrollOffset:${listState.firstVisibleItemScrollOffset}")
-        onUpdateLastScrollPosition(listState.firstVisibleItemIndex)
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    ThinkingInEnTheme {
-//        Greeting("Android")
+        model.insertData(seasons, episodes, res)
+//        model.insertMessages(res)
     }
 }

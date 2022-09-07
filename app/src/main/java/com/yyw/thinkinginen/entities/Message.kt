@@ -5,9 +5,9 @@ import androidx.room.PrimaryKey
 
 @Entity
 data class Message(
-    @PrimaryKey(autoGenerate = true) val id: Int,
-    val season: Int,
-    val episode: Int,
+    @PrimaryKey(autoGenerate = true) val messageId: Int,
+    val sId: Int,
+    val eId: Int,
     val topic: String,
     val role: String,
     val content: String,
