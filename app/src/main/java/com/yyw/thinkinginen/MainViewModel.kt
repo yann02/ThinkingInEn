@@ -11,8 +11,8 @@ import com.yyw.thinkinginen.domain.ds.SettingCurrentSeasonUseCase
 import com.yyw.thinkinginen.entities.Episode
 import com.yyw.thinkinginen.entities.Message
 import com.yyw.thinkinginen.entities.Season
+import com.yyw.thinkinginen.utils.WhileViewSubscribed
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -20,7 +20,6 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    mOnMessagesUseCase: OnMessagesUseCase,
     mOnSeasonsUseCase: OnSeasonsUseCase,
     val mInsertMessagesUseCase: InsertMessagesUseCase,
     val mDeleteAllMessagesUseCase: DeleteAllMessagesUseCase,
@@ -36,7 +35,7 @@ class MainViewModel @Inject constructor(
     val mSettingCurrentEpisodeUseCase: SettingCurrentEpisodeUseCase
 ) : ViewModel() {
     val mScrollPosition =
-        mOnScrollPositionUseCase(Unit).stateIn(viewModelScope, SharingStarted.WhileSubscribed(300), Result.Loading)
+        mOnScrollPositionUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
     fun settingScrollPosition() {
         viewModelScope.launch {
@@ -45,7 +44,7 @@ class MainViewModel @Inject constructor(
     }
 
     val mCurrentSeason =
-        mOnCurrentSeasonUseCase(Unit).stateIn(viewModelScope, SharingStarted.WhileSubscribed(300), Result.Loading)
+        mOnCurrentSeasonUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
     fun settingCurrentSeason(season: Int) {
         viewModelScope.launch {
@@ -54,7 +53,7 @@ class MainViewModel @Inject constructor(
     }
 
     val mCurrentEpisode =
-        mOnCurrentEpisodeUseCase(Unit).stateIn(viewModelScope, SharingStarted.WhileSubscribed(300), Result.Loading)
+        mOnCurrentEpisodeUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
     fun settingCurrentEpisode(episode: Int) {
         viewModelScope.launch {
@@ -94,9 +93,20 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    val mMessages = mOnMessagesUseCase(Unit).stateIn(viewModelScope, SharingStarted.WhileSubscribed(300), Result.Loading)
+    val mSeasons = mOnSeasonsUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
-    val mSeasons = mOnSeasonsUseCase(Unit).stateIn(viewModelScope, SharingStarted.WhileSubscribed(300), Result.Loading)
+    val mMessages = mSeasons.map {
+        if (it is Result.Success) {
+            val temp = it.data.map { wrapEntity ->
+                wrapEntity.episodes.map { wrapEpisode ->
+                    wrapEpisode.messages
+                }.flatten()
+            }.flatten()
+            Result.Success(temp)
+        } else {
+            Result.Loading
+        }
+    }.stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
     private var _mLastScrollPosition = 0
     fun updateLastScrollPosition(position: Int) {

@@ -4,7 +4,6 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import com.yyw.thinkinginen.entities.Message
-import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface MessageDao {
@@ -13,7 +12,4 @@ interface MessageDao {
 
     @Query("DELETE FROM Message")
     suspend fun deleteAll()
-
-    @Query("SELECT * FROM Message")
-    fun loadAll(): Flow<List<Message>>
 }
