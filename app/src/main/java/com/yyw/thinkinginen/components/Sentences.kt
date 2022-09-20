@@ -14,6 +14,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.yyw.thinkinginen.R
@@ -60,7 +61,10 @@ fun Sentence(msg: ViewMessage, isFirstMessageByRole: Boolean, onClickContent: (V
     ) {
         if (isFirstMessageByRole) {
             Image(
-                painter = painterResource(id = R.mipmap.timg), contentDescription = null, modifier = Modifier
+                painter = painterResource(id = getDrawableResByRole(msg.role)),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
                     .size(40.dp)
                     .clip(
                         CircleShape
@@ -105,4 +109,13 @@ fun Sentence(msg: ViewMessage, isFirstMessageByRole: Boolean, onClickContent: (V
             }
         }
     }
+}
+
+fun getDrawableResByRole(role: String): Int = when (role) {
+    "Peppa" -> R.mipmap.peppa_web_en
+    "Daddy Pig" -> R.mipmap.daddy_pig_web_en
+    "Mummy Pig" -> R.mipmap.mummy_pig_web_en
+    "George" -> R.mipmap.george_web_en
+    "Suzy Sheep" -> R.mipmap.suzy_sheep_web_en
+    else -> R.mipmap.outsider_web_en
 }
