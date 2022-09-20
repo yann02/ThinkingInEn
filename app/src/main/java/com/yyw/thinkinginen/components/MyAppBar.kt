@@ -2,6 +2,7 @@ package com.yyw.thinkinginen.components
 
 import androidx.compose.animation.core.FastOutLinearInEasing
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -15,7 +16,12 @@ import com.yyw.thinkinginen.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MyAppBar(scrollBehavior: TopAppBarScrollBehavior, episodeName: String, ancestorName: String) {
+fun MyAppBar(
+    scrollBehavior: TopAppBarScrollBehavior,
+    episodeName: String,
+    ancestorName: String,
+    onNavIconPressed: () -> Unit = {}
+) {
     val backgroundColors = TopAppBarDefaults.centerAlignedTopAppBarColors()
     val backgroundColor = lerp(
         backgroundColors.containerColor(colorTransitionFraction = 0f).value,
@@ -50,6 +56,7 @@ fun MyAppBar(scrollBehavior: TopAppBarScrollBehavior, episodeName: String, ances
                         .size(64.dp)
                         .padding(16.dp)
                         .background(color = MaterialTheme.colorScheme.primaryContainer)
+                        .clickable { onNavIconPressed() }
                 ) {
                     Icon(
                         painter = painterResource(id = R.drawable.ic_launcher_foreground),

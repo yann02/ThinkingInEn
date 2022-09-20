@@ -30,6 +30,17 @@ class MainViewModel @Inject constructor(
     mOnScrollPositionUseCase: OnScrollPositionUseCase,
     val mSettingScrollPositionUseCase: SettingScrollPositionUseCase
 ) : ViewModel() {
+
+    private val _drawerShouldBeOpened = MutableStateFlow(false)
+    val drawerShouldBeOpened: StateFlow<Boolean> = _drawerShouldBeOpened
+
+    fun openDrawer() {
+        _drawerShouldBeOpened.value = true
+    }
+    fun resetOpenDrawerAction() {
+        _drawerShouldBeOpened.value = false
+    }
+
     val mScrollPosition =
         mOnScrollPositionUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
