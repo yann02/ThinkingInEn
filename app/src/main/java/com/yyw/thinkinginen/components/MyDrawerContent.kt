@@ -1,5 +1,6 @@
 package com.yyw.thinkinginen.components
 
+import android.util.Log
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -9,18 +10,22 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.yyw.thinkinginen.TAG
 import com.yyw.thinkinginen.entities.SeasonWithEpisodeAndMessages
+import com.yyw.thinkinginen.entities.vo.ViewSeason
 
 
 @Composable
-fun MyDrawerContent(data: List<SeasonWithEpisodeAndMessages>) {
+//fun MyDrawerContent(data: List<SeasonWithEpisodeAndMessages>) {
+fun MyDrawerContent(data: List<ViewSeason>) {
+    Log.d(TAG,"MyDrawerContent")
     Column {
         Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
         data.forEach { season ->
-            DrawerItemHeader(season.season.name)
+            DrawerItemHeader(season.name)
             LazyColumn {
-                items(items = season.episodes, key = { episode -> episode.episode.episodeId }) { episode ->
-                    DrawerItemContent(episode.episode.name)
+                items(items = season.episodes, key = { episode -> episode.episodeId }) { episode ->
+                    DrawerItemContent(episode.name, episode.current)
                 }
             }
         }
@@ -44,7 +49,7 @@ private fun DrawerItemHeader(text: String) {
 }
 
 @Composable
-private fun DrawerItemContent(text: String) {
+private fun DrawerItemContent(text: String, selected: Boolean) {
     Box(
         modifier = Modifier
             .heightIn(min = 52.dp)
@@ -54,7 +59,7 @@ private fun DrawerItemContent(text: String) {
         Text(
             text,
             style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
+            color = if (selected) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onSurfaceVariant
         )
     }
 }

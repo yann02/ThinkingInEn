@@ -4,17 +4,16 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.yyw.thinkinginen.domain.*
-import com.yyw.thinkinginen.domain.ds.OnCurrentEpisodeUseCase
-import com.yyw.thinkinginen.domain.ds.OnCurrentSeasonUseCase
-import com.yyw.thinkinginen.domain.ds.SettingCurrentEpisodeUseCase
-import com.yyw.thinkinginen.domain.ds.SettingCurrentSeasonUseCase
 import com.yyw.thinkinginen.entities.Episode
 import com.yyw.thinkinginen.entities.Message
 import com.yyw.thinkinginen.entities.Season
+import com.yyw.thinkinginen.entities.toViewSeason
+import com.yyw.thinkinginen.entities.vo.ViewMessage
+import com.yyw.thinkinginen.entities.vo.ViewSeason
+import com.yyw.thinkinginen.entities.vo.toMessage
 import com.yyw.thinkinginen.utils.WhileViewSubscribed
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -23,16 +22,13 @@ class MainViewModel @Inject constructor(
     mOnSeasonsUseCase: OnSeasonsUseCase,
     val mInsertMessagesUseCase: InsertMessagesUseCase,
     val mDeleteAllMessagesUseCase: DeleteAllMessagesUseCase,
+    val mUpdateMessageUseCase: UpdateMessageUseCase,
     val mInsertSeasonsUseCase: InsertSeasonsUseCase,
     val mDeleteAllSeasonsUseCase: DeleteAllSeasonsUseCase,
     val mInsertEpisodesUseCase: InsertEpisodesUseCase,
     val mDeleteAllEpisodesUseCase: DeleteAllEpisodesUseCase,
     mOnScrollPositionUseCase: OnScrollPositionUseCase,
-    val mSettingScrollPositionUseCase: SettingScrollPositionUseCase,
-    mOnCurrentSeasonUseCase: OnCurrentSeasonUseCase,
-    val mSettingCurrentSeasonUseCase: SettingCurrentSeasonUseCase,
-    mOnCurrentEpisodeUseCase: OnCurrentEpisodeUseCase,
-    val mSettingCurrentEpisodeUseCase: SettingCurrentEpisodeUseCase
+    val mSettingScrollPositionUseCase: SettingScrollPositionUseCase
 ) : ViewModel() {
     val mScrollPosition =
         mOnScrollPositionUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
@@ -43,34 +39,33 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    val mCurrentSeason =
-        mOnCurrentSeasonUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
+    private val _mCurrentViewSeason = MutableStateFlow(0)
+    val mCurrentViewSeason: StateFlow<Int> = _mCurrentViewSeason
 
-    fun settingCurrentSeason(season: Int) {
-        viewModelScope.launch {
-            mSettingCurrentSeasonUseCase(season)
-        }
-    }
 
-    val mCurrentEpisode =
-        mOnCurrentEpisodeUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
+    private val _mCurrentViewEpisode = MutableStateFlow(0)
+    val mCurrentViewEpisode: StateFlow<Int> = _mCurrentViewEpisode
 
-    fun settingCurrentEpisode(episode: Int) {
-        viewModelScope.launch {
-            mSettingCurrentEpisodeUseCase(episode)
-        }
-    }
+    private val _mCurrentViewEpisodeName = MutableStateFlow("")
+    val mCurrentViewEpisodeName: StateFlow<String> = _mCurrentViewEpisodeName
+
 
     fun insertData(seasons: List<Season>, episodes: List<Episode>, messages: List<Message>) {
         viewModelScope.launch {
+            clearAll()
             insertSeasons(seasons)
             insertEpisodes(episodes)
             insertMessages(messages)
         }
     }
 
-    private suspend fun insertSeasons(seasons: List<Season>) {
+    private suspend fun clearAll() {
         mDeleteAllSeasonsUseCase(Unit)
+        mDeleteAllEpisodesUseCase(Unit)
+        mDeleteAllMessagesUseCase(Unit)
+    }
+
+    private suspend fun insertSeasons(seasons: List<Season>) {
         val rowIds = mInsertSeasonsUseCase(seasons)
         if (rowIds is Result.Success) {
             Log.d("wyy", "插入了${rowIds.data.size}季")
@@ -78,7 +73,6 @@ class MainViewModel @Inject constructor(
     }
 
     private suspend fun insertEpisodes(episodes: List<Episode>) {
-        mDeleteAllEpisodesUseCase(Unit)
         val rowIds = mInsertEpisodesUseCase(episodes)
         if (rowIds is Result.Success) {
             Log.d("wyy", "插入了${rowIds.data.size}回")
@@ -86,7 +80,6 @@ class MainViewModel @Inject constructor(
     }
 
     private suspend fun insertMessages(messages: List<Message>) {
-        mDeleteAllMessagesUseCase(Unit)
         val rowIds = mInsertMessagesUseCase(messages)
         if (rowIds is Result.Success) {
             Log.d("wyy", "插入了${rowIds.data.size}条消息")
@@ -95,35 +88,108 @@ class MainViewModel @Inject constructor(
 
     val mSeasons = mOnSeasonsUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
-    val mMessages = mSeasons.map {
+    private val _mViewSeasons = mSeasons.map {
         if (it is Result.Success) {
-            val temp = it.data.map { wrapEntity ->
-                wrapEntity.episodes.map { wrapEpisode ->
-                    wrapEpisode.messages
+            val seasons = it.data.map { season ->
+                season.toViewSeason()
+            }
+            Result.Success(seasons)
+        } else {
+            Result.Loading
+        }
+    }.stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
+
+    val mViewSeasons = MutableStateFlow<List<ViewSeason>>(emptyList())
+
+    var hasInit = false
+
+    val mViewMessages = _mViewSeasons.combine(mScrollPosition) { it, position ->
+        if (it is Result.Success && position is Result.Success) {
+            val temp = it.data.map { season ->
+                season.episodes.map { episode ->
+                    episode.messages
                 }.flatten()
             }.flatten()
+            if (!hasInit) {
+                //  只需要在首次加载数据时更新目录的选择状态
+                temp.getOrNull(position.data)?.let { firstVisibleMsg ->
+                    Log.d(TAG, "position:$position")
+                    hasInit = true
+                    //  更新目录的选择状态
+                    updateSelectedStateOfSeasons(firstVisibleMsg.sId - 1, firstVisibleMsg.eId - 1)
+                }
+            }
             Result.Success(temp)
         } else {
             Result.Loading
         }
     }.stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
+    private fun updateSelectedStateOfSeasons(newSeasonIndex: Int, newEpisodeIndex: Int) {
+        Log.d(TAG, "updateSelectedStateOfSeasons newSeasonIndex:$newSeasonIndex,newEpisodeIndex:$newEpisodeIndex")
+        val tempSeasons = _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
+
+        //  设置新的选择项的状态
+        val curEpisodes = tempSeasons[newSeasonIndex].episodes
+        curEpisodes[newEpisodeIndex].current = true
+        val curEpisodeName = curEpisodes[newEpisodeIndex].name
+        tempSeasons[newSeasonIndex].apply {
+            selected = true
+            episodes = curEpisodes
+        }
+
+        //  设置上一个选择项的状态
+        val lastSeasonIndex = _mCurrentViewSeason.value
+        val lastEpisodeIndex = _mCurrentViewEpisode.value
+        if (lastSeasonIndex != newSeasonIndex) {
+            val lastEpisodes = tempSeasons[lastSeasonIndex].episodes
+            curEpisodes[lastEpisodeIndex].current = false
+            tempSeasons[lastSeasonIndex].apply {
+                selected = false
+                episodes = lastEpisodes
+            }
+            _mCurrentViewSeason.value = newSeasonIndex
+            if (lastEpisodeIndex != newEpisodeIndex) {
+                _mCurrentViewEpisode.value = newEpisodeIndex
+            }
+        } else {
+            if (lastEpisodeIndex != newEpisodeIndex) {
+                val lastEpisodes = tempSeasons[lastSeasonIndex].episodes
+                curEpisodes[lastEpisodeIndex].current = false
+                tempSeasons[lastSeasonIndex].apply {
+                    episodes = lastEpisodes
+                }
+                _mCurrentViewEpisode.value = newEpisodeIndex
+            }
+        }
+        _mCurrentViewEpisodeName.update { curEpisodeName }
+        mViewSeasons.update { tempSeasons }
+    }
+
     private var _mLastScrollPosition = 0
     fun updateLastScrollPosition(position: Int) {
         _mLastScrollPosition = position
-        try {
-            val message = mMessages.value.data?.get(position)
-            message?.let {
-                if (mCurrentSeason.value.data != it.sId - 1) {
-                    settingCurrentSeason(it.sId - 1)
-                }
-                if (mCurrentEpisode.value.data != it.eId - 1) {
-                    settingCurrentEpisode(it.eId - 1)
-                }
+        val message = mViewMessages.value.data?.getOrNull(position)
+        message?.let { msg ->
+            val curSeasonIndex = msg.sId - 1
+            val curEpisodeIndex = msg.eId - 1
+            val lastSeasonIndex = _mCurrentViewSeason.value
+            val lastEpisodeIndex = _mCurrentViewEpisode.value
+            Log.d(
+                TAG,
+                "curSeasonIndex:$curSeasonIndex,curEpisodeIndex:$curEpisodeIndex,lastSeasonIndex:$lastSeasonIndex,lastEpisodeIndex:$lastEpisodeIndex"
+            )
+            if (curSeasonIndex != lastSeasonIndex || curEpisodeIndex != lastEpisodeIndex) {
+                Log.d(TAG, "updateSelectedStateOfSeasons(curSeasonIndex, curEpisodeIndex)")
+                updateSelectedStateOfSeasons(curSeasonIndex, curEpisodeIndex)
             }
-        } catch (e: Exception) {
-
         }
+    }
 
+    fun onClickMessageById(msg: ViewMessage) {
+        val message = msg.apply { vShowCn = !msg.vShowCn }.toMessage()
+        viewModelScope.launch {
+            mUpdateMessageUseCase(message)
+        }
     }
 }

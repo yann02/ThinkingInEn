@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "9711ceacc488af749d1e3e850fb81e4c",
+    "identityHash": "d72bce600ef2e2c63b4eb6fa0d132875",
     "entities": [
       {
         "tableName": "Season",
@@ -64,7 +64,7 @@
       },
       {
         "tableName": "Message",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`messageId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `sId` INTEGER NOT NULL, `eId` INTEGER NOT NULL, `topic` TEXT NOT NULL, `role` TEXT NOT NULL, `content` TEXT NOT NULL, `cn` TEXT NOT NULL)",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`messageId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `sId` INTEGER NOT NULL, `eId` INTEGER NOT NULL, `topic` TEXT NOT NULL, `role` TEXT NOT NULL, `content` TEXT NOT NULL, `cn` TEXT NOT NULL, `showCn` INTEGER NOT NULL)",
         "fields": [
           {
             "fieldPath": "messageId",
@@ -107,6 +107,12 @@
             "columnName": "cn",
             "affinity": "TEXT",
             "notNull": true
+          },
+          {
+            "fieldPath": "showCn",
+            "columnName": "showCn",
+            "affinity": "INTEGER",
+            "notNull": true
           }
         ],
         "primaryKey": {
@@ -122,7 +128,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '9711ceacc488af749d1e3e850fb81e4c')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd72bce600ef2e2c63b4eb6fa0d132875')"
     ]
   }
 }

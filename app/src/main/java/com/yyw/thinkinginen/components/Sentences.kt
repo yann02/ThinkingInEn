@@ -17,10 +17,16 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.yyw.thinkinginen.R
-import com.yyw.thinkinginen.entities.Message
+import com.yyw.thinkinginen.entities.vo.ViewMessage
 
 @Composable
-fun Sentences(data: List<Message>, lastPosition: Int, modifier: Modifier, onUpdateLastScrollPosition: (Int) -> Unit) {
+fun Sentences(
+    data: List<ViewMessage>,
+    lastPosition: Int,
+    modifier: Modifier,
+    onUpdateLastScrollPosition: (Int) -> Unit,
+    onClickContent: (ViewMessage) -> Unit
+) {
     val listState = rememberLazyListState(initialFirstVisibleItemIndex = lastPosition)
     LazyColumn(
         state = listState,
@@ -37,7 +43,7 @@ fun Sentences(data: List<Message>, lastPosition: Int, modifier: Modifier, onUpda
                 if (isNewEpisode) {
                     Text(text = content.topic)
                 }
-                Sentence(content, isFirstMessageByRole)
+                Sentence(content, isFirstMessageByRole, onClickContent)
             }
         }
     }
@@ -47,7 +53,7 @@ fun Sentences(data: List<Message>, lastPosition: Int, modifier: Modifier, onUpda
 
 
 @Composable
-fun Sentence(msg: Message, isFirstMessageByRole: Boolean) {
+fun Sentence(msg: ViewMessage, isFirstMessageByRole: Boolean, onClickContent: (ViewMessage) -> Unit) {
     Row(
         modifier = Modifier
             .padding(8.dp)
@@ -76,17 +82,18 @@ fun Sentence(msg: Message, isFirstMessageByRole: Boolean) {
                 )
                 Spacer(modifier = Modifier.height(2.dp))
             }
-            var expanded by remember {
-                mutableStateOf(false)
-            }
             Surface(
                 tonalElevation = 1.dp,
                 shape = MaterialTheme.shapes.medium,
-                modifier = Modifier.clickable { expanded = !expanded }) {
+                modifier = Modifier.clickable { onClickContent(msg) }) {
                 Column {
 //                    Text(text = msg.content, style = MaterialTheme.typography.body2, modifier = Modifier.padding(8.dp))
-                    Text(text = msg.content, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(8.dp))
-                    AnimatedVisibility(visible = expanded) {
+                    Text(
+                        text = msg.content,
+                        style = MaterialTheme.typography.bodyMedium,
+                        modifier = Modifier.padding(8.dp)
+                    )
+                    AnimatedVisibility(visible = msg.vShowCn) {
                         Text(
                             text = msg.cn,
 //                            style = MaterialTheme.typography.body2,

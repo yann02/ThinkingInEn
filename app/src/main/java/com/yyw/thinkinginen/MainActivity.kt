@@ -2,6 +2,7 @@ package com.yyw.thinkinginen
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
@@ -25,6 +26,8 @@ import com.yyw.thinkinginen.entities.Episode
 import com.yyw.thinkinginen.entities.Message
 import com.yyw.thinkinginen.entities.Season
 import com.yyw.thinkinginen.entities.SeasonWithEpisodeAndMessages
+import com.yyw.thinkinginen.entities.vo.ViewMessage
+import com.yyw.thinkinginen.entities.vo.ViewSeason
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import dagger.hilt.android.AndroidEntryPoint
 import java.io.IOException
@@ -46,29 +49,25 @@ class MainActivity : ComponentActivity() {
                 consumeWindowInsets = false
                 setContent {
                     ThinkingInEnTheme {
-                        val seasons: Result<List<SeasonWithEpisodeAndMessages>> by model.mSeasons.collectAsState()
-                        val curSeason: Result<Int> by model.mCurrentSeason.collectAsState()
-                        val curEpisode: Result<Int> by model.mCurrentEpisode.collectAsState()
+                        val seasons: List<ViewSeason> by model.mViewSeasons.collectAsState()
+                        val curSeason by model.mCurrentViewSeason.collectAsState()
+                        val curEpisode by model.mCurrentViewEpisode.collectAsState()
                         val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
-                        val messages: Result<List<Message>> by model.mMessages.collectAsState()
-                        val episodeName by remember(seasons, curSeason, curEpisode) {
-                            derivedStateOf {
-                                try {
-                                    seasons.data?.get(curSeason.data ?: 0)?.episodes?.get(
-                                        curEpisode.data ?: 0
-                                    )?.episode?.name ?: ""
-                                } catch (e: Exception) {
-                                    ""
-                                }
-                            }
-                        }
-                        if (seasons is Result.Success && curSeason is Result.Success && curEpisode is Result.Success && lastPosition is Result.Success && messages is Result.Success) {
+                        val messages2: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
+                        val episodeName by model.mCurrentViewEpisodeName.collectAsState()
+                        if (seasons.isNotEmpty() && lastPosition is Result.Success && messages2 is Result.Success) {
                             ModalNavigationDrawer(drawerContent = {
-                                MyDrawerContent((seasons as Result.Success<List<SeasonWithEpisodeAndMessages>>).data)
+                                MyDrawerContent(seasons)
                             }) {
                                 val topBarState = rememberTopAppBarState()
                                 val scrollBehavior = remember { TopAppBarDefaults.pinnedScrollBehavior(topBarState) }
-                                Surface(modifier = Modifier.windowInsetsPadding(WindowInsets.navigationBars.only(WindowInsetsSides.Horizontal + WindowInsetsSides.Top))) {
+                                Surface(
+                                    modifier = Modifier.windowInsetsPadding(
+                                        WindowInsets.navigationBars.only(
+                                            WindowInsetsSides.Horizontal + WindowInsetsSides.Top
+                                        )
+                                    )
+                                ) {
                                     Box(modifier = Modifier.fillMaxSize()) {
                                         Column(
                                             Modifier
@@ -76,16 +75,17 @@ class MainActivity : ComponentActivity() {
                                                 .nestedScroll(scrollBehavior.nestedScrollConnection)
                                         ) {
                                             Sentences(
-                                                data = (messages as Result.Success).data,
+                                                data = (messages2 as Result.Success).data,
                                                 lastPosition = (lastPosition as Result.Success).data,
                                                 modifier = Modifier.weight(1f),
-                                                onUpdateLastScrollPosition = model::updateLastScrollPosition
+                                                onUpdateLastScrollPosition = model::updateLastScrollPosition,
+                                                onClickContent = model::onClickMessageById
                                             )
                                         }
                                         MyAppBar(
                                             scrollBehavior,
                                             episodeName,
-                                            "Episode ${(curEpisode as Result.Success).data + 1} / Season ${(curSeason as Result.Success).data + 1}"
+                                            "Episode ${curEpisode + 1} / Season ${curSeason + 1}"
                                         )
                                     }
                                 }
