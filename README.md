@@ -6,6 +6,7 @@ This project is the Android app for learning English.
 - ViewModel
 - DataStore
 - Kotlin Flows
+- Hilt
 
 ## Roles
 - Peppa
