@@ -30,6 +30,18 @@ class MainViewModel @Inject constructor(
     mOnScrollPositionUseCase: OnScrollPositionUseCase,
     val mSettingScrollPositionUseCase: SettingScrollPositionUseCase
 ) : ViewModel() {
+
+    private val _drawerShouldBeOpened = MutableStateFlow(false)
+    val drawerShouldBeOpened: StateFlow<Boolean> = _drawerShouldBeOpened
+
+    fun openDrawer() {
+        _drawerShouldBeOpened.value = true
+    }
+
+    fun resetOpenDrawerAction() {
+        _drawerShouldBeOpened.value = false
+    }
+
     val mScrollPosition =
         mOnScrollPositionUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
@@ -114,9 +126,9 @@ class MainViewModel @Inject constructor(
                 //  只需要在首次加载数据时更新目录的选择状态
                 temp.getOrNull(position.data)?.let { firstVisibleMsg ->
                     Log.d(TAG, "position:$position")
-                    hasInit = true
                     //  更新目录的选择状态
                     updateSelectedStateOfSeasons(firstVisibleMsg.sId - 1, firstVisibleMsg.eId - 1)
+                    hasInit = true
                 }
             }
             Result.Success(temp)
@@ -127,7 +139,15 @@ class MainViewModel @Inject constructor(
 
     private fun updateSelectedStateOfSeasons(newSeasonIndex: Int, newEpisodeIndex: Int) {
         Log.d(TAG, "updateSelectedStateOfSeasons newSeasonIndex:$newSeasonIndex,newEpisodeIndex:$newEpisodeIndex")
-        val tempSeasons = _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
+        val tempSeasons = if (!hasInit) {
+            _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
+        } else {
+            mViewSeasons.value.toMutableList()
+        }
+
+        //  上一个选择的season和episode
+        val lastSeasonIndex = _mCurrentViewSeason.value
+        val lastEpisodeIndex = _mCurrentViewEpisode.value
 
         //  设置新的选择项的状态
         val curEpisodes = tempSeasons[newSeasonIndex].episodes
@@ -136,17 +156,23 @@ class MainViewModel @Inject constructor(
         tempSeasons[newSeasonIndex].apply {
             selected = true
             episodes = curEpisodes
+            if (lastSeasonIndex != newSeasonIndex) {
+                isOpen = true
+            } else {
+                if (!hasInit) {
+                    isOpen = true
+                }
+            }
         }
 
-        //  设置上一个选择项的状态
-        val lastSeasonIndex = _mCurrentViewSeason.value
-        val lastEpisodeIndex = _mCurrentViewEpisode.value
+
         if (lastSeasonIndex != newSeasonIndex) {
             val lastEpisodes = tempSeasons[lastSeasonIndex].episodes
             curEpisodes[lastEpisodeIndex].current = false
             tempSeasons[lastSeasonIndex].apply {
                 selected = false
                 episodes = lastEpisodes
+                isOpen = false
             }
             _mCurrentViewSeason.value = newSeasonIndex
             if (lastEpisodeIndex != newEpisodeIndex) {
@@ -184,6 +210,27 @@ class MainViewModel @Inject constructor(
                 updateSelectedStateOfSeasons(curSeasonIndex, curEpisodeIndex)
             }
         }
+    }
+
+    private val _mScrollToPosition = MutableStateFlow(-1)
+    val mScrollToPosition: StateFlow<Int> = _mScrollToPosition
+
+    fun onEpisodeClick(sId: Int, eId: Int) {
+        mViewMessages.value.data?.find { it.sId == sId && it.eId == eId }?.let {
+            val position = mViewMessages.value.data?.indexOf(it) ?: -1
+            _mScrollToPosition.value = position
+            Log.d(TAG, "onEpisodeClick sId:$sId,eId:$eId,position:$position")
+        }
+
+    }
+
+    fun onSeasonClick(season: ViewSeason) {
+        val tempSeasons = _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
+        val clickIndex = tempSeasons.indexOf(season)
+        tempSeasons[clickIndex] = season.apply {
+            isOpen = !season.isOpen
+        }
+        mViewSeasons.update { tempSeasons }
     }
 
     fun onClickMessageById(msg: ViewMessage) {
