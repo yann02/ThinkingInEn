@@ -1,9 +1,14 @@
 package com.yyw.thinkinginen.entities.vo
 
-data class ViewSeason(
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+
+class ViewSeason(
     val id: Int,
     var name: String,
-    var isOpen: Boolean = false,
     var selected: Boolean = false,
     var episodes: List<ViewEpisode>
-)
+) {
+    var isOpen by mutableStateOf(false)
+}

@@ -53,6 +53,7 @@ class MainActivity : ComponentActivity() {
                             val messages2: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
                             val episodeName by model.mCurrentViewEpisodeName.collectAsState()
                             val drawerOpen by model.drawerShouldBeOpened.collectAsState()
+                            val scrollToPosition by model.mScrollToPosition.collectAsState()
                             val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
                             if (drawerOpen) {
                                 // Open drawer and reset state in VM.
@@ -78,7 +79,14 @@ class MainActivity : ComponentActivity() {
                                 ModalNavigationDrawer(
                                     drawerState = drawerState,
                                     drawerContent = {
-                                        MyDrawerContent(seasons)
+                                        MyDrawerContent(seasons, onSeasonClick = { season ->
+                                            model.onSeasonClick(season)
+                                        }, onEpisodeClick = { sId, eId ->
+                                            scope.launch {
+                                                drawerState.close()
+                                                model.onEpisodeClick(sId, eId)
+                                            }
+                                        })
                                     }) {
                                     val topBarState = rememberTopAppBarState()
                                     val scrollBehavior =
@@ -99,7 +107,10 @@ class MainActivity : ComponentActivity() {
                                                 Sentences(
                                                     data = (messages2 as Result.Success).data,
                                                     lastPosition = (lastPosition as Result.Success).data,
-                                                    modifier = Modifier.weight(1f),
+                                                    scrollToPosition = scrollToPosition,
+                                                    modifier = Modifier
+                                                        .weight(1f)
+                                                        .navigationBarsPadding(),
                                                     onUpdateLastScrollPosition = model::updateLastScrollPosition,
                                                     onClickContent = model::onClickMessageById
                                                 )

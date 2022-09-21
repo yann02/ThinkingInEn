@@ -24,11 +24,18 @@ import com.yyw.thinkinginen.entities.vo.ViewMessage
 fun Sentences(
     data: List<ViewMessage>,
     lastPosition: Int,
+    scrollToPosition: Int,
     modifier: Modifier,
     onUpdateLastScrollPosition: (Int) -> Unit,
     onClickContent: (ViewMessage) -> Unit
 ) {
     val listState = rememberLazyListState(initialFirstVisibleItemIndex = lastPosition)
+    if (scrollToPosition != -1) {
+        LaunchedEffect(scrollToPosition) {
+            listState.animateScrollToItem(scrollToPosition)
+//            listState.scrollToItem(scrollToPosition)
+        }
+    }
     LazyColumn(
         state = listState,
         contentPadding = WindowInsets.statusBars.add(WindowInsets(top = 90.dp)).asPaddingValues(),
@@ -89,8 +96,8 @@ fun Sentence(msg: ViewMessage, isFirstMessageByRole: Boolean, onClickContent: (V
             Surface(
                 tonalElevation = 1.dp,
                 shape = MaterialTheme.shapes.medium,
-                modifier = Modifier.clickable { onClickContent(msg) }) {
-                Column {
+                ) {
+                Column(modifier = Modifier.clickable { onClickContent(msg) }) {
 //                    Text(text = msg.content, style = MaterialTheme.typography.body2, modifier = Modifier.padding(8.dp))
                     Text(
                         text = msg.content,
