@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "d72bce600ef2e2c63b4eb6fa0d132875",
+    "identityHash": "bf518efacd61b3f2184184e8d7f698ba",
     "entities": [
       {
         "tableName": "Season",
@@ -32,11 +32,17 @@
       },
       {
         "tableName": "Episode",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`episodeId` INTEGER NOT NULL, `name` TEXT NOT NULL, `seasonId` INTEGER NOT NULL, PRIMARY KEY(`episodeId`))",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`episodeId` INTEGER NOT NULL, `sort` INTEGER NOT NULL, `name` TEXT NOT NULL, `seasonId` INTEGER NOT NULL, PRIMARY KEY(`episodeId`))",
         "fields": [
           {
             "fieldPath": "episodeId",
             "columnName": "episodeId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sort",
+            "columnName": "sort",
             "affinity": "INTEGER",
             "notNull": true
           },
@@ -128,7 +134,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd72bce600ef2e2c63b4eb6fa0d132875')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'bf518efacd61b3f2184184e8d7f698ba')"
     ]
   }
 }

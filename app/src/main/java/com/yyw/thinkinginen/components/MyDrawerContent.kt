@@ -41,7 +41,7 @@ fun MyDrawerContent(data: List<ViewSeason>, onSeasonClick: (ViewSeason) -> Unit,
                         DrawerItemContent(
                             stringResource(
                                 com.yyw.thinkinginen.R.string.drawer_content,
-                                episode.episodeId,
+                                episode.sort,
                                 episode.name
                             ), episode.messages.size.toString(), episode.current
                         ) {

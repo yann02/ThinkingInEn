@@ -45,7 +45,6 @@ class MainActivity : ComponentActivity() {
                         ThinkingInEnTheme {
                             val seasons: List<ViewSeason> by model.mViewSeasons.collectAsState()
                             val curSeason by model.mCurrentViewSeasonId.collectAsState()
-//                            val curEpisode by model.mCurrentViewEpisodeId.collectAsState()
                             val curEpisode by model.mCurrentViewEpisodeSort.collectAsState()
                             val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
                             val messages2: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
@@ -155,13 +154,14 @@ class MainActivity : ComponentActivity() {
                         for ((episodeIndex, ss) in subFiles.withIndex()) {
                             //  seasonIndex * 1000用于区分不同的季，避免重复的episodeId
                             val episodeId = episodeIndex + 1 + seasonIndex * 1000
+                            val sort = episodeIndex + 1
 //                            Log.d("wyy", "ss:$ss")
                             val jsonString = assets.open("PeppaPig/$s/$ss").bufferedReader().use { it.readText() }
 //                            Log.d("wyy", "jsonString:$jsonString")
                             val listCountryType = object : TypeToken<List<Message>>() {}.type
                             val temps: List<Message> = Gson().fromJson(jsonString, listCountryType)
                             res.addAll(temps)
-                            episodes.add(Episode(episodeId, temps[0].topic, season))
+                            episodes.add(Episode(episodeId, sort, temps[0].topic, season))
                         }
                     }
                 }
