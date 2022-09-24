@@ -6,6 +6,7 @@ import androidx.compose.runtime.setValue
 
 class ViewEpisode(
     val episodeId: Int,
+    val sort: Int,
     val name: String,
     val seasonId: Int,
     val messages: List<ViewMessage>

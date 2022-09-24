@@ -13,6 +13,7 @@ data class EpisodeWithMessages(
 
 fun EpisodeWithMessages.toViewEpisode() = ViewEpisode(
     episodeId = episode.episodeId,
+    sort = episode.sort,
     name = episode.name,
     seasonId = episode.seasonId,
     messages = messages.map { it.toViewMessage() })

@@ -10,6 +10,7 @@ import androidx.room.PrimaryKey
 data class Episode(
     @PrimaryKey
     val episodeId: Int,
+    val sort: Int,
     val name: String,
     val seasonId: Int
 )

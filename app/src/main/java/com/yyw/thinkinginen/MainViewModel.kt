@@ -56,7 +56,6 @@ class MainViewModel @Inject constructor(
 
 
     private val _mCurrentViewEpisodeId = MutableStateFlow(1)
-//    val mCurrentViewEpisodeId: StateFlow<Int> = _mCurrentViewEpisodeId
 
     val mCurrentViewEpisodeSort = _mCurrentViewSeasonId.combine(_mCurrentViewEpisodeId) { seasonId, episodeId ->
         val res = episodeId - (seasonId - 1) * 1000
