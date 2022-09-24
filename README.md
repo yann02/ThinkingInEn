@@ -8,7 +8,7 @@ This project is the Android app for learning English.
 - Kotlin Flows
 - Hilt
 
-## Roles
+## Roles in Peppa Pig
 - Peppa
 - George
 - Mummy Pig
