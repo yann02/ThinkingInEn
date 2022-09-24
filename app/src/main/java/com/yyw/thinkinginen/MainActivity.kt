@@ -2,7 +2,6 @@ package com.yyw.thinkinginen
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
@@ -16,11 +15,9 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.yyw.thinkinginen.components.*
 import com.yyw.thinkinginen.domain.Result
-import com.yyw.thinkinginen.domain.data
 import com.yyw.thinkinginen.entities.Episode
 import com.yyw.thinkinginen.entities.Message
 import com.yyw.thinkinginen.entities.Season
-import com.yyw.thinkinginen.entities.SeasonWithEpisodeAndMessages
 import com.yyw.thinkinginen.entities.vo.ViewMessage
 import com.yyw.thinkinginen.entities.vo.ViewSeason
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
@@ -47,8 +44,9 @@ class MainActivity : ComponentActivity() {
                     CompositionLocalProvider(LocalBackPressedDispatcher provides this@MainActivity.onBackPressedDispatcher) {
                         ThinkingInEnTheme {
                             val seasons: List<ViewSeason> by model.mViewSeasons.collectAsState()
-                            val curSeason by model.mCurrentViewSeason.collectAsState()
-                            val curEpisode by model.mCurrentViewEpisode.collectAsState()
+                            val curSeason by model.mCurrentViewSeasonId.collectAsState()
+//                            val curEpisode by model.mCurrentViewEpisodeId.collectAsState()
+                            val curEpisode by model.mCurrentViewEpisodeSort.collectAsState()
                             val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
                             val messages2: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
                             val episodeName by model.mCurrentViewEpisodeName.collectAsState()
@@ -118,7 +116,7 @@ class MainActivity : ComponentActivity() {
                                             MyAppBar(
                                                 scrollBehavior,
                                                 episodeName,
-                                                "Episode ${curEpisode + 1} / Season ${curSeason + 1}"
+                                                "Episode $curEpisode / Season $curSeason"
                                             ) {
                                                 model.openDrawer()
                                             }
@@ -155,14 +153,15 @@ class MainActivity : ComponentActivity() {
                     if (!subFiles.isNullOrEmpty()) {
 //                        for (ss in subFiles) {
                         for ((episodeIndex, ss) in subFiles.withIndex()) {
-                            val episode = episodeIndex + 1
+                            //  seasonIndex * 1000用于区分不同的季，避免重复的episodeId
+                            val episodeId = episodeIndex + 1 + seasonIndex * 1000
 //                            Log.d("wyy", "ss:$ss")
                             val jsonString = assets.open("PeppaPig/$s/$ss").bufferedReader().use { it.readText() }
 //                            Log.d("wyy", "jsonString:$jsonString")
                             val listCountryType = object : TypeToken<List<Message>>() {}.type
                             val temps: List<Message> = Gson().fromJson(jsonString, listCountryType)
                             res.addAll(temps)
-                            episodes.add(Episode(episode, temps[0].topic, season))
+                            episodes.add(Episode(episodeId, temps[0].topic, season))
                         }
                     }
                 }
@@ -171,6 +170,5 @@ class MainActivity : ComponentActivity() {
             ioException.printStackTrace()
         }
         model.insertData(seasons, episodes, res)
-//        model.insertMessages(res)
     }
 }

@@ -51,12 +51,21 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    private val _mCurrentViewSeason = MutableStateFlow(0)
-    val mCurrentViewSeason: StateFlow<Int> = _mCurrentViewSeason
+    private val _mCurrentViewSeasonId = MutableStateFlow(1)
+    val mCurrentViewSeasonId: StateFlow<Int> = _mCurrentViewSeasonId
 
 
-    private val _mCurrentViewEpisode = MutableStateFlow(0)
-    val mCurrentViewEpisode: StateFlow<Int> = _mCurrentViewEpisode
+    private val _mCurrentViewEpisodeId = MutableStateFlow(1)
+//    val mCurrentViewEpisodeId: StateFlow<Int> = _mCurrentViewEpisodeId
+
+    val mCurrentViewEpisodeSort = _mCurrentViewSeasonId.combine(_mCurrentViewEpisodeId) { seasonId, episodeId ->
+        val res = episodeId - (seasonId - 1) * 1000
+        if (res < 1) {
+            1
+        } else {
+            res
+        }
+    }.stateIn(viewModelScope, WhileViewSubscribed, 1)
 
     private val _mCurrentViewEpisodeName = MutableStateFlow("")
     val mCurrentViewEpisodeName: StateFlow<String> = _mCurrentViewEpisodeName
@@ -127,7 +136,8 @@ class MainViewModel @Inject constructor(
                 temp.getOrNull(position.data)?.let { firstVisibleMsg ->
                     Log.d(TAG, "position:$position")
                     //  更新目录的选择状态
-                    updateSelectedStateOfSeasons(firstVisibleMsg.sId - 1, firstVisibleMsg.eId - 1)
+//                    updateSelectedStateOfSeasons(firstVisibleMsg.sId - 1, firstVisibleMsg.eId - 1)
+                    updateSelectedStateOfSeasons(firstVisibleMsg.sId, firstVisibleMsg.eId)
                     hasInit = true
                 }
             }
@@ -137,8 +147,8 @@ class MainViewModel @Inject constructor(
         }
     }.stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
-    private fun updateSelectedStateOfSeasons(newSeasonIndex: Int, newEpisodeIndex: Int) {
-        Log.d(TAG, "updateSelectedStateOfSeasons newSeasonIndex:$newSeasonIndex,newEpisodeIndex:$newEpisodeIndex")
+    private fun updateSelectedStateOfSeasons(newSeasonId: Int, newEpisodeId: Int) {
+        Log.d(TAG, "updateSelectedStateOfSeasons newSeasonId:$newSeasonId,newEpisodeId:$newEpisodeId")
         val tempSeasons = if (!hasInit) {
             _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
         } else {
@@ -146,17 +156,19 @@ class MainViewModel @Inject constructor(
         }
 
         //  上一个选择的season和episode
-        val lastSeasonIndex = _mCurrentViewSeason.value
-        val lastEpisodeIndex = _mCurrentViewEpisode.value
+        val lastSeasonId = _mCurrentViewSeasonId.value
+        val lastEpisodeId = _mCurrentViewEpisodeId.value
 
         //  设置新的选择项的状态
+        val newSeasonIndex = newSeasonId - 1
         val curEpisodes = tempSeasons[newSeasonIndex].episodes
-        curEpisodes[newEpisodeIndex].current = true
-        val curEpisodeName = curEpisodes[newEpisodeIndex].name
+        val curEpisodeIndex = curEpisodes.indexOf(curEpisodes.find { it.episodeId == newEpisodeId })
+        curEpisodes[curEpisodeIndex].current = true
+        val curEpisodeName = curEpisodes[curEpisodeIndex].name
         tempSeasons[newSeasonIndex].apply {
             selected = true
             episodes = curEpisodes
-            if (lastSeasonIndex != newSeasonIndex) {
+            if (lastSeasonId != newSeasonId) {
                 isOpen = true
             } else {
                 if (!hasInit) {
@@ -166,26 +178,29 @@ class MainViewModel @Inject constructor(
         }
 
 
-        if (lastSeasonIndex != newSeasonIndex) {
+        val lastSeasonIndex = lastSeasonId - 1
+        if (lastSeasonId != newSeasonId) {
             val lastEpisodes = tempSeasons[lastSeasonIndex].episodes
-            curEpisodes[lastEpisodeIndex].current = false
+            val lastEpisodeIndex = lastEpisodes.indexOf(lastEpisodes.find { it.episodeId == lastEpisodeId })
+            lastEpisodes[lastEpisodeIndex].current = false
             tempSeasons[lastSeasonIndex].apply {
                 selected = false
                 episodes = lastEpisodes
                 isOpen = false
             }
-            _mCurrentViewSeason.value = newSeasonIndex
-            if (lastEpisodeIndex != newEpisodeIndex) {
-                _mCurrentViewEpisode.value = newEpisodeIndex
+            _mCurrentViewSeasonId.value = newSeasonId
+            if (lastEpisodeId != newEpisodeId) {
+                _mCurrentViewEpisodeId.value = newEpisodeId
             }
         } else {
-            if (lastEpisodeIndex != newEpisodeIndex) {
+            if (lastEpisodeId != newEpisodeId) {
                 val lastEpisodes = tempSeasons[lastSeasonIndex].episodes
-                curEpisodes[lastEpisodeIndex].current = false
+                val lastEpisodeIndex = lastEpisodes.indexOf(lastEpisodes.find { it.episodeId == lastEpisodeId })
+                lastEpisodes[lastEpisodeIndex].current = false
                 tempSeasons[lastSeasonIndex].apply {
                     episodes = lastEpisodes
                 }
-                _mCurrentViewEpisode.value = newEpisodeIndex
+                _mCurrentViewEpisodeId.value = newEpisodeId
             }
         }
         _mCurrentViewEpisodeName.update { curEpisodeName }
@@ -197,17 +212,17 @@ class MainViewModel @Inject constructor(
         _mLastScrollPosition = position
         val message = mViewMessages.value.data?.getOrNull(position)
         message?.let { msg ->
-            val curSeasonIndex = msg.sId - 1
-            val curEpisodeIndex = msg.eId - 1
-            val lastSeasonIndex = _mCurrentViewSeason.value
-            val lastEpisodeIndex = _mCurrentViewEpisode.value
+            val curSeasonId = msg.sId
+            val curEpisodeId = msg.eId
+            val lastSeasonId = _mCurrentViewSeasonId.value
+            val lastEpisodeId = _mCurrentViewEpisodeId.value
             Log.d(
                 TAG,
-                "curSeasonIndex:$curSeasonIndex,curEpisodeIndex:$curEpisodeIndex,lastSeasonIndex:$lastSeasonIndex,lastEpisodeIndex:$lastEpisodeIndex"
+                "curSeasonIndex:$curSeasonId,curEpisodeIndex:$curEpisodeId,lastSeasonIndex:$lastSeasonId,lastEpisodeIndex:$lastEpisodeId"
             )
-            if (curSeasonIndex != lastSeasonIndex || curEpisodeIndex != lastEpisodeIndex) {
+            if (curSeasonId != lastSeasonId || curEpisodeId != lastEpisodeId) {
                 Log.d(TAG, "updateSelectedStateOfSeasons(curSeasonIndex, curEpisodeIndex)")
-                updateSelectedStateOfSeasons(curSeasonIndex, curEpisodeIndex)
+                updateSelectedStateOfSeasons(curSeasonId, curEpisodeId)
             }
         }
     }
