@@ -1,0 +1,666 @@
+[
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "Granny and Grandpa Pig are going on holiday.",
+    "cn":"猪爷爷和猪奶奶要出门旅行"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "They are bringing Polly Parrot to Peppa's house",
+    "cn":"他们要把鹦鹉波利送到佩奇家里去"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "so Peppa and George can look after her.",
+    "cn":"让佩奇和乔治来照顾它"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Grandpa Pig",
+    "content": "Hello,everyone!",
+    "cn":"你们大家好啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Hello,Grandpa Pig!Hello,Granny Pig!",
+    "cn":"你好啊 爷爷 你好啊 奶奶"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Polly is very excited",
+    "cn":"波利很期待"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "about her holiday with Peppa and George.",
+    "cn":"能和佩奇还有乔治一起过假期"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Hello,Polly.",
+    "cn":"你好啊 波利"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Hello,Polly.",
+    "cn":"你好啊 波利"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "Polly Parrot copies everything that is said.",
+    "cn":"鹦鹉波利会重复所有人说的话"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "What's in Polly's suitcase,Granny?",
+    "cn":"波利的手提箱里装着什么啊？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "This is Polly's food.",
+    "cn":"这都是波利的食物"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "George，can you guess what Polly likes to eat best?",
+    "cn":"乔治 你猜猜波利最喜欢吃什么东西？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "George",
+    "content": "Chocolate Cake!",
+    "cn":"巧克力蛋糕"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Ha!No,not chocolate cake.",
+    "cn":"不对 不是巧克力蛋糕"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Polly likes birdseed.",
+    "cn":"波利喜欢吃鸟食"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Birdseed!",
+    "cn":"鸟食"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Can I feed her,Granny Pig!Can I feed her?",
+    "cn":"我能喂她吗 奶奶 我能喂她吗？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Yes!",
+    "cn":"当然"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Grandpa Pig",
+    "content": "It's very important",
+    "cn":"但是要记住"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Grandpa Pig",
+    "content": "not to give Polly too much food.",
+    "cn":"千万不能给波利吃得太多了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Yes,Grandpa Pig.",
+    "cn":"我记住了 爷爷"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Grandpa,can Polly come out of the cage?",
+    "cn":"爷爷 我们可以把波利放出来吗？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Grandpa Pig",
+    "content": "Yes,",
+    "cn":"可以"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Grandpa Pig",
+    "content": "but you must keep all the doors and windows closed,",
+    "cn":"但房间内所有的门和窗户都要关上"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Grandpa Pig",
+    "content": "so Polly doesn't fly away.",
+    "cn":"这样波利就不会飞走啦"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Yes,Grandpa Pig.",
+    "cn":"好的 我会的 爷爷"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Goodbye,Peppa.Goodbye,George.",
+    "cn":"再见了 佩奇 再见 乔治"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Goodbye,Granny Pig!Goodbye,Grandpa Pig!",
+    "cn":"再见 奶奶 再见 爷爷"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Goodbye,Granny Pig!Goodbye,Grandpa Pig!",
+    "cn":"再见 奶奶 再见 爷爷"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Would you like a cup of tea?",
+    "cn":"你想要喝一杯茶吗？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Would you like a cup of tea?",
+    "cn":"你想要喝一杯茶吗？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "George has got Polly's birdseed.",
+    "cn":"乔治给波利倒了鸟食"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "George!That is too much birdseed!",
+    "cn":"乔治 你倒了太多的鸟食了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Polly will grow very big",
+    "cn":"波利吃了会长很大"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "and burst like a balloon... POP!",
+    "cn":"然后像气球一样爆炸"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Burst like a balloon. Pop!",
+    "cn":"像气球一样爆炸"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "What's that noise?",
+    "cn":"这是什么声音啊？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "ICE-CREAM!!",
+    "cn":"冰激淋车"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Ice-cream! Horray!",
+    "cn":"冰激淋车 好哎"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "Oh dear,George has forgotten to close the door.",
+    "cn":"哦糟糕 乔治忘了把门给关上"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Miss Rabbit",
+    "content": "Ice cream. Ice cream!",
+    "cn":"冰激凌 冰激凌"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "It is Miss Rabbit, the ice cream lady.",
+    "cn":"过来的是卖冰激凌的兔小姐"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Miss Rabbit",
+    "content": "Hello, Mummy Pig.",
+    "cn":"你好啊 猪妈妈"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Mummy Pig",
+    "content": "Hello, Miss Rabbit. Four ice creams, please.",
+    "cn":"你好 兔小姐 我要四个冰激凌"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Thank you, Miss Rabbit!",
+    "cn":"谢谢 兔小姐"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "George! You forgot to close the door!",
+    "cn":"乔治 你忘记把门给关上了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Polly will have flown away!",
+    "cn":"波利一定趁机飞走了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "Don't worry, Peppa,",
+    "cn":"别担心 佩奇"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "I'm sure Polly is still inside.",
+    "cn":"我想波利一定还在里面呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Polly's not here!",
+    "cn":"波利不在了呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "We've lost Polly.",
+    "cn":"我们把波利弄丢了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Grandpa and Granny are going to be very sad.",
+    "cn":"这下爷爷和奶奶一定会很伤心的"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Mummy Pig",
+    "content": "Maybe we should try the garden.",
+    "cn":"说不定我们该去花园找找看"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Mummy Pig",
+    "content": "Look! What's that?",
+    "cn":"瞧 那是什么"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "What has Mummy Pig seen in the garden?",
+    "cn":"猪妈妈在花园里看到了什么？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "It's Polly!",
+    "cn":"是波利啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "But Daddy,",
+    "cn":"但是爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "how are we going to get Polly down from the tree?",
+    "cn":"我们怎么才能把波利从树上弄下来？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "Don't worry, Peppa, I'll rescue Polly.",
+    "cn":"别担心 佩奇 我来拯救波利"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "Come on, Polly.",
+    "cn":"过来吧 波利"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Would you like a cup of tea?",
+    "cn":"你想要喝一杯茶吗？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "Oh no, Polly has flown higher up the tree!",
+    "cn":"哦不 波利又飞到更高的地方去了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "OH! DEAR.",
+    "cn":"哦 糟糕"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Be careful, Daddy!",
+    "cn":"小心一点 爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Don't fall out the tree like you always do.",
+    "cn":"不要再像以前那样 从树上掉下来了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "Don't worry, Peppa, I'll be very careful.",
+    "cn":"别担心 佩奇 我会很小心的"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "Come on, Polly.",
+    "cn":"过来吧 波利"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Birdseed!!!",
+    "cn":"鸟食"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "I wonder where George is going?",
+    "cn":"乔治这是要去哪啊？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "George has got Polly's birdseed.",
+    "cn":"乔治把波利的鸟食拿来了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "Polly loves to eat birdseed.",
+    "cn":"波利喜欢吃鸟食"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "George has got Polly down from the tree!",
+    "cn":"乔治把波利从树上弄下来了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "Horray!",
+    "cn":"好哎"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Peppa",
+    "content": "What's that noise?",
+    "cn":"这是什么声音啊？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Outsider",
+    "content": "Daddy Pig's mobile phone is ringing!",
+    "cn":"猪爸爸的手机响了"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "What?",
+    "cn":"什么"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "Hello. Oh, Granny Pig!",
+    "cn":"你好 哦 是奶奶啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Hello, Daddy Pig.",
+    "cn":"你好啊 爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Please may I talk to Polly?",
+    "cn":"请让波利接电话"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Daddy Pig",
+    "content": "Yes, of course!",
+    "cn":"好的 没问题"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Granny Pig",
+    "content": "Hello, Polly. Are you having a nice holiday?",
+    "cn":"你好啊 波利 你的假期过的不错吧？"
+  },
+  {
+    "sId": 2,
+    "eId": 1001,
+    "topic": "Polly's Holiday",
+    "role": "Polly",
+    "content": "Hello, Polly. Are you having a nice holiday?!",
+    "cn":"你好啊 波利 你的假期过的不错吧"
+  }
+]

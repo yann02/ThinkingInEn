@@ -1,7 +1,6 @@
 package com.yyw.thinkinginen.entities
 
 import androidx.room.Embedded
-import androidx.room.Junction
 import androidx.room.Relation
 import com.yyw.thinkinginen.entities.vo.ViewEpisode
 
