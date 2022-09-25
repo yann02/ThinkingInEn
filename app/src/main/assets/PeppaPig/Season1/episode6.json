@@ -1,0 +1,698 @@
+[
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "Peppa and George are going to the playgroup.",
+    "cn": "佩奇和乔治要去幼儿园"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "It is George's first day.",
+    "cn": "这是乔治第一次去幼儿园"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Daddy Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Daddy Pig",
+    "content": "are you looking forward to the playgroup?",
+    "cn": "你想不想去幼儿园呢"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Daddy,",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "maybe George is too small",
+    "cn": "乔治会不会年纪太小"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "to go to my playgroup?",
+    "cn": "不适合上幼儿园"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Daddy Pig",
+    "content": "He'll be fine, Peppa.",
+    "cn": "他不会有事的"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Daddy Pig",
+    "content": "There'll be you and Mr. Dinosaur there to keep him company.",
+    "cn": "你和恐龙先生会陪在他的身边的"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "George",
+    "content": "Grrr! Dine-Saw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "But I want to play with the big children!",
+    "cn": "但是我想和其他小朋友玩"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Not George and his toy dinosaur.",
+    "cn": "不想陪乔治玩他的恐龙玩具"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "Oh dear,",
+    "cn": "喔天啊"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "Peppa doesn't Want George to go to her playgroup.",
+    "cn": "佩奇不想让乔治去幼儿园"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Daddy Pig",
+    "content": "We're here!",
+    "cn": "我们到了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Daddy,",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "are you sure George is big enough?",
+    "cn": "你确定乔治能上幼儿园吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Daddy Pig",
+    "content": "He'll be fine.",
+    "cn": "他不会有事的"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Alright,",
+    "cn": "那好吧"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "he can come.",
+    "cn": "那就来吧"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Daddy Pig",
+    "content": "Bye bye.",
+    "cn": "哈哈哈 再见"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "Madame Gazelle looks after",
+    "cn": "羚羊夫人负责照看"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "the children at the playgroup.",
+    "cn": "在幼儿园玩的小朋友"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Hello!",
+    "cn": "你们好"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "This is my little brother,",
+    "cn": "这是我的弟弟"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "George.",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Hello,",
+    "cn": "你好"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "George.",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Suzy Sheep",
+    "content": "Baa! I wish I had a little brother like George.",
+    "cn": "我也想有个像乔治一样的弟弟"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Really?",
+    "cn": "真的吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "Hello!",
+    "cn": "你好"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "I'm Danny Dog.",
+    "cn": "我是小狗丹尼"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "Is that a dinosaur?",
+    "cn": "那个是恐龙吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "It's just a toy dinosaur.",
+    "cn": "那只是个玩具恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "George",
+    "content": "Grrr! Dine-Saw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "Brilliant!",
+    "cn": "好棒啊"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "George",
+    "content": "Dine-Saw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "George",
+    "content": "Dine-Saw! Grrr!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Aaaah,",
+    "cn": "喔"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "really scary.",
+    "cn": "真的很吓人"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "That's brilliant!",
+    "cn": "真的太棒了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "George is my brother.",
+    "cn": "乔治是我的弟弟"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "He's brilliant.",
+    "cn": "他真的是很棒"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "Peppa is proud of her little brother George.",
+    "cn": "佩奇为她的弟弟感到自豪"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Shall we show George",
+    "cn": "我们让乔治看看"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "how we paint pictures?",
+    "cn": "大家是怎么画画的"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "George is not very good at painting.",
+    "cn": "乔治不是很会画画"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Well, maybe you could help him?",
+    "cn": "那么也许你能帮帮他"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "I'm very good!",
+    "cn": "我很会画画"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "I will show him how to paint a flower.",
+    "cn": "我会教他如何画小花"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "today I'm going to teach you how to paint a flower.",
+    "cn": "我今天要教你怎么样去画一朵小花"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "First, you paint a big circle.",
+    "cn": "首先 画一个大大的圆圈"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "No, George,",
+    "cn": "乔治不对"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "that's the wrong color.",
+    "cn": "颜色不对"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Now you paint the flower's petals.",
+    "cn": "接着我们来画花瓣"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Polly",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "That's the wrong shape!",
+    "cn": "形状不对"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Now you paint the stalk and the leaves.",
+    "cn": "最后我们来画茎和叶子"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Perfect!",
+    "cn": "完美"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Polly",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "you've done it all wrong!",
+    "cn": "你全都画错了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Now what do you have here?",
+    "cn": "你们画得怎么样了？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "I've painted a flower..",
+    "cn": "您看 我画了朵花"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "That's very good, Peppa.",
+    "cn": "佩奇 你画得很棒"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "And George has painted a dinosaur.",
+    "cn": "乔治画了一只恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "George",
+    "content": "Grrr... Dine-Saw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "Woof! Brilliant!",
+    "cn": "好棒喔"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "I think George and Peppa's pictures should go in the wall.",
+    "cn": "乔治和佩奇的画都应该挂在墙上"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "Hurry!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "you must be very proud of your little brother.",
+    "cn": "你的弟弟一定让你感到很自豪对吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Yes, I am.",
+    "cn": "对的 没错"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "It is home time",
+    "cn": "放学了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Outsider",
+    "content": "and the children's parents are here to pick them up.",
+    "cn": "家长们来接小朋友回家了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Can George come next time?",
+    "cn": "乔治下次还能来吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Yes,",
+    "cn": "当然了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "and he can paint us another lovely picture.",
+    "cn": "他还能再为我们画其他可爱的画"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "And what will you paint next time, George?",
+    "cn": "乔治 你下次会再画些什么呢？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "George",
+    "content": "Dine-Saw! Grrr!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Oh",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Another dinosaur picture?",
+    "cn": "再画另一张恐龙是吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Madame Gazelle",
+    "content": "Well maybe you can show us all how to paint a dinosaur?",
+    "cn": "也许你能教教大家如何画恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Danny Dog",
+    "content": "Brilliant!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "Peppa",
+    "content": "Yes, Brilliant!",
+    "cn": "对啊 太棒了"
+  },
+  {
+    "sId": 1,
+    "eId": 6,
+    "topic": "The Playgroup",
+    "role": "George",
+    "content": "Bri-y-ant!",
+    "cn": "太棒了"
+  }
+]

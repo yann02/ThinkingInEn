@@ -129,5 +129,7 @@ fun getDrawableResByRole(role: String): Int = when (role) {
     "Polly" -> R.mipmap.polly_web_en
     "Miss Rabbit" -> R.mipmap.miss_rabbit_cut_web_en
     "Outsider" -> R.mipmap.outsider_web_en
+    "Madame Gazelle" -> R.mipmap.madame_gazelle_web_en
+    "Danny Dog" -> R.mipmap.danny_dog_web_en
     else -> R.mipmap.undefined_web_en
 }

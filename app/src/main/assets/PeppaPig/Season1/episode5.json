@@ -1,0 +1,570 @@
+[
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa and George are playing hide and seek.",
+    "cn": "佩奇和乔治在玩捉迷藏"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "It is George's turn to hide.",
+    "cn": "现在轮到乔治藏了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "He must quickly find somewhere",
+    "cn": "他必须赶快藏起来"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "to hide before Peppa finishes counting!",
+    "cn": "不然佩奇就要马上数完数字了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "One... two... three... four... five... six... seven... eight...",
+    "cn": "1 2 3 4 5 6 7 8"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "has found somewhere to hide, ",
+    "cn": "乔治正巧在佩奇数完之前"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "just in time!",
+    "cn": "藏了起来"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "nine... ten..",
+    "cn": "9 10"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Ready or not. Here I come!",
+    "cn": "准备好了吗 我来找啦"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa has to find where George is hiding.",
+    "cn": "佩奇要找到乔治藏在哪儿"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Found you!",
+    "cn": "找到啦"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa has found George.",
+    "cn": "佩奇找到了乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "I could see you too easily.",
+    "cn": "我一眼就看到你了 这太容易了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Now it is Peppa's turn to hide.",
+    "cn": "现在轮到佩奇藏了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "George",
+    "content": "One... erm... three.",
+    "cn": "1 3"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Mummy Pig",
+    "content": "I'll help George to count.",
+    "cn": "那我来帮乔治数数吧"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Mummy Pig",
+    "content": "One... two... three.. four... five...",
+    "cn": "1 2 3 4 5"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Mummy Pig",
+    "content": "six... seven... eight...nine... ten!",
+    "cn": "6 7 8 9 10"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Mummy Pig",
+    "content": "Okey, George,",
+    "cn": "好啦 乔治 "
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Mummy Pig",
+    "content": "open your eyes!",
+    "cn": "睁开你的眼睛吧"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "George has to find Where Peppa is hiding.",
+    "cn": "乔治要找到佩奇藏在哪儿"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "George",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa isn't hiding under the table.",
+    "cn": "佩奇没有藏在桌子下面"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "have you thought of looking upstairs?",
+    "cn": "你猜她会不会藏在楼上呢"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa isn't under the bed.",
+    "cn": "佩奇没有藏在床底下"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "What was that strange noise?",
+    "cn": "刚才那是什么奇怪的声音？"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa isn't behind the curtain.",
+    "cn": "佩奇也没藏在窗帘后面"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "There is that strange noise again!",
+    "cn": "乔治又听到那个奇怪的声音了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "What can it be?",
+    "cn": "到底是什么呢？"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "hey",
+    "cn": "嘿"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "George has found where Peppa was hiding.",
+    "cn": "乔治找到佩奇藏在哪儿了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "George found me!",
+    "cn": "乔治找到我了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Now it's Daddy's turn to hide!",
+    "cn": "现在该轮到爸爸去藏了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "I think George should have another turn.",
+    "cn": "我觉得该让乔治再来藏一次"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "But George isn't very good at hiding...",
+    "cn": "但是爸爸 乔治他好像不太会藏"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "I'm sure he'll be better this time.",
+    "cn": "我相信他这次一定会藏好的"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "Close your eyes",
+    "cn": "闭上眼睛"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "and start counting.",
+    "cn": "开始数数吧"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "One... two... three...",
+    "cn": "1 2 3"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "哦 糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa will easily find George",
+    "cn": "这样佩奇又会很快找到乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "four... five... six...",
+    "cn": "4 5 6"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "Come over here...",
+    "cn": "快到这儿来"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "seven...",
+    "cn": "7"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "eight... nine... ten!",
+    "cn": "8 9 10"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Ready or not,",
+    "cn": "藏好了吗"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "here I come!",
+    "cn": "我来找你啦"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Oh",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "George isn't hiding under the table!",
+    "cn": "乔治这次没有藏在桌子底下"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "But George always hides under the table!",
+    "cn": "但是乔治每次都是藏在桌子底下的"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "Have you thought of looking upstairs?",
+    "cn": "你觉得他会不会藏在楼上了？"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "I know where he is!",
+    "cn": "我知道他在哪儿了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "George is in the toy basket.",
+    "cn": "乔治肯定藏在玩具篮里了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "他不在"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "George is not in the toy basket!",
+    "cn": "乔治没有藏在玩具篮里"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Where can he be?",
+    "cn": "他到底在哪儿？"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "Peppa can not find George anywhere.",
+    "cn": "佩奇哪儿都找不到乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Daddy? I can't find George anywhere.",
+    "cn": "爸爸 我哪儿都找不到乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "Oh, dear,",
+    "cn": "哦 这样啊"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "I wonder where he can be.",
+    "cn": "我想我知道他藏在哪儿"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "Actually,",
+    "cn": "你来看看"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Daddy Pig",
+    "content": "I think there's something about George in this newspaper...",
+    "cn": "这报纸上好像有点关于乔治的消息"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "嘿乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Peppa",
+    "content": "Found you!",
+    "cn": "我找到你了"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Mummy Pig",
+    "content": "Oh, George!",
+    "cn": "哦乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Mummy Pig",
+    "content": "That was a good place to hide!",
+    "cn": "那真是个玩捉迷藏的好地方"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "George was hiding behind Daddy Pig's newspaper",
+    "cn": "原来乔治一直藏在猪爸爸的"
+  },
+  {
+    "sId": 1,
+    "eId": 5,
+    "topic": "Hide and Seek",
+    "role": "Outsider",
+    "content": "all the time!",
+    "cn": "报纸后面"
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "Peppa and her family",
+    "cn": "佩奇和她的家人"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "are visiting Granny Pig and Grandpa Pig.",
+    "cn": "去看猪爷爷和猪奶奶了"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Granny Pig!",
+    "cn": "你好 奶奶"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Grandpa Pig!",
+    "cn": "你好 爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "George",
+    "content": "Granny pig! Baba pig!",
+    "cn": "你好 奶奶 你好 爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Hello, my little ones.",
+    "cn": "你们好 我的小宝贝们"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Come inside,",
+    "cn": "快点进来吧"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "We have a surprise.",
+    "cn": "有个惊喜给你们"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "What is it?",
+    "cn": "是什么惊喜啊？"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "We have a new pet.",
+    "cn": "我们养了只新宠物"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Can you guess What it is?",
+    "cn": "你们猜猜看是什么？"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "George",
+    "content": "Dinesaw?",
+    "cn": "是恐龙吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Grandpa Pig",
+    "content": "No,",
+    "cn": "不"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Grandpa Pig",
+    "content": "it's not a dinosaur.",
+    "cn": "我们养的宠物不是什么恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Grandpa Pig",
+    "content": "Come and see.",
+    "cn": "快进来看看"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "Granny Pig and Grandpa pig have a pet parrot.",
+    "cn": "猪爷爷和猪奶奶养了只宠物鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "this is our pet parrot.",
+    "cn": "这是我们的宠物了"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "She's called Polly.",
+    "cn": "她的名字叫波利"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Pretty Polly.",
+    "cn": "漂亮的波利"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "Pretty Polly.",
+    "cn": "漂亮的波利"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Oooh, Wow.",
+    "cn": "哇哦 哦"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "I'm a clever parrot.",
+    "cn": "我是一只聪明的鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "I'm a clever parrot.",
+    "cn": "我是一只聪明的鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Mummy,",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Why does Polly copy",
+    "cn": "为什么不管奶奶说什么"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "everything that Granny says?",
+    "cn": "波利都会跟着说呢"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Mummy Pig",
+    "content": "That's what parrots do.",
+    "cn": "鹦鹉会学人说话"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Mummy Pig",
+    "content": "I‘ll show you.",
+    "cn": "你看好了"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Mummy Pig",
+    "content": "Hello, Polly.",
+    "cn": "你好 波利"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "Hello, Polly.",
+    "cn": "你好 波利"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Mummy Pig",
+    "content": "What a sweet little parrot!",
+    "cn": "真是只可爱的小鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "What a sweet little parrot!",
+    "cn": "真是只可爱的小鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Come on, everyone,",
+    "cn": "你们都跟我来"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "tea time!",
+    "cn": "来喝茶吧"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "George.",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Come on!",
+    "cn": "快来啊"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "There's chocolate cake!",
+    "cn": "这儿有巧克力蛋糕"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Coming, Granny!",
+    "cn": "来了 奶奶"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "Peppa and George love eating chocolate cake.",
+    "cn": "佩奇和乔治最爱吃巧克力蛋糕了"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "But today,",
+    "cn": "但是今天"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "they are in a hurry to get back and play with Polly Parrot.",
+    "cn": "他们赶着要去和鹦鹉波利一起玩"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Finished!",
+    "cn": "我吃完了"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "What noisy little ones you are!",
+    "cn": "你们这两个小家伙可真吵啊"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Granny, please, can we leave the table",
+    "cn": "奶奶 我们现在能离开餐桌"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "and go and see Polly Parrot?",
+    "cn": "去和鹦鹉波利玩了吗"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Are sure you've completely finished your cake?",
+    "cn": "你们两个确定蛋糕已经吃干净了吗"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Off you go, then.",
+    "cn": "那就去玩吧"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Hurry!",
+    "cn": "走咯"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "say something to Polly.",
+    "cn": "你和波利说说话"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "George is a little bit shy.",
+    "cn": "乔治有一点不好意思"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Hello.",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "Hello.",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "Peppa and George are really",
+    "cn": "佩奇和乔治真的非常喜欢"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "enjoying playing with Polly Parrot.",
+    "cn": "和鹦鹉波利一起玩"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "I'm Peppa Pig!",
+    "cn": "我是佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "I'm Peppa Pig!",
+    "cn": "我是佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "say something.",
+    "cn": "和他说话啊"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "Peppa and George are pretending to be parrots.",
+    "cn": "佩奇和乔治在假装自己是鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "I'm Polly Parrot.",
+    "cn": "我是鹦鹉波利"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Outsider",
+    "content": "Peppa is thinking of something else to say to Polly Parrot.",
+    "cn": "佩奇在想有什么可以和鹦鹉波利说"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "I'm a noisy parrot!",
+    "cn": "我是一只吵人的鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "I'm a noisy parrot!",
+    "cn": "我是一只吵人的鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "have you been playing with Polly?",
+    "cn": "你们在和波利玩吗"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Yes, Granny.",
+    "cn": "是的 奶奶"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Polly is such a sweet parrot.",
+    "cn": "波利是一只可爱的小鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Peppa",
+    "content": "Yes, Granny.",
+    "cn": "是的 奶奶"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "I'm a clever parrot.",
+    "cn": "我是一只聪明的鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "I'm a noisy parrot!",
+    "cn": "我是一只吵人的鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Polly",
+    "content": "I'm a noisy parrot!",
+    "cn": "我是一只吵人的鹦鹉"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Ohh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 4,
+    "topic": "Polly Parrot",
+    "role": "Granny Pig",
+    "content": "Oh, my word!",
+    "cn": "哦 我的天哪"
+  }
+]
