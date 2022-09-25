@@ -1,0 +1,498 @@
+[
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "Mummy Pig is working on her computer.",
+    "cn": "猪妈妈在电脑前工作呢"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "Daddy Pig is making soup for lunch.",
+    "cn": "猪爸爸在做午餐要喝的汤"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Daddy?",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Can we go and watch mummy on her computer?",
+    "cn": "我和乔治可以去看妈妈工作吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Yes, as long as you don't disturb her.",
+    "cn": "可以 但是你们不能打扰她"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "She has a lot of important work to do today.",
+    "cn": "她今天有很多重要的工作呢"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Thank you, Daddy!",
+    "cn": "谢谢你 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "Mummy Pig has a lot of important work to do.",
+    "cn": "猪妈妈今天有很多重要的工作"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Mummy.",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Can George and I sit on your lap and watch you work?",
+    "cn": "乔治和我能坐在你腿上看你工作吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "if you both sit quietly.",
+    "cn": "但你们要保持安静"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "Peppa and George love to",
+    "cn": "佩奇和乔治最喜欢"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "watch mummy work on the computer.",
+    "cn": "看妈妈在电脑前工作了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Mummy?",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Can we play that computer game, 'Happy Mrs.Chicken'?",
+    "cn": "我们能玩电脑上的快乐小鸡游戏吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "We can play 'Happy Mrs. Chicken' later.",
+    "cn": "我们待会儿玩快乐小鸡的游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "But now I have to work.",
+    "cn": "因为现在我要工作"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Mummy? Can we help you work?",
+    "cn": "妈妈 我们可以帮你吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "No, Peppa!",
+    "cn": "不行 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "You mustn't touch the computer. And George,",
+    "cn": "你不可以乱碰电脑知道吗 还有乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "you mustn't touch the computer either.",
+    "cn": "你也是 不可以乱碰电脑"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Yes, George.",
+    "cn": "没错乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "You mustn't do this.",
+    "cn": "你不可以这样乱碰"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "stop!",
+    "cn": "别按了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Sorry, Mummy.",
+    "cn": "对不起妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "I was just showing George",
+    "cn": "我只是想告诉乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "what not to do.",
+    "cn": "什么是不能做的"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "dear.",
+    "cn": "糟糕啦"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "The computer is not meant to do that.",
+    "cn": "电脑好像出现了故障"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig!",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig!!",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "What is it, Mummy Pig?",
+    "cn": "发生什么事了猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig, can you mend the computer?",
+    "cn": "猪爸爸 你能修理电脑吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Err...",
+    "cn": "呃"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "I'll finish the lunch",
+    "cn": "我去做午餐"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "while you mend the computer.",
+    "cn": "你来修电脑吧"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Err...",
+    "cn": "呃"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Right you are, Mummy Pig, but",
+    "cn": "好的猪妈妈 但是"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "I'm not very good with these things...",
+    "cn": "我不是很擅长修电脑"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "thank you, Daddy Pig!",
+    "cn": "谢谢你了猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "Daddy Pig is going to mend the computer!",
+    "cn": "猪爸爸准备去修电脑了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Um. Maybe if I just switch if off...",
+    "cn": "也许我应该先把电脑关了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "And then switch it on again...",
+    "cn": "然后再重新开机"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Outsider",
+    "content": "Daddy Pig has mended the computer!",
+    "cn": "猪爸爸把电脑修好了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Hurry, Daddy!",
+    "cn": "好的 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Yes,",
+    "cn": "太好了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "I am a bit of an expert at these things.",
+    "cn": "看来我是这方面的专家"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Daddy? Can we play that computer game,",
+    "cn": "爸爸 那我们现在能不能"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "'Happy Mrs. Chicken'?",
+    "cn": "玩 快乐小鸡 的游戏呢"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Maybe you should ask Mummy Pig.",
+    "cn": "也许你们该问问妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Mummy said that we could play it later.",
+    "cn": "妈妈说我们待会儿可以玩"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Well, that's okey, then.",
+    "cn": "那就可以了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "But I don't know where the disc is.",
+    "cn": "但是我不知道游戏光盘在哪里"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Yippeeee!",
+    "cn": "太好了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Peppa",
+    "content": "Now, it's my turn!",
+    "cn": "现在轮到我了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Daddy Pig",
+    "content": "Now, it's my turn!",
+    "cn": "现在该我玩了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "What on earth is going on?",
+    "cn": "到底发生什么事情了"
+  },
+  {
+    "sId": 1,
+    "eId": 7,
+    "topic": "Mummy Pig at Work",
+    "role": "Mummy Pig",
+    "content": "Well, I see that the computer is working again.",
+    "cn": "原来猪爸爸把电脑修好了"
+  }
+]
