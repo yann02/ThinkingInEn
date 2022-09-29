@@ -9,6 +9,8 @@ This project is the Android app for learning English.
 - Hilt
 
 ## Roles in Peppa Pig
+> 一句话，如果有多个角色一起说，角色间用逗号“,”隔开，如：Rebecca Rabbit,Suzy Sheep,Danny Dog  
+  
 - Peppa
 - George
 - Mummy Pig
