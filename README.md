@@ -23,3 +23,4 @@ This project is the Android app for learning English.
 - Miss Rabbit（卖冰激凌的兔子）
 - Madame Gazelle（羚羊夫人 幼儿园老师）
 - Danny Dog（小狗 丹尼）
+- Rebecca Rabbit（兔子 瑞贝卡）
