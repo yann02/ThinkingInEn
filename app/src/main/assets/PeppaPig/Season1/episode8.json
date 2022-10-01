@@ -1,0 +1,618 @@
+[
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "George is playing with his ball in the garden.",
+    "cn": "乔治在花园里玩扔球"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "Peppa wants to play, too.",
+    "cn": "佩奇也想一起玩"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "George, you're doing it all wrong!",
+    "cn": "乔治你这样玩是错的"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "This is how to catch a ball.",
+    "cn": "要这样才可以接到球"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Not like this.",
+    "cn": "而不是像这样"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "That's what you do.",
+    "cn": "要像这样知道吗（个人理解：你就是这么做的）"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "What a cheeky little one, pig Peppa is.",
+    "cn": "佩奇可真是头顽皮的小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "George! Come back! You little piggy!",
+    "cn": "乔治 快回来 你这小家伙"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "Maybe Peppa is teasing George just a bit too much.",
+    "cn": "也许佩奇逗乔治得有点过分了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Peppa, have you been teasing George?",
+    "cn": "佩奇 你是不是在逗乔治玩呢？"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Not really, Mummy,",
+    "cn": "不是的妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "I was teaching him how to catch.",
+    "cn": "我在教他怎么接球呢"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "really?",
+    "cn": "真的吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Oh, Well, I know a game that will teach George how to catch.",
+    "cn": "哦 有个游戏可以教乔治怎么玩"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "It's called 'Piggy-in-the-Middle'",
+    "cn": "叫做 小猪在中间"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "you take the ball and stand over there",
+    "cn": "你拿着球 站在那个地方"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "and George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "you stand over there.",
+    "cn": "你站在那边"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Good!",
+    "cn": "好的"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "You have to throw the ball to each other",
+    "cn": "你们把球互相扔向对方"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "and I have to try and catch it.",
+    "cn": "而我来尝试接住他"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "I'm the piggy in the middle.",
+    "cn": "我就是中间的小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Mummy is the piggy in the middle.",
+    "cn": "妈妈是中间的那头小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Catch, George!",
+    "cn": "接住了乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Oh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Missed it!",
+    "cn": "错过了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "George has caught the ball.",
+    "cn": "乔治他接住了球"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Hurry!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Well done, George.",
+    "cn": "做得好乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Now you throw the ball to Peppa",
+    "cn": "现在你把球扔给佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Oop!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Try again.",
+    "cn": "再试一遍"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Oh! Try again.",
+    "cn": "哦 再试一遍吧"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "George can't throw the ball past Mummy Pig.",
+    "cn": "乔治没办法把球扔给佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Come on, George.",
+    "cn": "来吧乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Give the ball to me.",
+    "cn": "快把球扔给我"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Silly George. I can do that, too.",
+    "cn": "犯规了乔治 我也可以这么做"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "Peppa wants to copy George",
+    "cn": "佩奇想学乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "but she's too big and",
+    "cn": "但是她太大了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "has got stuck.",
+    "cn": "被卡住了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "I've got the ball.",
+    "cn": "我拿到球了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Peppa, now it's your turn to be piggy.",
+    "cn": "佩奇 现在你来做中间的小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Catch!",
+    "cn": "接住了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Hurry!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Caught it!",
+    "cn": "接到了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "George, you're the piggy!",
+    "cn": "乔治你来做中间的小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "George! Catch.",
+    "cn": "乔治 接住了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Catch the ball, George.",
+    "cn": "接住球乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Catch, George.",
+    "cn": "接住乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "catch.",
+    "cn": "接住"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Here's the ball George.",
+    "cn": "看 求过来了 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Oh, dear!",
+    "cn": "哦天哪"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Peppa, you shouldn't tease George like that.",
+    "cn": "佩奇你不该这样逗乔治玩"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Sorry, George!",
+    "cn": "对不起乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Daddy Pig",
+    "content": "What's all the noise?",
+    "cn": "这是什么声音啊"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Daddy, George is too little",
+    "cn": "爸爸 乔治太小了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "to play 'Piggy in the middle'.",
+    "cn": "没法做 中间的小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Daddy Pig",
+    "content": "Oh, I'm sure he's big enough.",
+    "cn": "我觉得他足够大了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "No, he isn't,",
+    "cn": "不是的爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Daddy, watch.",
+    "cn": "你看好了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Daddy Pig",
+    "content": "Catch it, George.",
+    "cn": "接住乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Hurry!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "That's not fair!",
+    "cn": "这真不公平"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Daddy Pig",
+    "content": "Yes, it is.",
+    "cn": "很公平"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Daddy Pig",
+    "content": "I just gave George a helping hand.",
+    "cn": "我只不过是帮了乔治一下而已"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Mummy,",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "can I have a helping hand?",
+    "cn": "你能不能也帮我一下呢"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Of course you can,",
+    "cn": "当然可以了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Mummy Pig",
+    "content": "Peppa.",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "To me! George!",
+    "cn": "扔给我 乔治 接住了"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Peppa",
+    "content": "Catch, George.",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "Peppa loves catching the ball.",
+    "cn": "佩奇喜欢玩接球"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "George loves catching the ball.",
+    "cn": "乔治也喜欢玩接球"
+  },
+  {
+    "sId": 1,
+    "eId": 8,
+    "topic": "Piggy in the Middle",
+    "role": "Outsider",
+    "content": "Everyone loves catching the ball.",
+    "cn": "大家都喜欢玩接球"
+  }
+]

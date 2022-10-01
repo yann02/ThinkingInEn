@@ -1,0 +1,794 @@
+[
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Peppa and George",
+    "cn": "佩奇和乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "are playing at Granny Pig and Grandpa Pig's house.",
+    "cn": "在猪爷爷和猪奶奶的家里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa!",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Catch!",
+    "cn": "接住"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Catch!",
+    "cn": "接住啦"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "What's this?",
+    "cn": "这个是什么"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "George",
+    "content": "Dine-Saw! Grrrrr!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "A dinosaur!",
+    "cn": "一只恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa,",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "What are you doing?",
+    "cn": "你在干什么"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "I'm planting these seeds.",
+    "cn": "我正在播种呢"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Seeds?",
+    "cn": "种子"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "What do seeds do?",
+    "cn": "种子是干什么的"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Seeds grow into plants.",
+    "cn": "种子 会长出植物来"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "I just make a little hole",
+    "cn": "我只要挖一个小坑"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "and put the seed in.",
+    "cn": "把种子放进去"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Then I cover it with earth",
+    "cn": "然后用土盖住"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "and water it.",
+    "cn": "最后浇水"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Everything in my garden",
+    "cn": "我花园里所有的东西"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "grows from tiny seeds like these.",
+    "cn": "都是由这样的小种子发芽长大的"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Even the big apple tree?",
+    "cn": "连那大苹果树也是吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Oh! Yes!",
+    "cn": "哦 是的"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "This tiny seed...",
+    "cn": "这粒小种子"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "will grow into a little apple tree,",
+    "cn": "会长成一棵小小的苹果树"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "like this.",
+    "cn": "就像这样"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Oooh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "And that little apple tree will growing",
+    "cn": "然后这些小树会长高"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "to a big apple tree",
+    "cn": "变成一棵大苹果树"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Like this.",
+    "cn": "就像这样"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Ouch! Mmmm!",
+    "cn": "哎呀"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "And inside this apple are more seeds.",
+    "cn": "你们看苹果里面还有很多这样的种子"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "To make more apple trees!",
+    "cn": "可以长出更多的苹果树"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Exactly!",
+    "cn": "说得没错"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa!",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa! I want to plat a seed!",
+    "cn": "爷爷 我想种下一粒种子"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Would you like to plant a strawberry seed?",
+    "cn": "你想不想种下一粒草莓种子呀"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Yes, please!",
+    "cn": "是的 我想"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "This seed",
+    "cn": "到时候这粒种子"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "will grow into a lovely strawberry plant.",
+    "cn": "会长出一株可爱的草莓苗"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "First,",
+    "cn": "第一步"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "make a little hole.",
+    "cn": "要先挖个小洞"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Then I put the seed in",
+    "cn": "接着我把它放在里面"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "and cover it with earth.",
+    "cn": "然后用土埋上"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Shall I water it for you?",
+    "cn": "需要我来帮你浇水吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "No! No! I want to water it.",
+    "cn": "不要 不要 我自己来浇"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Good! Now we wait for it to grow.",
+    "cn": "好 现在我们来等它长大"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Peppa and George are waiting for the seed to grow.",
+    "cn": "佩奇和乔治在等着种子发芽"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "It's not doing anything!",
+    "cn": "怎么一点变化都没有"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "You will have to be patient, Peppa.",
+    "cn": "你必须要耐心等待佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "It will take a long time to grow.",
+    "cn": " 它要过很长时间才能发芽"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Mummy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Mummy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Mummy Pig",
+    "content": "It's time to go home.",
+    "cn": "时间到了回家吧"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "But we're waiting for my strawberry plant to grow!",
+    "cn": "但是我们在等着我的草莓发芽"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "I wanted strawberries for teas.",
+    "cn": "我还想用草莓来泡茶呢"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Don't worry, Peppa.",
+    "cn": "你不要担心 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Next time you come,",
+    "cn": "下次你来的时候"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "the seed will have grown into a plant.",
+    "cn": "这些种子就会长成一株草莓苗"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "And we will have strawberries!",
+    "cn": "到时候我们就有草莓吃啦"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Yes.",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Mummy Pig",
+    "content": "Come on, Peppa.",
+    "cn": "来吧佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Bye bye, Grandpa.",
+    "cn": "爷爷再见了"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Bye bye, strawberry.",
+    "cn": "再见了我的草莓"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Grandpa Pig looks after Peppa's strawberry plant.",
+    "cn": "猪爷爷帮佩奇照顾她的草莓"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "After many days,",
+    "cn": "过了一段时间"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Grandpa Pig finds a tiny plant growing.",
+    "cn": "猪爷爷发现长出了一株小小的植物"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Day by day, the plant grows bigger and bigger.",
+    "cn": "这株草莓苗一天天地长大"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Then one day,",
+    "cn": "然后有一天"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Grandpa Pig finds something very special.",
+    "cn": "猪爷爷发现了很特别的东西"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Strawberry!",
+    "cn": "是草莓"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa!",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "We're back!",
+    "cn": "我们来了"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "Peppa and George have come to play again.",
+    "cn": "佩奇和乔治又来玩了"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa! Grandpa!",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Did my plant grow?",
+    "cn": "我的草莓苗长大了吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Yes!",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Look!",
+    "cn": "你看"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "George",
+    "content": "Oooo!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Strawberries!",
+    "cn": "是草莓"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Thank you, Grandpa!",
+    "cn": "谢谢你 爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa,",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "can we plant something else?",
+    "cn": "我们能不能种点别的呢"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Yes!",
+    "cn": "当然了"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Now, it's George's turn to choose.",
+    "cn": "这次我们就让乔治来选择吧"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Yes!",
+    "cn": "没错"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "You choose, George.",
+    "cn": "你来选吧乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Choose... a carrot!",
+    "cn": "就选择 胡萝卜"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Grandpa,",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "I think George wants to grow a carrot.",
+    "cn": "我觉得乔治想种胡萝卜"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "Would you like to grow a carrot?",
+    "cn": "你想要种胡萝卜吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "George",
+    "content": "No!",
+    "cn": "不要"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Grandpa Pig",
+    "content": "What would you like to grow?",
+    "cn": "那么你想要种什么呢"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "George has thought of something he wants to grow.",
+    "cn": "乔治想到他想种的东西了"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "George",
+    "content": "Dine-Saw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Outsider",
+    "content": "George wants to grow a dinosaur tree!",
+    "cn": "乔治想种一棵恐龙树"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Silly George!",
+    "cn": "我说乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "Peppa",
+    "content": "Dinosaurs don't grow on trees.",
+    "cn": "恐龙是不会从树上长出来的"
+  },
+  {
+    "sId": 1,
+    "eId": 10,
+    "topic": "Gardening",
+    "role": "George",
+    "content": "Dine-Saw. Grrrrr....",
+    "cn": "恐龙"
+  }
+]

@@ -1,0 +1,650 @@
+[
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Daddy Pig wears glasses.",
+    "cn": "猪爸爸常戴着眼镜"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "He needs to wear glasses to see clearly.",
+    "cn": "他戴上眼镜才能看得清楚"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "When Daddy Pig wears his glasses,",
+    "cn": "乔治你这样玩是错的"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "everything looks fine.",
+    "cn": "一切看得很清楚"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "But when Daddy Pig takes his glasses off...",
+    "cn": "但是当猪爸爸摘掉了眼镜之后"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "...he can't see things clearly.",
+    "cn": "就什么都看不清了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Everything looks a bit soft and fuzzy.",
+    "cn": "所有东西看上去都是模糊的"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "So, it is very important",
+    "cn": "所以对猪爸爸来说"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "that Daddy Pig knows where his glasses are.",
+    "cn": "知道自己的眼镜在哪儿是很重要的"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Sometimes, Daddy Pig",
+    "cn": "猪爸爸有时候"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "loses his glasses.",
+    "cn": "会找不到他的眼镜"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "George.",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Have you seen Daddy Pig's glasses?",
+    "cn": "你们见到过爸爸的眼镜吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "He can't find them anywhere.",
+    "cn": "他到处都找不到"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "No, Mummy.",
+    "cn": "没有妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Peppa and George do not know where Daddy Pig's glasses are.",
+    "cn": "佩奇和乔治不知道爸爸的眼镜在哪里"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "dear.",
+    "cn": "糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig cannot see a thing without them",
+    "cn": "爸爸没有眼镜就什么都看不到"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "and it makes him very grumpy.",
+    "cn": "这会弄得很焦躁的"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Without his glasses on,",
+    "cn": "没有了眼镜的话"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Daddy Pig cannot read his newspaper.",
+    "cn": "猪爸爸看不了报纸了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "This is ridiculous!",
+    "cn": "这真是令人无语"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "I can't see anything!",
+    "cn": "我什么都看不到了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "Somebody must have",
+    "cn": "肯定有人把"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "put my glasses somewhere.",
+    "cn": "我的眼镜藏起来了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Do you remember where you last put them,",
+    "cn": "你还记得最后把眼镜放在哪吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig?",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "When I don't wear them,",
+    "cn": "我不戴的时候"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "I always put them in my pocket.",
+    "cn": "都是把眼镜放在口袋里的"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "But they aren't there now.",
+    "cn": "但现在不在口袋里"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Daddy!",
+    "cn": "那么爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Can we help find your glasses?",
+    "cn": "我们可以帮你一起去找眼镜吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Good idea, Peppa..",
+    "cn": "好主意啊 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "If you find them,",
+    "cn": "如果找到了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Daddy will stop being so grumpy.",
+    "cn": "那爸爸就不会这么焦虑"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "I'm not grumpy.",
+    "cn": "我并没有焦虑"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Peppa and George are looking for Daddy's glasses.",
+    "cn": "佩奇和乔治开始帮爸爸找眼镜了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Peppa looks under the newspaper.",
+    "cn": "佩奇找了报纸底下"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "George looks on top of the television.",
+    "cn": "乔治找了电视机的上面"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "But Daddy Pig's glasses are not there.",
+    "cn": "但是爸爸的眼镜也不在那儿"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "George",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Let's look upstairs in Mummy and Daddy's bedroom!",
+    "cn": "我们到楼上爸爸妈妈的卧室里看看吧"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Peppa and George",
+    "cn": "佩奇和乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "are looking in Mummy and Daddy Pig's bedroom.",
+    "cn": "开始在爸爸妈妈的房间里找"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "George...",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "be careful not to knock anything over.",
+    "cn": "要小心一点 别把任何东西碰到"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Argh!",
+    "cn": " 啊"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "It's not funny.",
+    "cn": "这一点都不好笑"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Peppa looks under the pillows.",
+    "cn": "佩奇找了枕头底下"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "But Daddy Pig's glasses are not there.",
+    "cn": "但是爸爸的眼镜不在那儿"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "George looks in Daddy's slippers.",
+    "cn": "乔治找了爸爸的拖鞋"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "But the glasses are not there, either.",
+    "cn": "但是眼镜也不在那儿"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Let's look in the bathroom!",
+    "cn": "我们去浴室里看看"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Peppa and George are looking in the bathroom.",
+    "cn": "佩奇和乔治开始在浴室里找"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "The glasses are not in the bath.",
+    "cn": "眼镜不在浴缸里"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "George",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "The glasses are not in the toilet.",
+    "cn": "眼镜也不在马桶里"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Oh. Hmm! It's too difficult.",
+    "cn": "哦 这眼镜也太难找了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "Peppa and George cannot",
+    "cn": "佩奇和乔治就是找不到猪爸爸的眼镜"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Outsider",
+    "content": "find Daddy Pig's glasses anywhere.",
+    "cn": "哪儿都没有"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "We've looked everywhere.",
+    "cn": "我们全都找过了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "But we can't find Daddy's glasses.",
+    "cn": "但是不管哪儿都找不到爸爸的眼镜"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Oh, dear.",
+    "cn": "哦糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Now, what can we do?",
+    "cn": "我们现在该怎么办？"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "I suppose I'll just have to learn to do without them...",
+    "cn": "看来我以后只能适应没眼镜的生活了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "If I move slowly, I won't bump into things.",
+    "cn": "如果我走的慢点 我不会撞到东西的"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "There they are!",
+    "cn": "你们快看啊"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Daddy's glasses!",
+    "cn": "眼镜就在那儿呢"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig.",
+    "cn": "我说猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "You were sitting on them all the time!",
+    "cn": "原来你一直都坐在眼镜的上面"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "Oh...",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Peppa",
+    "content": "Silly Daddy!",
+    "cn": "迷糊的爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "I don't know how they got there.",
+    "cn": "真不知道怎么会跑到那儿去的"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "I wonder how!",
+    "cn": "我也想知道为什么"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "Well, you may have been a bit silly, Daddy Pig,",
+    "cn": "虽然你的确是有一点点迷糊 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Mummy Pig",
+    "content": "but at least you're not grumpy anymore!",
+    "cn": "但是至少你不会再焦虑了"
+  },
+  {
+    "sId": 1,
+    "eId": 9,
+    "topic": "Daddy Loses His Glasses",
+    "role": "Daddy Pig",
+    "content": "I was not grumpy.",
+    "cn": "我可从来没有焦虑过"
+  }
+]

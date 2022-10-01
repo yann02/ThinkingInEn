@@ -1,0 +1,690 @@
+[
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "It is a bright sunny day.",
+    "cn": "今天是个阳光明媚的好日子"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Peppa and her family are in the park.",
+    "cn": "佩奇一家在公园里玩呢"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "They are going to fly a kite!",
+    "cn": "他们要去放风筝啦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "George is going to fly the kite first.",
+    "cn": "乔治要第一个把风筝飞起来"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "George runs as fast as he can.",
+    "cn": "乔治已经尽全力在跑了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "But the kite won't fly.",
+    "cn": "但是风筝就是飞不起来"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "George! You're doing it all wrong!",
+    "cn": "乔治 这一次你完全做错了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "You didn't run fast enough.",
+    "cn": "看来你跑得还不够快"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Now, it's my turn.",
+    "cn": "现在该轮到我了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Peppa runs as fast as she can.",
+    "cn": "佩奇也尽全力在跑"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "But the kite still won't fly.",
+    "cn": "但是风筝还是飞不起来"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "The kite won't fly",
+    "cn": "如果没有风的话"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "If there isn't any wind,",
+    "cn": "不管你们跑多快"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "no matter how fast you run.",
+    "cn": "风筝都是飞不起来的"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "We'll just have to wait,",
+    "cn": "我们再等等吧"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "until the wind picks up a bit.",
+    "cn": "一会儿风就会吹起来的"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Look,",
+    "cn": "瞧啊"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "it's getting windy!",
+    "cn": "现在开始起风啦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Now that it is windy, the kite can fly!",
+    "cn": "现在起风啦 风筝可以飞了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "The wind is quite strong now.",
+    "cn": "风已经刮得很大了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "The wind is very strong now!",
+    "cn": "现在风越来越大了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "George! Wahhh!",
+    "cn": "乔治 哇"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Thank you, Daddy",
+    "cn": "谢谢你 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Daddy Pig flies the kite.",
+    "cn": "猪爸爸开始放风筝了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Hurry!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Higher, higher!",
+    "cn": "再高点 再高点"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Daddy Pig flies the kite very well.",
+    "cn": "猪爸爸放风筝的技术非常好"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Wow!",
+    "cn": "哇哦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Yes,",
+    "cn": "没错"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "I am a bit of an expert at these things.",
+    "cn": "这种事的话 我可以算专家了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "Watch out for the trees!",
+    "cn": "小心 那边有些树"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "You might get the kite stuck in one.",
+    "cn": "小心别把风筝卡在上面了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Don't worry,",
+    "cn": "别担心"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "I know what I'm doing.",
+    "cn": "我知道我在做什么"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "哦 糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Daddy Pig has got the kite caught in a tree.",
+    "cn": "猪爸爸的风筝卡在树枝上了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Oh, no!",
+    "cn": "哦糟糕"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "Don't worry, George.",
+    "cn": "不要担心乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "Daddy will get the kite down.",
+    "cn": "爸爸会把风筝拿下来的"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Hurry!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Err...",
+    "cn": "呃"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Yes.",
+    "cn": "是的 别担心"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Careful!",
+    "cn": "小心点"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "There's a big muddy puddle!",
+    "cn": "那儿有一个大泥坑"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Peppa and George love to jump in muddy puddles.",
+    "cn": "佩奇和乔治就喜欢在泥坑里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Can we jump in the puddle.",
+    "cn": "我们能跳到泥坑里吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Please.",
+    "cn": "求你们了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "No.",
+    "cn": "不行"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "I don't want you covered in mud.",
+    "cn": "我可不想你们浑身都是泥"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Stand back,",
+    "cn": "往后站"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "children.",
+    "cn": "孩子们"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "Please be careful, Daddy Pig!",
+    "cn": "一定要小心点 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "I know what I'm doing.",
+    "cn": "我知道自己正在做什么"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "Please be careful!",
+    "cn": "一定要当心啊"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Just a bit further, Daddy!",
+    "cn": "你还要再往前一点 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig,",
+    "cn": "不行 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "you are much too heavy",
+    "cn": "你太重了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "for that branch!",
+    "cn": "那根树枝撑不住的"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Nonsense!",
+    "cn": "你这是在胡说"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "I know exactly how heavy I am.",
+    "cn": "没人猜得到我的盒子里有什么"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "There!",
+    "cn": "够到了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Hurry!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Daddy Pig has rescued the kite!",
+    "cn": "猪爸爸够到了树枝上的风筝"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "哦糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Everyone is covered in mud.",
+    "cn": "大家身上都是泥"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "It's only mud.",
+    "cn": "大家都脏了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Luckily, Daddy Pig hasn't hurt himself.",
+    "cn": "幸好猪爸爸他没有伤到自己"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "And the kite is out of the tree!",
+    "cn": "风筝也被拿了下来"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig,Peppa,George",
+    "content": "Hurry!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Mummy...",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "Now that we are muddy,",
+    "cn": "既然我们已经很脏了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Peppa",
+    "content": "can we jump in the puddle?",
+    "cn": "现在能跳泥坑了吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "I suppose so. After all,",
+    "cn": "好吧 随你们高兴"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "You can't get any muddier...",
+    "cn": "再怎么玩也不会更脏了"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Mummy Pig",
+    "content": "And I think Daddy Pig is going to be doing the washing.",
+    "cn": "不过我想你们的爸爸得去洗洗才行"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Daddy Pig",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Peppa and George love jumping up and down in muddy puddles!",
+    "cn": "佩奇和乔治喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Mummy and Daddy love jumping up and down in muddy puddles!",
+    "cn": "妈妈和爸爸也喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Everyone loves jumping up and down in muddy puddles!",
+    "cn": "大家都喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "Jumping up and down in muddy puddles",
+    "cn": "在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 14,
+    "topic": "Flying a kite!",
+    "role": "Outsider",
+    "content": "is just as much fun as flying the kite!",
+    "cn": "和放风筝一样有趣"
+  }
+]

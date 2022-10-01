@@ -1,0 +1,578 @@
+[
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "Mummy and Daddy",
+    "cn": "妈妈和爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "are having breakfast.",
+    "cn": "正在吃早餐"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "It is a lovely, sunny day,",
+    "cn": "今天是个阳光明媚的日子"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "and Peppa and George can't wait to go into the garden to play.",
+    "cn": "佩奇和乔治迫不及待想去花园里玩了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Mummy, please,",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "can we go out to play?",
+    "cn": "我们可以出去玩了吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "You can go out to play when you finish your breakfast.",
+    "cn": "等你们两个吃完早餐就可以出去玩啦"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Daddy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Daddy Pig",
+    "content": "Don't drink your juice too quickly!",
+    "cn": "果汁不要喝得那么快"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "George drank his juice too quickly,",
+    "cn": "乔治果汁喝得太快"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "and now he has hiccups.",
+    "cn": "结果现在开始打嗝了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Can we go out to play now, Mummy?",
+    "cn": "我们现在能出去玩了吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "Not while George has hiccups.",
+    "cn": "不行 乔治还在打嗝呢"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "But George's hiccups have gone, Mummy.",
+    "cn": "乔治的打嗝已经好了 妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Haven't they, George?",
+    "cn": "你好了吗 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "Oh, alright, you can go out and play.",
+    "cn": "好吧 你们两个可以出去玩了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "But look after George.",
+    "cn": "但要照顾好乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "Peppa and George love playing in the garden.",
+    "cn": "乔治和佩奇最喜欢在花园里玩了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "George, I'm going to throw the ball,",
+    "cn": "乔治 现在我先来扔球"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "and then you have to catch it.",
+    "cn": "你一定要接住它才行"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "please stop hiccupping!",
+    "cn": "不要再打嗝了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Now you throw the ball to me,",
+    "cn": "现在轮到你来扔球"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "and I have to catch it.",
+    "cn": "由我来接住球了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "Oh, dear,",
+    "cn": "哦不好"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "George's hiccups are spoiling the game.",
+    "cn": "乔治的打嗝让他们没法玩了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "George...",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "I know how to cure hiccups!",
+    "cn": "我知道什么能治好打嗝"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "You have to do what I say.",
+    "cn": "你就照我说的去做"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Rub the top of your head and rub your tummy!",
+    "cn": "你在挠头的同时按摩你的肚子"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Good!",
+    "cn": "很好"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Now your hiccups have gone!",
+    "cn": "你的打嗝治好了"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "Peppa's cure for hiccups doesn't seem to have worked.",
+    "cn": "佩奇治愈打嗝的良方看来不太管用"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "You have done it all wrong!",
+    "cn": "你的动作不对"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "I know a better way to cure hiccups!",
+    "cn": "我知道另一个办法能够治好打嗝"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "First, jump up and down three times...",
+    "cn": "首先 你要上上下下跳三次"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "On one leg!",
+    "cn": "要单腿"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Now... Wave your arms up and down",
+    "cn": "然后 再上下摇摆你的手臂"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "and stick your tongue out!",
+    "cn": "还要把舌头伸出来"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "And now...",
+    "cn": "现在呢"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "close your eyes,",
+    "cn": "把眼镜闭上"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "and turn around quickly,",
+    "cn": "再快速地转圈圈"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "three times!",
+    "cn": "要做三次"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "Peppa's new cure hasn't worked, either.",
+    "cn": "佩奇的新方法还是不管用"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "George still has hiccups.",
+    "cn": " 乔治现在还在打嗝"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "I know!",
+    "cn": "我知道啦"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "To cure hiccups,",
+    "cn": "想要治好打嗝"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "the ill piggy must be given a shock!",
+    "cn": "那你就必须要受到惊吓才可以"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "George, I'm going to scare you.",
+    "cn": "乔治 我要来吓唬你咯"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "But you must remember, it's only a game.",
+    "cn": "但是你要记住这只是一个游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "And it will stop your hiccups.",
+    "cn": "是为了让你不再打嗝"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Remember,",
+    "cn": "一定要记住"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "this is just pretend scaring.",
+    "cn": "我只不过是假装在吓唬你"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "You mustn't",
+    "cn": "和乔治玩的时候"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "play so roughly with George!",
+    "cn": "不能这么粗暴啊"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "He's only little.",
+    "cn": "他还那么小"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "Sorry, Mummy.",
+    "cn": "对不起 妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "I was just trying to stop George's hiccups.",
+    "cn": "我只是想让乔治能够不再打嗝"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "George's hiccups have gone!",
+    "cn": "乔治的打嗝治好啦"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "Here comes Daddy Pig,",
+    "cn": "这时猪爸爸来啦"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Outsider",
+    "content": "with two beakers of juice.",
+    "cn": "带来了两杯果汁"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "If you drink too quickly,",
+    "cn": "你喝得那么快"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Mummy Pig",
+    "content": "you will get hiccups again!",
+    "cn": "等一会儿又要打嗝啦"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "I'm not as little as George.",
+    "cn": "不过我可比乔治要大多啦"
+  },
+  {
+    "sId": 1,
+    "eId": 11,
+    "topic": "Hiccups",
+    "role": "Peppa",
+    "content": "I can drink juice as quickly as I want to!",
+    "cn": "所以我可以想喝多快就喝多快"
+  }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Outsider",
+    "content": "It is a lovely bright, sunny day.",
+    "cn": "今天是个阳光明媚的好日子"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Outsider",
+    "content": "Peppa and her family are going for a picnic.",
+    "cn": "佩奇和家人们要去郊外野餐"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Outsider",
+    "content": "Daddy Pig is bringing the picnic basket.",
+    "cn": "猪爸爸手里拿着野餐篮子"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Picnic blanket,",
+    "cn": "我带了野餐布"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "bread,",
+    "cn": "面包"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "cheese,",
+    "cn": "奶酪"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "tomatoes",
+    "cn": "番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "and lemonade.",
+    "cn": "还有柠檬水"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Is there anything we've forgotten?",
+    "cn": "有什么东西忘记拿了吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Mummy's strawberry cake!",
+    "cn": "妈妈的草莓蛋糕"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "I was just teasing!",
+    "cn": "我是在逗你啦"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Mummy's home-made strawberry cake is there too.",
+    "cn": "猪妈妈的自制蛋糕当然拿好了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Is everybody ready?",
+    "cn": "大家准备好了吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa,George,Mummy Pig",
+    "content": "Ready!",
+    "cn": "准备好了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Then let's go!",
+    "cn": "那我们出发吧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "This looks like just the spot for our picnic!",
+    "cn": "这个地方看上去很适合我们野餐啊"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig,Peppa",
+    "content": "Hurry!",
+    "cn": "好棒"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "It's great to be outdoors!",
+    "cn": "出来玩真开心啊"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "We should run around a bit and get some exercise!",
+    "cn": "我们应该稍微跑一下做些锻炼"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "I want to eat, then have a nap.",
+    "cn": "我想吃点东西再睡一会儿"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "I certainly don't want to run around.",
+    "cn": "我可不想再跑来跑去了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Maybe Daddy should run around a bit!",
+    "cn": "也许只有爸爸该去做些锻炼"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "His tummy is quite big.",
+    "cn": "他的肚子真的太大了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "My tummy is not big.",
+    "cn": "我的肚子才不大呢"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "But later, I will get some exercise,",
+    "cn": "待会儿就算你们都不锻炼"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "even if no one else goes.",
+    "cn": "我也会自己去的"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Let's eat!",
+    "cn": "我们开动吧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Good idea, Mummy Pig!",
+    "cn": "好主意猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "I'm really hungry.",
+    "cn": "我实在是太饿了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Hmmm...",
+    "cn": "嗯"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Delicious!",
+    "cn": "真好吃"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Ahhhhh!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "I feel quite sleepy!",
+    "cn": "我感觉有一点困了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "I thought you wanted to run around a bit, Daddy Pig?",
+    "cn": "我记得你说想去跑步锻炼一下呢"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Later...",
+    "cn": "过一会儿吧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Look!",
+    "cn": "瞧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "There's a little duck pond!",
+    "cn": "那有个小鸭塘呢"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Mummy, can we feed the ducks?",
+    "cn": "妈妈我们能够去喂鸭子吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Yes,",
+    "cn": "当然了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "You can feed them the rest of the bread.",
+    "cn": "可以把剩下的面包都拿去"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Outsider",
+    "content": "Peppa and George love feeding bread to ducks.",
+    "cn": "佩奇和乔治最喜欢喂鸭子了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Mummy, I think they want some more.",
+    "cn": "妈妈 我觉得他们想要再来点"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "That was the last of the bread.",
+    "cn": "那些面包吃完就没了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "I'm sure they've had enough.",
+    "cn": "我觉得已经够了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Sorry,",
+    "cn": "对不起"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Mrs. Duck,",
+    "cn": "鸭子女士"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "we've no more bread.",
+    "cn": "我们的面包都吃完了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Outsider",
+    "content": "The duck want more food.",
+    "cn": "鸭子想要更多吃的"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "So much for Daddy Pig and his exercise.",
+    "cn": "猪爸爸也只是嘴上说说要锻炼"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Eh?",
+    "cn": "诶"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "What?",
+    "cn": "怎么了？"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "You lot again!",
+    "cn": "又是你们啊"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Peppa told you",
+    "cn": "佩奇说过了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "there's no more bread!",
+    "cn": "已经没有面包了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Mummy, we do have strawberry cake!",
+    "cn": "妈妈 我们不是还有点草莓蛋糕吗"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Well, if there's any cake left over,",
+    "cn": "如果有蛋糕剩下的话"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "you can give it to the ducks.",
+    "cn": "你可以喂给鸭子吃"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Outsider",
+    "content": "Everyone likes Mummy Pig's home-made strawberry cake!",
+    "cn": "大家都喜欢猪妈妈的自制草莓蛋糕"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Eeek!",
+    "cn": "天啊"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "A wasp!",
+    "cn": "一只黄蜂"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "I hate wasps!",
+    "cn": "我讨厌黄蜂"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Shoooo!",
+    "cn": "走开"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "What a fuss, Mummy Pig!",
+    "cn": "这有什么关系猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "It's only a little wasp!",
+    "cn": "一只小黄蜂而已"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Go away, wasp!",
+    "cn": "走开黄蜂"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Just stay still, Mummy Pig.",
+    "cn": "你待着别动猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Then it will fly away.",
+    "cn": "它就会飞走的"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "There! You see,",
+    "cn": "看飞走了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "all you had to do is stay still.",
+    "cn": "你只要待着别动就行了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Eh!",
+    "cn": "诶"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Get away!",
+    "cn": "快走开"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Scram!",
+    "cn": "走开"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Whoa... Help!",
+    "cn": "哇哦 救命啊"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Whoooooaaa!",
+    "cn": "嗷"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Shhooo!",
+    "cn": "走开"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Get it off me!",
+    "cn": "不要跟着我"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Whoooa! Arrgh!",
+    "cn": "哇哦"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "I hope the wasp doesn't sting Daddy!",
+    "cn": "希望那只黄蜂没有叮到爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Whooa!",
+    "cn": "哇"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Get away,",
+    "cn": "快走开"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "you little pest!",
+    "cn": "你这只小虫子"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "No,",
+    "cn": "不会的"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Daddy is running too fast for the wasp to catch him.",
+    "cn": "爸爸跑得很快黄蜂追不到他的"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Whoooa! Arrgh!",
+    "cn": "哇哦"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Shooo!",
+    "cn": "走开"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Let's eat our cake before the wasp comes back.",
+    "cn": "在黄蜂回来前 我们把蛋糕吃了吧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Oh, no! We forgot to leave any for the ducks!",
+    "cn": "哦不好我们不记得给鸭子留点儿了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "I think I lost it!",
+    "cn": "黄蜂没有跟着吧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "You said you would run around and get some exercise, Daddy Pig!",
+    "cn": "你说过要跑两圈锻炼一下的猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "But I didn't believe you'd do it!",
+    "cn": "但是我看你什么都没做"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Luckily, I managed to hang on to",
+    "cn": "幸好啊我的这份草莓蛋糕"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "my slice of strawberry cake!",
+    "cn": "还没有吃完呢"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Stop, Daddy!",
+    "cn": "别吃了 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "We promised the rest of the cake for the ducks!",
+    "cn": "剩下的蛋糕要给鸭子吃的"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "You are very lucky ducks.",
+    "cn": "你们是非常幸运的鸭子"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Say 'thank you' to Daddy Pig.",
+    "cn": "快点和爸爸说 谢谢 吧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Daddy Pig",
+    "content": "You're most welcome.",
+    "cn": "不用那么客气"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "It's time to go home.",
+    "cn": "我们该回家了"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Mummy Pig",
+    "content": "Say goodbye to the ducks.",
+    "cn": "和鸭子们说再见吧"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "Bye bye, ducks.",
+    "cn": "再见了鸭子们"
+  },
+  {
+    "sId": 1,
+    "eId": 15,
+    "topic": "Picnic",
+    "role": "Peppa",
+    "content": "See you next time.",
+    "cn": "下次再见了"
+  }
+]
