@@ -2,6 +2,7 @@ package com.yyw.thinkinginen
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
@@ -143,16 +144,18 @@ class MainActivity : ComponentActivity() {
 //            Log.d("wyy", "files:$files")
 //            Log.d("wyy", "files.size:${files?.size}")
             if (!files.isNullOrEmpty()) {
-//                for (s in files) {
                 for ((seasonIndex, s) in files.withIndex()) {
 //                    Log.d("wyy", "s:$s")
                     val season = seasonIndex + 1
                     seasons.add(Season(season, "Season $season"))
                     val subFiles = assets.list("PeppaPig/$s")
+                    subFiles?.sortBy {
+                        it.split(".")[0].toInt()
+                    }
                     if (!subFiles.isNullOrEmpty()) {
-//                        for (ss in subFiles) {
                         for ((episodeIndex, ss) in subFiles.withIndex()) {
                             //  seasonIndex * 1000用于区分不同的季，避免重复的episodeId
+                            Log.d(TAG, "ss:$ss")
                             val episodeId = episodeIndex + 1 + seasonIndex * 1000
                             val sort = episodeIndex + 1
 //                            Log.d("wyy", "ss:$ss")
