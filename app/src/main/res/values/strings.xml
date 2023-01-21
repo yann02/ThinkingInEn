@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">ThinkingInEn</string>
+    <string name="app_name">TIE</string>
     <string name="drawer_content">Episode %d: %s</string>
 </resources>

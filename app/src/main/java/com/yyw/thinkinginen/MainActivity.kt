@@ -7,7 +7,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
+import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
+import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
+import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.ComposeView
@@ -33,14 +37,16 @@ class MainActivity : ComponentActivity() {
     private val model: MainViewModel by viewModels()
 
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
-    @OptIn(ExperimentalMaterial3Api::class)
+    @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3WindowSizeClassApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
-        getSentences()
+        if (!model.hasInit) {
+            getSentences()
+            model.upDataHasInit()
+        }
         setContentView(
             ComposeView(this).apply {
-                consumeWindowInsets = false
                 setContent {
                     CompositionLocalProvider(LocalBackPressedDispatcher provides this@MainActivity.onBackPressedDispatcher) {
                         ThinkingInEnTheme {
@@ -51,7 +57,9 @@ class MainActivity : ComponentActivity() {
                             val messages2: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
                             val episodeName by model.mCurrentViewEpisodeName.collectAsState()
                             val drawerOpen by model.drawerShouldBeOpened.collectAsState()
-                            val scrollToPosition by model.mScrollToPosition.collectAsState()
+                            var scrollToPosition by rememberSaveable {
+                                mutableStateOf(-1)
+                            }
                             val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
                             if (drawerOpen) {
                                 // Open drawer and reset state in VM.
@@ -74,51 +82,97 @@ class MainActivity : ComponentActivity() {
                                 }
                             }
                             if (seasons.isNotEmpty() && lastPosition is Result.Success && messages2 is Result.Success) {
-                                ModalNavigationDrawer(
-                                    drawerState = drawerState,
-                                    drawerContent = {
-                                        MyDrawerContent(seasons, onSeasonClick = { season ->
-                                            model.onSeasonClick(season)
-                                        }, onEpisodeClick = { sId, eId ->
-                                            scope.launch {
-                                                drawerState.close()
-                                                model.onEpisodeClick(sId, eId)
-                                            }
-                                        })
-                                    }) {
-                                    val topBarState = rememberTopAppBarState()
-                                    val scrollBehavior =
-                                        remember { TopAppBarDefaults.pinnedScrollBehavior(topBarState) }
-                                    Surface(
-                                        modifier = Modifier.windowInsetsPadding(
-                                            WindowInsets.navigationBars.only(
-                                                WindowInsetsSides.Horizontal + WindowInsetsSides.Top
-                                            )
-                                        )
-                                    ) {
-                                        Box(modifier = Modifier.fillMaxSize()) {
-                                            Column(
-                                                Modifier
-                                                    .fillMaxSize()
-                                                    .nestedScroll(scrollBehavior.nestedScrollConnection)
-                                            ) {
-                                                Sentences(
-                                                    data = (messages2 as Result.Success).data,
-                                                    lastPosition = (lastPosition as Result.Success).data,
-                                                    scrollToPosition = scrollToPosition,
-                                                    modifier = Modifier
-                                                        .weight(1f)
-                                                        .navigationBarsPadding(),
-                                                    onUpdateLastScrollPosition = model::updateLastScrollPosition,
-                                                    onClickContent = model::onClickMessageById
+                                val windowSize = calculateWindowSizeClass(this@MainActivity)
+                                when (windowSize.widthSizeClass) {
+                                    WindowWidthSizeClass.Compact -> {
+                                        Log.d(TAG, "WindowWidthSizeClass.Compact")
+                                        ModalNavigationDrawer(
+                                            drawerState = drawerState,
+                                            modifier = Modifier.navigationBarsPadding(),
+                                            drawerContent = {
+                                                MyDrawerContent(seasons, onSeasonClick = { season ->
+                                                    model.onSeasonClick(season)
+                                                }, onEpisodeClick = { sId, eId ->
+                                                    scope.launch {
+                                                        drawerState.close()
+                                                        scrollToPosition = model.onEpisodeClick(sId, eId)
+                                                    }
+                                                })
+                                            }) {
+                                            val topBarState = rememberTopAppBarState()
+                                            val scrollBehavior =
+                                                remember { TopAppBarDefaults.pinnedScrollBehavior(topBarState) }
+                                            Surface(
+                                                modifier = Modifier.windowInsetsPadding(
+                                                    WindowInsets.navigationBars.only(
+                                                        WindowInsetsSides.Horizontal + WindowInsetsSides.Top
+                                                    )
                                                 )
-                                            }
-                                            MyAppBar(
-                                                scrollBehavior,
-                                                episodeName,
-                                                "Episode $curEpisode / Season $curSeason"
                                             ) {
-                                                model.openDrawer()
+                                                Box(modifier = Modifier.fillMaxSize()) {
+                                                    Column(
+                                                        Modifier
+                                                            .fillMaxSize()
+                                                            .nestedScroll(scrollBehavior.nestedScrollConnection)
+                                                    ) {
+                                                        Sentences(
+                                                            data = (messages2 as Result.Success).data,
+                                                            lastPosition = (lastPosition as Result.Success).data,
+                                                            scrollToPosition = scrollToPosition,
+                                                            modifier = Modifier
+                                                                .weight(1f)
+                                                                .navigationBarsPadding(),
+                                                            onUpdateLastScrollPosition = model::updateLastScrollPosition,
+                                                            onClickContent = model::onClickMessageById
+                                                        )
+                                                    }
+                                                    MyAppBar(
+                                                        scrollBehavior,
+                                                        episodeName,
+                                                        "Episode $curEpisode / Season $curSeason"
+                                                    ) {
+                                                        model.openDrawer()
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    else -> {
+                                        Log.d(TAG, "WindowWidthSizeClass.else")
+                                        PermanentNavigationDrawer(drawerContent = {
+                                            MyDrawerContent(seasons, onSeasonClick = { season ->
+                                                model.onSeasonClick(season)
+                                            }, onEpisodeClick = { sId, eId ->
+                                                scrollToPosition = model.onEpisodeClick(sId, eId)
+//                                                scope.launch {
+//                                                    drawerState.close()
+//                                                    scrollToPosition = model.onEpisodeClick(sId, eId)
+//                                                }
+                                            })
+                                        }) {
+                                            Surface(
+                                                modifier = Modifier.windowInsetsPadding(
+                                                    WindowInsets.navigationBars.only(
+                                                        WindowInsetsSides.Horizontal + WindowInsetsSides.Top
+                                                    )
+                                                )
+                                            ) {
+                                                Column(
+                                                    Modifier
+                                                        .fillMaxSize()
+                                                ) {
+                                                    Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
+                                                    Sentences(
+                                                        data = (messages2 as Result.Success).data,
+                                                        lastPosition = (lastPosition as Result.Success).data,
+                                                        scrollToPosition = scrollToPosition,
+                                                        modifier = Modifier
+                                                            .weight(1f)
+                                                            .navigationBarsPadding(),
+                                                        onUpdateLastScrollPosition = model::updateLastScrollPosition,
+                                                        onClickContent = model::onClickMessageById
+                                                    )
+                                                }
                                             }
                                         }
                                     }
@@ -136,6 +190,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun getSentences() {
+        Log.d(TAG, "getSentences")
         val seasons = mutableListOf<Season>()
         val episodes = mutableListOf<Episode>()
         val res = mutableListOf<Message>()

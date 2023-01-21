@@ -1,5 +1,6 @@
 package com.yyw.thinkinginen.components
 
+import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
@@ -15,9 +16,13 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.integerResource
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.semantics.heading
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.yyw.thinkinginen.R
+import com.yyw.thinkinginen.TAG
 import com.yyw.thinkinginen.entities.vo.ViewMessage
 
 @Composable
@@ -29,6 +34,8 @@ fun Sentences(
     onUpdateLastScrollPosition: (Int) -> Unit,
     onClickContent: (ViewMessage) -> Unit
 ) {
+    Log.d(TAG,"=====Sentences lastPosition:$lastPosition")
+    Log.d(TAG,"=====Sentences scrollToPosition:$scrollToPosition")
     val listState = rememberLazyListState(initialFirstVisibleItemIndex = lastPosition)
     if (scrollToPosition != -1) {
         LaunchedEffect(scrollToPosition) {
@@ -49,7 +56,7 @@ fun Sentences(
             val isNewEpisode = content.eId != 1 && content.eId != prevEpisode
             item {
                 if (isNewEpisode) {
-                    Text(text = content.topic)
+                    SentenceHeader(text = content.topic)
                 }
                 Sentence(content, isFirstMessageByRole, onClickContent)
             }
@@ -57,6 +64,26 @@ fun Sentences(
     }
     val firstVisibleItemIndex by remember { derivedStateOf { listState.firstVisibleItemIndex } }
     onUpdateLastScrollPosition(firstVisibleItemIndex)
+}
+
+@Composable
+fun SentenceHeader(text: String) {
+    Column {
+        Spacer(modifier = Modifier.height(integerResource(id = R.integer.header_margin_top).dp))
+        Surface(color = MaterialTheme.colorScheme.primary, modifier = Modifier.fillMaxWidth()) {
+            Text(
+                text = text, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(
+                    horizontal = integerResource(
+                        id = R.integer.horizontal_padding
+                    ).dp,
+                    vertical = integerResource(
+                        id = R.integer.vertical_padding_of_header
+                    ).dp
+                )
+            )
+        }
+        Spacer(modifier = Modifier.height(integerResource(id = R.integer.header_margin_bottom).dp))
+    }
 }
 
 
@@ -96,7 +123,7 @@ fun Sentence(msg: ViewMessage, isFirstMessageByRole: Boolean, onClickContent: (V
             Surface(
                 tonalElevation = 1.dp,
                 shape = MaterialTheme.shapes.medium,
-                ) {
+            ) {
                 Column(modifier = Modifier.clickable { onClickContent(msg) }) {
 //                    Text(text = msg.content, style = MaterialTheme.typography.body2, modifier = Modifier.padding(8.dp))
                     Text(

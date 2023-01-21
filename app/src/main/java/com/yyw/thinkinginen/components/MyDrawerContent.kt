@@ -1,7 +1,7 @@
 package com.yyw.thinkinginen.components
 
 import android.util.Log
-import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -13,6 +13,7 @@ import androidx.compose.material.icons.filled.ExpandLess
 import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -26,17 +27,20 @@ import com.yyw.thinkinginen.entities.vo.ViewSeason
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun MyDrawerContent(data: List<ViewSeason>, onSeasonClick: (ViewSeason) -> Unit, onEpisodeClick: (Int, Int) -> Unit) {
     Log.d(TAG, "MyDrawerContent")
     Column {
         Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
-        data.forEach { season ->
-            DrawerItemHeader(season.name, season.episodes.size.toString(), season.isOpen) {
-                onSeasonClick(season)
-            }
-            AnimatedVisibility(visible = season.isOpen) {
-                LazyColumn {
+        LazyColumn {
+            data.forEach { season ->
+                stickyHeader {
+                    DrawerItemHeader(season.name, season.episodes.size.toString(), season.isOpen) {
+                        onSeasonClick(season)
+                    }
+                }
+                if (season.isOpen) {
                     items(items = season.episodes, key = { episode -> episode.episodeId }) { episode ->
                         DrawerItemContent(
                             stringResource(
@@ -61,27 +65,32 @@ private fun DrawerItemHeader(
     isOpen: Boolean = false,
     onSeasonClick: () -> Unit = {}
 ) {
-    Row(
-        modifier = Modifier
-            .heightIn(min = 52.dp)
-            .fillMaxWidth()
-            .padding(horizontal = 12.dp)
-            .clickable { onSeasonClick() },
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.SpaceBetween
-    ) {
-        Text(
-            text,
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
-        Row(verticalAlignment = Alignment.CenterVertically) {
+    Surface {
+        Row(
+            modifier = Modifier
+                .heightIn(min = 52.dp)
+                .fillMaxWidth()
+                .clickable { onSeasonClick() }
+                .padding(horizontal = 12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
             Text(
-                text = episodeNum,
+                text,
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
-            Icon(imageVector = if(isOpen) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore, contentDescription = null)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    text = episodeNum,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Icon(
+                    imageVector = if (isOpen) Icons.Filled.ExpandLess else Icons.Filled.ExpandMore,
+                    contentDescription = null
+                )
+            }
         }
     }
 }

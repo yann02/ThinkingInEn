@@ -31,6 +31,13 @@ class MainViewModel @Inject constructor(
     val mSettingScrollPositionUseCase: SettingScrollPositionUseCase
 ) : ViewModel() {
 
+    private var _hasInitData = false
+    val hasInitData = _hasInitData
+
+    fun upDataHasInit() {
+        _hasInitData = true
+    }
+
     private val _drawerShouldBeOpened = MutableStateFlow(false)
     val drawerShouldBeOpened: StateFlow<Boolean> = _drawerShouldBeOpened
 
@@ -46,6 +53,7 @@ class MainViewModel @Inject constructor(
         mOnScrollPositionUseCase(Unit).stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
     fun settingScrollPosition() {
+        Log.d(TAG, "=====settingScrollPosition:$_mLastScrollPosition")
         viewModelScope.launch {
             mSettingScrollPositionUseCase(_mLastScrollPosition)
         }
@@ -226,17 +234,11 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    private val _mScrollToPosition = MutableStateFlow(-1)
-    val mScrollToPosition: StateFlow<Int> = _mScrollToPosition
-
-    fun onEpisodeClick(sId: Int, eId: Int) {
+    fun onEpisodeClick(sId: Int, eId: Int): Int =
         mViewMessages.value.data?.find { it.sId == sId && it.eId == eId }?.let {
             val position = mViewMessages.value.data?.indexOf(it) ?: -1
-            _mScrollToPosition.value = position
-            Log.d(TAG, "onEpisodeClick sId:$sId,eId:$eId,position:$position")
-        }
-
-    }
+            position
+        } ?: -1
 
     fun onSeasonClick(season: ViewSeason) {
         val tempSeasons = _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()

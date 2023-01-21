@@ -32,7 +32,7 @@ fun MyAppBar(
         containerColor = Color.Transparent,
         scrolledContainerColor = Color.Transparent
     )
-    Box(modifier = Modifier.background(color = backgroundColor)) {
+    Box(modifier = Modifier.background(color = backgroundColors.containerColor(colorTransitionFraction = 1f).value/*backgroundColor*/)) {
         CenterAlignedTopAppBar(
             title = {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
