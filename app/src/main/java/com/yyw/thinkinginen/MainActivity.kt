@@ -16,6 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.ComposeView
 import androidx.core.view.WindowCompat
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.yyw.thinkinginen.components.*
@@ -50,132 +53,19 @@ class MainActivity : ComponentActivity() {
                 setContent {
                     CompositionLocalProvider(LocalBackPressedDispatcher provides this@MainActivity.onBackPressedDispatcher) {
                         ThinkingInEnTheme {
-                            val seasons: List<ViewSeason> by model.mViewSeasons.collectAsState()
-                            val curSeason by model.mCurrentViewSeasonId.collectAsState()
-                            val curEpisode by model.mCurrentViewEpisodeSort.collectAsState()
-                            val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
-                            val messages2: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
-                            val episodeName by model.mCurrentViewEpisodeName.collectAsState()
-                            val drawerOpen by model.drawerShouldBeOpened.collectAsState()
-                            var scrollToPosition by rememberSaveable {
-                                mutableStateOf(-1)
-                            }
-                            val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
-                            if (drawerOpen) {
-                                // Open drawer and reset state in VM.
-                                LaunchedEffect(Unit) {
-                                    // wrap in try-finally to handle interruption whiles opening drawer
-                                    try {
-                                        drawerState.open()
-                                    } finally {
-                                        model.resetOpenDrawerAction()
-                                    }
+                            val windowSize = calculateWindowSizeClass(this@MainActivity)
+                            val navController = rememberNavController()
+                            NavHost(navController = navController, startDestination = "main") {
+                                composable("main") {
+                                    MainView(
+                                        model = model,
+                                        windowSize = windowSize,
+                                        onClickSearch = { navController.navigate("search") })
                                 }
-                            }
-                            // Intercepts back navigation when the drawer is open
-                            val scope = rememberCoroutineScope()
-                            if (drawerState.isOpen) {
-                                BackPressHandler {
-                                    scope.launch {
-                                        drawerState.close()
-                                    }
-                                }
-                            }
-                            if (seasons.isNotEmpty() && lastPosition is Result.Success && messages2 is Result.Success) {
-                                val windowSize = calculateWindowSizeClass(this@MainActivity)
-                                when (windowSize.widthSizeClass) {
-                                    WindowWidthSizeClass.Compact -> {
-                                        Log.d(TAG, "WindowWidthSizeClass.Compact")
-                                        ModalNavigationDrawer(
-                                            drawerState = drawerState,
-                                            modifier = Modifier.navigationBarsPadding(),
-                                            drawerContent = {
-                                                MyDrawerContent(seasons, onSeasonClick = { season ->
-                                                    model.onSeasonClick(season)
-                                                }, onEpisodeClick = { sId, eId ->
-                                                    scope.launch {
-                                                        drawerState.close()
-                                                        scrollToPosition = model.onEpisodeClick(sId, eId)
-                                                    }
-                                                })
-                                            }) {
-                                            val topBarState = rememberTopAppBarState()
-                                            val scrollBehavior =
-                                                remember { TopAppBarDefaults.pinnedScrollBehavior(topBarState) }
-                                            Surface(
-                                                modifier = Modifier.windowInsetsPadding(
-                                                    WindowInsets.navigationBars.only(
-                                                        WindowInsetsSides.Horizontal + WindowInsetsSides.Top
-                                                    )
-                                                )
-                                            ) {
-                                                Box(modifier = Modifier.fillMaxSize()) {
-                                                    Column(
-                                                        Modifier
-                                                            .fillMaxSize()
-                                                            .nestedScroll(scrollBehavior.nestedScrollConnection)
-                                                    ) {
-                                                        Sentences(
-                                                            data = (messages2 as Result.Success).data,
-                                                            lastPosition = (lastPosition as Result.Success).data,
-                                                            scrollToPosition = scrollToPosition,
-                                                            modifier = Modifier
-                                                                .weight(1f)
-                                                                .navigationBarsPadding(),
-                                                            onUpdateLastScrollPosition = model::updateLastScrollPosition,
-                                                            onClickContent = model::onClickMessageById
-                                                        )
-                                                    }
-                                                    MyAppBar(
-                                                        scrollBehavior,
-                                                        episodeName,
-                                                        "Episode $curEpisode / Season $curSeason"
-                                                    ) {
-                                                        model.openDrawer()
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                    else -> {
-                                        Log.d(TAG, "WindowWidthSizeClass.else")
-                                        PermanentNavigationDrawer(drawerContent = {
-                                            MyDrawerContent(seasons, onSeasonClick = { season ->
-                                                model.onSeasonClick(season)
-                                            }, onEpisodeClick = { sId, eId ->
-                                                scrollToPosition = model.onEpisodeClick(sId, eId)
-//                                                scope.launch {
-//                                                    drawerState.close()
-//                                                    scrollToPosition = model.onEpisodeClick(sId, eId)
-//                                                }
-                                            })
-                                        }) {
-                                            Surface(
-                                                modifier = Modifier.windowInsetsPadding(
-                                                    WindowInsets.navigationBars.only(
-                                                        WindowInsetsSides.Horizontal + WindowInsetsSides.Top
-                                                    )
-                                                )
-                                            ) {
-                                                Column(
-                                                    Modifier
-                                                        .fillMaxSize()
-                                                ) {
-                                                    Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
-                                                    Sentences(
-                                                        data = (messages2 as Result.Success).data,
-                                                        lastPosition = (lastPosition as Result.Success).data,
-                                                        scrollToPosition = scrollToPosition,
-                                                        modifier = Modifier
-                                                            .weight(1f)
-                                                            .navigationBarsPadding(),
-                                                        onUpdateLastScrollPosition = model::updateLastScrollPosition,
-                                                        onClickContent = model::onClickMessageById
-                                                    )
-                                                }
-                                            }
-                                        }
-                                    }
+                                composable("search") {
+                                    SearchView(
+                                        model = model,
+                                        onBack = { navController.navigate("main") })
                                 }
                             }
                         }

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TIE</string>
     <string name="drawer_content">Episode %d: %s</string>
+    <string name="search_hint">Hey,Here…</string>
 </resources>

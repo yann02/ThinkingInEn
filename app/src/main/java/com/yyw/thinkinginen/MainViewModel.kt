@@ -66,12 +66,7 @@ class MainViewModel @Inject constructor(
     private val _mCurrentViewEpisodeId = MutableStateFlow(1)
 
     val mCurrentViewEpisodeSort = _mCurrentViewSeasonId.combine(_mCurrentViewEpisodeId) { seasonId, episodeId ->
-        val res = episodeId - (seasonId - 1) * 1000
-        if (res < 1) {
-            1
-        } else {
-            res
-        }
+        (episodeId - (seasonId - 1) * 1000).coerceAtLeast(1)
     }.stateIn(viewModelScope, WhileViewSubscribed, 1)
 
     private val _mCurrentViewEpisodeName = MutableStateFlow("")
@@ -138,6 +133,7 @@ class MainViewModel @Inject constructor(
                     episode.messages
                 }.flatten()
             }.flatten()
+            Log.d(TAG, "temp size:${temp.size},hasInit:$hasInit")
             if (!hasInit) {
                 //  只需要在首次加载数据时更新目录的选择状态
                 temp.getOrNull(position.data)?.let { firstVisibleMsg ->
@@ -154,12 +150,36 @@ class MainViewModel @Inject constructor(
         }
     }.stateIn(viewModelScope, WhileViewSubscribed, Result.Loading)
 
+    private var _mSearchText = MutableStateFlow("")
+
+    fun updatedSearchText(text: String) {
+        _mSearchText.update { text }
+    }
+
+    val mMatchViewMessages: StateFlow<List<ViewMessage>> = _mSearchText.map {
+        val data = mViewMessages.value.data
+        data.takeUnless { dIt ->
+            dIt.isNullOrEmpty()
+        }?.filter { fIt ->
+            it.isNotEmpty() && fIt.content.contains(it)
+        } ?: emptyList()
+    }.stateIn(viewModelScope, WhileViewSubscribed, emptyList())
+
+
     private fun updateSelectedStateOfSeasons(newSeasonId: Int, newEpisodeId: Int) {
-        Log.d(TAG, "updateSelectedStateOfSeasons newSeasonId:$newSeasonId,newEpisodeId:$newEpisodeId")
-        val tempSeasons = if (!hasInit) {
-            _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
-        } else {
-            mViewSeasons.value.toMutableList()
+        Log.d(
+            TAG,
+            "updateSelectedStateOfSeasons newSeasonId:$newSeasonId,newEpisodeId:$newEpisodeId,_hasInitData:$_hasInitData"
+        )
+        val tempSeasons = _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
+//        val tempSeasons = if (!_hasInitData) {
+//            _mViewSeasons.value.data?.toMutableList() ?: mutableListOf()
+//        } else {
+//            mViewSeasons.value.toMutableList()
+//        }
+
+        if (tempSeasons.isEmpty()) {
+            return
         }
 
         //  上一个选择的season和episode
@@ -178,7 +198,7 @@ class MainViewModel @Inject constructor(
             if (lastSeasonId != newSeasonId) {
                 isOpen = true
             } else {
-                if (!hasInit) {
+                if (!_hasInitData) {
                     isOpen = true
                 }
             }
@@ -236,8 +256,7 @@ class MainViewModel @Inject constructor(
 
     fun onEpisodeClick(sId: Int, eId: Int): Int =
         mViewMessages.value.data?.find { it.sId == sId && it.eId == eId }?.let {
-            val position = mViewMessages.value.data?.indexOf(it) ?: -1
-            position
+            mViewMessages.value.data?.indexOf(it)
         } ?: -1
 
     fun onSeasonClick(season: ViewSeason) {

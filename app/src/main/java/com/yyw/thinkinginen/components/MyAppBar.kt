@@ -4,6 +4,8 @@ import androidx.compose.animation.core.FastOutLinearInEasing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -20,7 +22,8 @@ fun MyAppBar(
     scrollBehavior: TopAppBarScrollBehavior,
     episodeName: String,
     ancestorName: String,
-    onNavIconPressed: () -> Unit = {}
+    onNavIconPressed: () -> Unit = {},
+    onSearch: () -> Unit = {}
 ) {
     val backgroundColors = TopAppBarDefaults.centerAlignedTopAppBarColors()
     val backgroundColor = lerp(
@@ -63,6 +66,11 @@ fun MyAppBar(
                         contentDescription = null,
                         tint = MaterialTheme.colorScheme.primary
                     )
+                }
+            },
+            actions = {
+                IconButton(onClick = onSearch) {
+                    Icon(imageVector = Icons.Outlined.Search, contentDescription = null)
                 }
             }
         )

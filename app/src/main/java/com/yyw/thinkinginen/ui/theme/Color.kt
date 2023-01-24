@@ -7,6 +7,18 @@ val PrimaryDark = Color(0xFFbe71c0)
 val Primary = Color(0xFFf2a1f3)
 val secondary = Color(0xFF000000)
 
+val Pink40 = Color(0xFFc639d4)
+val Pink100 = Color(0xFFFFFFFF)
+val Pink90 = Color(0xFFf6c7f7)
+val Pink10 = Color(0xFF7e28b8)
+
+val Neutral100 = Color(0xFFFFFFFF)
+val Neutral10 = Color(0xFF2e2b2d)
+
+val NeutralVariant90 = Color(0xFFc4b2d3)
+val NeutralVariant30 = Color(0xFF33006d)
+val NeutralVariant50 = Color(0xFF450079)
+val NeutralVariant80 = Color(0xFF9e80b7)
 
 val Blue10 = Color(0xFF000F5E)
 val Blue20 = Color(0xFF001E92)

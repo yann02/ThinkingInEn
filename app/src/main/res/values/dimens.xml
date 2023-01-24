@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_left_item">16dp</dimen>
+    <dimen name="padding_right_item">24dp</dimen>
+    <dimen name="item_height_one_line">56dp</dimen>
+</resources>
