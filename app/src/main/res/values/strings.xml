@@ -2,4 +2,8 @@
     <string name="app_name">TIE</string>
     <string name="drawer_content">Episode %d: %s</string>
     <string name="search_hint">Hey,Here…</string>
+    <string name="search_history">搜索历史</string>
+    <string name="collapse">收起</string>
+    <string name="expand">展开</string>
+    <string name="clean_up_histories">清空搜索历史</string>
 </resources>

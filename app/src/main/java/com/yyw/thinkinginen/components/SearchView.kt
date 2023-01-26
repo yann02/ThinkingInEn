@@ -1,6 +1,8 @@
 package com.yyw.thinkinginen.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -8,17 +10,16 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
-//import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
@@ -27,16 +28,17 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.TextFieldValue
-import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.google.accompanist.flowlayout.FlowRow
+import com.google.accompanist.flowlayout.SizeMode
 import com.yyw.thinkinginen.MainViewModel
 import com.yyw.thinkinginen.R
 import com.yyw.thinkinginen.entities.vo.ViewMessage
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import kotlinx.coroutines.delay
-
 
 @Composable
 fun SearchView(model: MainViewModel = viewModel(), onBack: () -> Unit) {
@@ -128,6 +130,9 @@ fun MatchedSentences(data: List<ViewMessage>) {
     }
 }
 
+/**
+ * 搜索结果列表的项视图
+ */
 @Composable
 fun ItemForMatchedSentences(msg: ViewMessage) {
     Box(
@@ -147,6 +152,55 @@ fun ItemForMatchedSentences(msg: ViewMessage) {
 }
 
 @Composable
+fun HistoryViewWrap() {
+
+}
+
+@Composable
+fun HistoryTopView(actionViewVisible: Boolean, toggleText: String, onClick: () -> Unit) {
+    Row {
+        Text(text = stringResource(id = R.string.search_history))
+        if (actionViewVisible) {
+            Text(text = toggleText, modifier = Modifier.clickable {
+                onClick()
+            })
+        }
+    }
+}
+
+@Composable
+fun HistoriesView() {
+    FlowRow(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(10.dp),
+        mainAxisSize = SizeMode.Expand
+    ) {
+        repeat(10) {
+            HistoryView()
+        }
+    }
+}
+
+@Composable
+fun HistoryView() {
+    Box(
+        modifier = Modifier
+            .padding(5.dp)
+            .clip(MaterialTheme.shapes.small)
+            .background(color = Color.Gray)
+    ) {
+        Text(
+            text = "我是好人我是好人我是好人我是好人", modifier = Modifier
+                .padding(5.dp)
+                .widthIn(0.dp, 150.dp),
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis
+        )
+    }
+}
+
+@Composable
 @Preview
 fun PreSearchView() {
     ThinkingInEnTheme {
@@ -159,6 +213,14 @@ fun PreSearchView() {
 fun PreMatchedSentences() {
     ThinkingInEnTheme {
         MatchedSentences(preViewMessages)
+    }
+}
+
+@Composable
+@Preview(backgroundColor = 0xffffff, showBackground = true)
+fun PreHistoriesView() {
+    ThinkingInEnTheme {
+        HistoriesView()
     }
 }
 
