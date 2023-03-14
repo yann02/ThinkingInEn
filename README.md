@@ -31,6 +31,6 @@ This project is the Android app for learning English.
 - [ ] 1000个英语入门单词
 - [ ] 学习印记，记录用户每天是否有进入应用学习（仿GitHub profile的方块记录）
 
-### 在线版功能
+### Online
 - [ ] 当前同时在线人数
   - [ ] 当前学习时长榜
