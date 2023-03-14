@@ -24,3 +24,8 @@ This project is the Android app for learning English.
 - Madame Gazelle（羚羊夫人 幼儿园老师）
 - Danny Dog（小狗 丹尼）
 - Rebecca Rabbit（兔子 瑞贝卡）
+
+## TODO
+- [x] 查询
+  - [ ] 历史记录
+- [ ] 1000个英语入门单词
