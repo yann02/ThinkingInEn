@@ -16,6 +16,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.integerResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.semantics.heading
@@ -46,7 +47,7 @@ fun Sentences(
     LazyColumn(
         state = listState,
         contentPadding = WindowInsets.statusBars.add(WindowInsets(top = 90.dp)).asPaddingValues(),
-        modifier = modifier.then(Modifier.fillMaxSize())
+        modifier = modifier.then(Modifier.fillMaxSize()).testTag("tag_conversation")
     ) {
         for (index in data.indices) {
             val prevRole = data.getOrNull(index - 1)?.role

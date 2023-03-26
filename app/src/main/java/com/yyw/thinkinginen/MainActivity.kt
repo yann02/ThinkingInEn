@@ -12,9 +12,12 @@ import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.core.view.WindowCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -40,7 +43,10 @@ class MainActivity : ComponentActivity() {
     private val model: MainViewModel by viewModels()
 
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
-    @OptIn(ExperimentalMaterial3Api::class, ExperimentalMaterial3WindowSizeClassApi::class)
+    @OptIn(
+        ExperimentalMaterial3Api::class, ExperimentalMaterial3WindowSizeClassApi::class,
+        ExperimentalComposeUiApi::class
+    )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
@@ -55,7 +61,12 @@ class MainActivity : ComponentActivity() {
                         ThinkingInEnTheme {
                             val windowSize = calculateWindowSizeClass(this@MainActivity)
                             val navController = rememberNavController()
-                            NavHost(navController = navController, startDestination = "main") {
+                            NavHost(
+                                navController = navController,
+                                startDestination = "main",
+                                modifier = Modifier.semantics {
+                                    testTagsAsResourceId = true
+                                }) {
                                 composable("main") {
                                     MainView(
                                         model = model,
@@ -104,7 +115,8 @@ class MainActivity : ComponentActivity() {
                             val episodeId = episodeIndex + 1 + seasonIndex * 1000
                             val sort = episodeIndex + 1
 //                            Log.d("wyy", "ss:$ss")
-                            val jsonString = assets.open("PeppaPig/$s/$ss").bufferedReader().use { it.readText() }
+                            val jsonString =
+                                assets.open("PeppaPig/$s/$ss").bufferedReader().use { it.readText() }
 //                            Log.d("wyy", "jsonString:$jsonString")
                             val listCountryType = object : TypeToken<List<Message>>() {}.type
                             val temps: List<Message> = Gson().fromJson(jsonString, listCountryType)
