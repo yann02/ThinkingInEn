@@ -34,3 +34,6 @@ This project is the Android app for learning English.
 ### Online
 - [ ] 当前同时在线人数
   - [ ] 当前学习时长榜
+
+### Issue
+- [ ] 从查询页面返回到首页后，再点击系统返回按键时，应用会再次进入查询页面。
