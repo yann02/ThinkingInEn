@@ -1,0 +1,746 @@
+[
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Peppa and George are having their favorite food ---",
+    "cn": "佩奇和乔治在吃他们最喜欢的食物"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "spaghetti!",
+    "cn": "意大利面"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "What a lot of noise!",
+    "cn": "你们吃的声音好响"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Finished!",
+    "cn": "吃完啦"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Ah,",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "now we'll have a bit of quite!",
+    "cn": "现在我们终于能安静了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "What's that?",
+    "cn": "这是什么啊"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "It's a tooth!",
+    "cn": "这是一颗牙齿"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Where did that come from?",
+    "cn": "那它是从哪里来的呢"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "maybe you should look in the mirror!",
+    "cn": "你该找个镜子照照"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Oh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "It's my tooth!",
+    "cn": "这是我的牙齿"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "It's fallen out!",
+    "cn": "可它掉下来了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Don't worry, Peppa.",
+    "cn": "别担心 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "It's just a milk tooth -",
+    "cn": "这只是一颗乳牙"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "They're meant to fall out.",
+    "cn": "就是要掉下来的"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Will I grow a new one, Mummy?",
+    "cn": "那还会长一颗新牙出来吗"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Yes, you will, Peppa.",
+    "cn": "是的 你会有一颗新牙"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "It also means the Tooth Fairy will be paying you a visit.",
+    "cn": "掉牙也意味着牙仙子会过来看你的"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Tooth Fairy?",
+    "cn": "牙仙子"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Yes, the Tooth Fairy.",
+    "cn": "是的 牙仙子"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "If you put the tooth under your pillow tonight,",
+    "cn": "如果你把牙齿放在你的枕头下面"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "the Tooth Fairy will come.",
+    "cn": "牙仙子就会来找你"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "The Tooth Fairy will take the tooth.",
+    "cn": "牙仙子会把牙齿拿走"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "And in its place,",
+    "cn": "在原来的位置上"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "she will leave a shiny coin!",
+    "cn": "她会留下一枚闪亮的金币"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "When I grow up, I want to be a Tooth Fairy!",
+    "cn": "等我长大之后 我也想做牙仙子"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "And what would you like to be when you grow up, George?",
+    "cn": "那乔治你呢 你长大之后想做什么"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "George",
+    "content": "Dine-Saw!",
+    "cn": "想做恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "A dinosaur!",
+    "cn": "做一只恐龙吗"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Quick, George,",
+    "cn": "快点 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "it's bedtime!",
+    "cn": "该睡觉了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "We don't want to miss the Tooth Fairy!",
+    "cn": "我们可不想错过牙仙子"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Before going to bed,",
+    "cn": "上床睡觉之前"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Peppa and George brush their teeth.",
+    "cn": "佩奇和乔治 在刷牙"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "what are you doing?",
+    "cn": "你在干什么"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "I brushing my tooth",
+    "cn": "我在刷牙齿"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "so it is nice and clean for the Tooth Fairy.",
+    "cn": "牙仙子拿走时 会觉得它很干净"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Peppa cannot wait to get into bed.",
+    "cn": "佩奇迫不及待地去睡觉了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Peppa is putting her tooth under the pillow",
+    "cn": "佩奇把牙齿放在枕头下面"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "for the Tooth Fairy.",
+    "cn": "等着牙仙子"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Goodnight, Peppa and George.",
+    "cn": "晚安 佩奇 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Goodnight, Mummy!",
+    "cn": "晚安妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Goodnight, Daddy!",
+    "cn": "晚安爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "Goodnight, my little piggies!",
+    "cn": "晚安我的小家伙们"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "I'm not going to sleep!",
+    "cn": "我不打算睡觉了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Let's both stay awake all night",
+    "cn": "今天晚上我们不能睡着"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "and see the Tooth Fairy!",
+    "cn": "我们一起来等牙仙子"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "This Tooth Fairy is very late!",
+    "cn": "牙仙子来得也太晚了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "The Tooth Fairy is taking a long time to arrive.",
+    "cn": "牙仙子过了很久很久还是没来"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Where is that Tooth Fairy?",
+    "cn": "牙仙子到底在哪里呀"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Where is that noise?",
+    "cn": "这是什么声音"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Is it the Tooth Fairy?",
+    "cn": "是牙仙子吗"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "can you hear something?",
+    "cn": "你听到什么吗"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "Oh, the noise is George.",
+    "cn": "原来这声音是乔治的"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "He was so tired, he has fallen asleep.",
+    "cn": "他实在太累了 所以睡着了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "George is not very good at staying awake,",
+    "cn": "看来要让乔治一晚上别睡觉有点困难"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "but I am.",
+    "cn": "但我可以"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "I am going to stay awake",
+    "cn": "我不能睡着"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "and see the Tooth Fairy.",
+    "cn": "我必须要见到牙仙子才行"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "I'm not going to sleep...",
+    "cn": "我绝对不能睡着"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "The Tooth Fairy has arrived.",
+    "cn": "这时牙仙子来了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Outsider",
+    "content": "But Peppa is asleep.",
+    "cn": "但是佩奇睡着了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Tooth Fairy",
+    "content": "Hello, Peppa.",
+    "cn": "你好啊 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Tooth Fairy",
+    "content": "Would you like this coin",
+    "cn": "你想要用你的牙齿"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Tooth Fairy",
+    "content": "in return for your tooth?",
+    "cn": "换这枚闪亮的金币吗"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Tooth Fairy",
+    "content": "What a nice, clean tooth.",
+    "cn": "真是一颗干净的牙齿"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Tooth Fairy",
+    "content": "Thank you, Peppa,",
+    "cn": "谢谢你 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Tooth Fairy",
+    "content": "Goodnight.",
+    "cn": "晚安"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Peppa, George, wake up.",
+    "cn": "佩奇 乔治 起床啦"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "It's morning.",
+    "cn": "已经早上了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "What?",
+    "cn": "什么"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "I wasn't asleep!",
+    "cn": "我 我没有睡着"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "Did the Tooth Fairy come?",
+    "cn": "牙仙子来过了吗"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "No!",
+    "cn": "没有"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Daddy Pig",
+    "content": "Let's take a look under your pillow.",
+    "cn": "我们来看看你的枕头底下"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Look,",
+    "cn": "啊 看"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "The Tooth Fairy",
+    "cn": "牙仙子已经来过了"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "has been and she's left you a coin!",
+    "cn": "还给你留了一枚金币"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Hurray!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Mummy Pig",
+    "content": "You fell asleep, didn't you?",
+    "cn": "佩奇 你睡着了 是不是"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Well,",
+    "cn": "那个"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "maybe I fell asleep just for a little bit...",
+    "cn": "我想我可能真的睡着了一会儿吧"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "Next time",
+    "cn": "但是下一次"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "I will stay awake,",
+    "cn": "我一定会醒着 等她来的"
+  },
+  {
+    "sId": 1,
+    "eId": 22,
+    "topic": "The Tooth Fairy",
+    "role": "Peppa",
+    "content": "and I will see the Tooth Fairy!",
+    "cn": "我一定要见见牙仙子才行"
+  }
+]

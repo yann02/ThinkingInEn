@@ -1,0 +1,810 @@
+[
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "Today, Peppa and her family",
+    "cn": "今天佩奇一家人"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "are going for a drive in their red car.",
+    "cn": "开着红色小车准备出游"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Shall we have the roof down?",
+    "cn": "把车篷放下来 好吗"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Yes, please!",
+    "cn": "好的 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "Peppa and George love their car.",
+    "cn": "佩奇和乔治喜欢这辆车"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Is everybody ready?",
+    "cn": "都准备好了吗"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa,Mummy Pig",
+    "content": "Ready!",
+    "cn": "好了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Then let's go!",
+    "cn": "我们出发咯"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "I love our car!",
+    "cn": "我喜欢我们的车"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "And our car loves us, too!",
+    "cn": "我们的小车也喜欢我们"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Don't you?",
+    "cn": "对不对啊"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "Oh, dear,",
+    "cn": "哦 糟糕"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "the car does not sound very well.",
+    "cn": "车子好像出了点问题"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Hmm!",
+    "cn": "嗯"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "What's wrong, Daddy?",
+    "cn": "怎么了 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Hmmm! Er... I don't know.",
+    "cn": "呃 我也不知道"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "Let's take it to Granddad Dog's Garage.",
+    "cn": "我们把它开去狗爷爷的修车厂吧"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "He can fix it.",
+    "cn": "他能修好的"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "That's a good idea, Mummy Pig.",
+    "cn": "真是个好主意 猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "Granddad Dog runs the garage;",
+    "cn": "狗爷爷开了家修车厂"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "he is very good at mending cars.",
+    "cn": "他很擅长修理汽车"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Oh, dear, Daddy Pig!",
+    "cn": "怎么回事啊 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Your car does not sound very well.",
+    "cn": "你的车子听上去有点问题"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Can you fix it, please, Granddad Dog?",
+    "cn": "请问你有没有办法修好它呢"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Yes...",
+    "cn": "当然"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "...but it will take all day.",
+    "cn": "但是这需要 一整天"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig,Peppa,Daddy Pig",
+    "content": "Ohhh...",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "We wanted to go for a drive in our car.",
+    "cn": "我们本来是想开车出去兜风的"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Woof! Don't worry.",
+    "cn": "别担心"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "You can borrow this new car",
+    "cn": "我修车的时候"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "while I fix yours.",
+    "cn": "可以把这辆新车借给你们"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig,Peppa,Daddy Pig",
+    "content": "Hurray!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Thank you, Granddad Dog.",
+    "cn": "真是太感谢你了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Would you like the roof down?",
+    "cn": "车篷要放下来吗"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Yes, please!",
+    "cn": "好的 谢谢"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "I'll just press this red button.",
+    "cn": "我只要来单击 这个 红色按钮"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "What a clever car!",
+    "cn": "很智能的车子"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig,Mummy Pig,Peppa,George",
+    "content": "Wow.",
+    "cn": "哇"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "When you come back,",
+    "cn": "等你们回来时"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "I will have fixed your car.",
+    "cn": "车子就修好了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Thank you, Grandad Dog.",
+    "cn": "谢谢你的帮忙"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig,Mummy Pig,Peppa",
+    "content": "Goodbye. Goodbye. Bye bye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Goodbye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "Peppa and her family like the new blue car.",
+    "cn": "佩奇一家很喜欢这辆蓝色的额新车"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "There are so many buttons in this new car.",
+    "cn": "这辆新车有好多按钮啊"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "What does the green button do, Daddy?",
+    "cn": "这个绿色按钮是干什么的 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Let's see.",
+    "cn": "试一下吧"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Magic windows!",
+    "cn": "原来是神奇的窗户"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Daddy!",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Make the magic windows go down.",
+    "cn": "把神奇的窗户降下去吧"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "What does the blue button do?",
+    "cn": "这个蓝色按钮是干什么的"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "I don't know.",
+    "cn": "我不知道"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Let's see.",
+    "cn": "试一下吧"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Arrgh!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "I love this new car.",
+    "cn": "我喜欢这辆新车"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Can we keep it?",
+    "cn": "我们能把它留下吗"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "No,",
+    "cn": "不行"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "we can't keep it, Peppa.",
+    "cn": "我们不能把它留下"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "We've only borrowed it for today.",
+    "cn": "我们今天只是借用一下"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Ohh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "Oh, no,",
+    "cn": "哦糟糕"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "I think it's going to rain.",
+    "cn": "看起来要下雨了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Yes, I'll just put the roof up.",
+    "cn": "现在我来把车篷升起来"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Now, which is the button to close the roof?",
+    "cn": "可是 哪个按钮是用来升起车篷的"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Oops!",
+    "cn": "天哪"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Silly me.",
+    "cn": "我糊涂了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Aha! This must be the button.",
+    "cn": "啊哈 一定是这个按钮"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Arrgh!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "The new car has squired Daddy Pig with water.",
+    "cn": "新车朝猪爸爸脸上喷了一脸的水"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Silly Daddy,",
+    "cn": "糊涂爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "that's not the roof!",
+    "cn": "不是这个按钮啦"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "This button!",
+    "cn": "是这个按钮"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Oops!",
+    "cn": "天哪"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Not that one!",
+    "cn": "不是这个"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "This button!",
+    "cn": "那么这个"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Help!",
+    "cn": "谁来帮帮忙"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "Daddy Pig has forgotten",
+    "cn": "猪爸爸忘了是哪个按钮"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "which button closes the roof.",
+    "cn": "可以升起车篷"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "I don't think this car likes me!",
+    "cn": "我觉得这辆车不喜欢我"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "Let's try the red button.",
+    "cn": "试试这个红色按钮"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig,Mummy Pig,Peppa",
+    "content": "Hurray!",
+    "cn": "好棒"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig",
+    "content": "But now it's stopped raining.",
+    "cn": "但是现在雨已经停了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "Can we open the roof again?",
+    "cn": "我们能把车篷再打开吗"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Er, yes.",
+    "cn": "好的"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Which button was it?",
+    "cn": "是哪个按钮呢"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig,Peppa",
+    "content": "The red one!",
+    "cn": "红的那个"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Mummy Pig,Peppa",
+    "content": "Hurray!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Outsider",
+    "content": "Granddad Dog has fixed the car.",
+    "cn": "狗爷爷已经把车子修好了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Your car is fixed.",
+    "cn": "你的车子修好了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig,Mummy Pig,Peppa",
+    "content": "Hurray!",
+    "cn": "好棒"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Thank you, Granddad Dog,",
+    "cn": "真是太感谢你了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "and keep the change.",
+    "cn": "不用找了"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Thank you, Daddy Pig.",
+    "cn": "谢谢你猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Granddad Dog",
+    "content": "Goodbye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig,Mummy Pig,Peppa",
+    "content": "Goodbye! Goodbye! Bye bye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Ahhh!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "It's good to get our old car back again!",
+    "cn": "还是我的旧车开起来感觉好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "I like the new car",
+    "cn": "我喜欢那辆新车"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Peppa",
+    "content": "but I like our old car better.",
+    "cn": "但是我更喜欢我们的旧车"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "And I think our old car likes us, too.",
+    "cn": "我觉得我们的旧车也喜欢我们"
+  },
+  {
+    "sId": 1,
+    "eId": 23,
+    "topic": "The New Car",
+    "role": "Daddy Pig",
+    "content": "Don't you?",
+    "cn": "对吧"
+  }
+]

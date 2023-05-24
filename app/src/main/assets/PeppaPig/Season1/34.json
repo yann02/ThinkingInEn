@@ -1,0 +1,802 @@
+[
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "Peppa and George have come to",
+    "cn": "爸爸和妈妈带佩奇和乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "Granny Pig and Grandpa Pig's house for lunch.",
+    "cn": "去爷爷奶奶家吃午餐"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "Granny Pig!",
+    "cn": "你好 奶奶"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Ganggy Ig!",
+    "cn": "你好奶奶"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Hello, my little ones!",
+    "cn": "你们好 我的小宝贝们"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Would you like to pick some vegetables from the garden for lunch?",
+    "cn": "你们想从花园里摘些蔬菜来当午餐吗"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "Yes, please!",
+    "cn": "当然好了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "Grandpa Pig!",
+    "cn": "你好 爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Baba Ig!",
+    "cn": "你好爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Hello,",
+    "cn": "你们好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Peppa, George.",
+    "cn": "佩奇和乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "This is Grandpa Pig's vegetable garden.",
+    "cn": "这是猪爷爷的蔬菜花园"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "He has grown all these vegetable himself!",
+    "cn": "里面的菜全都是他自己种的"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "What's this?",
+    "cn": "哦 这是什么"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Dinesaw!",
+    "cn": "这是恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "A dinosaur!",
+    "cn": "这是头恐龙啊"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Let's choose some vegetables for lunch.",
+    "cn": "我们快来摘一些蔬菜做午餐吧"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "do you like tomatoes?",
+    "cn": "你喜欢吃番茄吗"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "Yes, Grandpa Pig!",
+    "cn": "我很喜欢 爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "do you like tomatoes?",
+    "cn": "那你喜欢番茄吗"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "No.",
+    "cn": "讨厌"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "George doese not like tomatoes.",
+    "cn": "乔治他最讨厌吃番茄了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Oh, dear.",
+    "cn": "哦好吧"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Do you both like lettuce?",
+    "cn": "那你们喜欢吃生菜吗"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "Yes, Grandpa Pig!",
+    "cn": "我很喜欢 爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "No.",
+    "cn": "讨厌"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "George does not like lettuce.",
+    "cn": "乔治他也不喜欢吃生菜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Oh, dear!",
+    "cn": "哦天哪"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "I must have something that George likes.",
+    "cn": "我的花园里一定有乔治喜欢吃的"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Do you like cucumber?",
+    "cn": "你喜欢吃黄瓜吗"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Yuck!",
+    "cn": "难吃"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "George does not like cucumbers,",
+    "cn": "乔治不喜欢吃黄瓜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "and he does not like lettuce,",
+    "cn": "不喜欢吃生菜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "and he does not like tomatoes.",
+    "cn": "也不喜欢吃番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Well, George,",
+    "cn": "那好吧 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "what vegetable do you like?",
+    "cn": "告诉我你喜欢吃什么蔬菜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Chocolate cake!",
+    "cn": "巧克力蛋糕"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "Silly George!",
+    "cn": "乔治你弄错了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Peppa",
+    "content": "Chocolate cake isn't a vegetable!",
+    "cn": "巧克力蛋糕可不是蔬菜啊"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Maybe George will like the vegetables",
+    "cn": "如果我们把蔬菜做成可口的沙拉"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "when they're made into a lovely salad.",
+    "cn": "那也许乔治就喜欢吃了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Ooh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Lovely fresh tomatoes,",
+    "cn": "你们摘了好多新鲜的番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "lettuce and cucumber!",
+    "cn": "生菜和黄瓜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "First, we have to wash them!",
+    "cn": "得先把它们洗干净"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "Peppa and George help Granny Pig wash the vegetables.",
+    "cn": "佩奇和乔治要帮忙把蔬菜洗干净"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Maybe that's enough washing.",
+    "cn": "这样差不多可以了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "Granny Pig has made the tomatoes,",
+    "cn": "猪奶奶把番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "lettuce and cucumber",
+    "cn": "生菜还有黄瓜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "into a salad.",
+    "cn": "做成了沙拉"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Grandpa Pig,",
+    "cn": "好了 猪爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "can you call everyone to lunch?",
+    "cn": "去叫大家来吃饭吧"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Lunch!!!",
+    "cn": "吃饭啦"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "Granny Pig has made pizza for lunch.",
+    "cn": "猪奶奶做了披萨给大家吃"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "And here's some salad",
+    "cn": "这碗是蔬菜沙拉"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "made with Grandpa's tomatoes,",
+    "cn": "全都是用爷爷的番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "lettuce and cucumber!",
+    "cn": "生菜和黄瓜做的"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Chuck in, everyone!",
+    "cn": "大家都开动吧"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "George has eaten his pizza.",
+    "cn": "乔治吃完了披萨"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "But George does not like the tomatoes",
+    "cn": "但乔治不喜欢番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "or the lettuce",
+    "cn": "生菜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "or the cucumber.",
+    "cn": "也不喜欢黄瓜"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "dear, George.",
+    "cn": "亲爱的乔治宝贝"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Don't you like the salad?",
+    "cn": "你不喜欢吃沙拉吗"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "No.",
+    "cn": "不喜欢"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Mummy Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Mummy Pig",
+    "content": "just try a little bit of this lovely tomato.",
+    "cn": "来尝尝这一块新鲜可口的番茄吧"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Yuck!",
+    "cn": "难吃"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "George.",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "This is cucumber.",
+    "cn": "来尝尝黄瓜吧"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Grandpa Pig grew it in his garden!",
+    "cn": "这是爷爷自己在花园里种的"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Daddy Pig",
+    "content": "Try a piece of lettuce, George.",
+    "cn": "吃一片生菜吧 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Daddy Pig",
+    "content": "It's yummy!",
+    "cn": "很好吃的"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Now, now, George.",
+    "cn": "哦 好了 别哭了乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Look what I'm doing.",
+    "cn": "看看我在做什么"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "Now, it's a dinosaur!",
+    "cn": "现在它是一头恐龙了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Dinesaw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "George loves dinosaurs!",
+    "cn": "乔治最喜欢恐龙了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "George is eating the tomatoes,",
+    "cn": "乔治开始吃番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "lettuce and cucumber!",
+    "cn": "生菜和黄瓜啦"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Mummy Pig",
+    "content": "Well done, George!",
+    "cn": "干得漂亮啊 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Would you like some more, George?",
+    "cn": "还要再吃一点吗 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Full.",
+    "cn": "饱了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "are you too full",
+    "cn": "你是不是吃的太饱了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "to eat any more tomatoes,",
+    "cn": "所以一点番茄"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "lettuce or cucumber?",
+    "cn": "生菜和黄瓜都吃不下了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "George is too full",
+    "cn": "乔治吃的太饱"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "to eat any more.",
+    "cn": "不能再吃了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Mummy Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Mummy Pig",
+    "content": "are you too full to eat anything more?",
+    "cn": "你是不是吃的太饱 别的都吃不下了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Outsider",
+    "content": "George is too full to eat anything more.",
+    "cn": "乔治吃的太饱 什么都吃不下了"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "Oh, well,",
+    "cn": "那这样的话"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Granny Pig",
+    "content": "then you won't want any of this chocolate cake!",
+    "cn": "那你应该也吃不下巧克力蛋糕了吧"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "George",
+    "content": "Chocolate cake!",
+    "cn": "巧克力蛋糕"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "My word!",
+    "cn": "我的天哪"
+  },
+  {
+    "sId": 1,
+    "eId": 34,
+    "topic": "Lunch",
+    "role": "Grandpa Pig",
+    "content": "George seems to have got his appetite back!",
+    "cn": "看来乔治又有胃口吃别的东西了"
+  }
+]

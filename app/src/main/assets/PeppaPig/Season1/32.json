@@ -1,0 +1,674 @@
+[
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "It is a lovely, sunny day.",
+    "cn": "今天是个阳光灿烂的日子"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "Peppa and George are having a picnic.",
+    "cn": "佩奇和乔治在外面野餐"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Here's some orange juice for you, Teddy.",
+    "cn": "我来倒些果汁给你 泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "What do you say?",
+    "cn": "你说什么呀"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Thank you very much, Peppa!",
+    "cn": "非常感谢你 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "You are very welcome, Teddy.",
+    "cn": "不用跟我客气 泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Here's some orange juice for you, Mr. Dinosaur.",
+    "cn": "你也喝点果汁吧 恐龙先生"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "And what do you say?",
+    "cn": "你想跟我说什么呢"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "You are very welcome, Mr. Dinosaur.",
+    "cn": "不用跟我客气 恐龙先生"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Would Teddy or Mr. Dinosaur like a cookie?",
+    "cn": "泰迪和恐龙先生想吃点饼干吗"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "We're not very hungry.",
+    "cn": "我们还不是很饿"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "So Peppa and George can eat all the cookies.",
+    "cn": "佩奇和乔治可以吃掉所有的饼干"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Thank you, Teddy.",
+    "cn": "谢谢你 泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "What was that strange noise?",
+    "cn": "这奇怪的声音是什么呀"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Peppa, George!",
+    "cn": "佩奇 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Quick, come inside the house!",
+    "cn": "快一点 快回到屋子里来"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Mummy! There was a loud 'bang' sound!",
+    "cn": "妈妈 刚才外面有很响的声音"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "It's thunder, Peppa.",
+    "cn": "那是雷声 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "It means",
+    "cn": "这就意味着"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "there will be a thunderstorm with lots of rain.",
+    "cn": "暴风雨马上就要来临了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Quick! Into the house before the rain starts!",
+    "cn": "快 在下雨之前回到屋子里去"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "No need to panic,",
+    "cn": "不用这么紧张"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "the rain is still a long way off.",
+    "cn": "这雨还要很久才会下下来的"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "The sky is getting darker and darker.",
+    "cn": "现在天色变得越来越暗了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "There is going to be a thunderstorm.",
+    "cn": "一场风暴即将到来"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Peppa, George,",
+    "cn": "佩奇 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "did you bring all your toys in from the garden?",
+    "cn": "你们所有的玩具都拿回来了吧"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "George",
+    "content": "Dine-Saw.",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Good, Mr. Dinosaur is safe.",
+    "cn": "很好 恐龙先生安全了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Teddy! I left Teddy in the garden!",
+    "cn": "泰迪 我忘了把泰迪带回来"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "He'll get wet!",
+    "cn": "它会被淋湿的"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "Don't worry, Peppa. Daddy Pig will rescue Teddy!",
+    "cn": "别担心佩奇 爸爸这就去救泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "You'd better hurry, Daddy Pig.",
+    "cn": "那你要快一点才行"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "It's just about to rain!",
+    "cn": "马上就要下雨了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "I know all about thunderstorms.",
+    "cn": "我还是非常了解暴风雨的"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "It won't rain for ages.",
+    "cn": "要很久之后才会下"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "As I thought,",
+    "cn": "如我所料"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "plenty of time before it rains.",
+    "cn": "这么点时间就足够了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Poor Teddy!",
+    "cn": "可怜的泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "He's soaking wet!",
+    "cn": "它全身都湿透了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Yes, poor Teddy!",
+    "cn": "是的 可怜的泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Let's get him dry!",
+    "cn": "我们把它弄干"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Poor Teddy!",
+    "cn": "可怜的泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "There you are, Teddy!",
+    "cn": "可以了 泰迪"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "All dry!",
+    "cn": "全都干了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "What about poor Daddy?",
+    "cn": "那可怜的爸爸要怎么办"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "I'm soaking wet, too!",
+    "cn": "我全身也湿透了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Oh! Sorry, Daddy Pig!",
+    "cn": "噢 真对不起 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Let's get you dry!",
+    "cn": "我们来帮你擦干"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "There you are, Daddy Pig!",
+    "cn": "你也全干了 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Nice and dry!",
+    "cn": "又干爽又整洁"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Oh!? The rain is coming in the house!",
+    "cn": "雨水都进到屋子里来了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "The floor is getting wet!",
+    "cn": "这下地板全湿了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Oh, dear! what can we do,",
+    "cn": "真糟糕 我们该怎么办"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig?",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "Don't worry.",
+    "cn": "不用担心"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "Daddy Pig is using a bucket",
+    "cn": "猪爸爸拿了个水桶"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "to catch the drips.",
+    "cn": "去接滴下来的雨水"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Well-done, Daddy Pig!",
+    "cn": "干得好 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "Easy as pie!",
+    "cn": "小菜一碟"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "Er? what?",
+    "cn": "怎么"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Quick! Find something else to catch the water!",
+    "cn": "快点 再去找点别的东西来接水"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "Well-done, Peppa!",
+    "cn": "做得好 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Easy as pie!",
+    "cn": "小菜一碟"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Mummy! The thunder bangs are very loud!",
+    "cn": "妈妈 雷声真的好响好响"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "It's okay, children;",
+    "cn": "没事的 孩子们"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "don't be frightened..",
+    "cn": "你们不需要害怕"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "Let's count between each flash and bang.",
+    "cn": "我们来数数闪电和雷声间的间隔时间"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "The higher we can count,",
+    "cn": "间隔时间越久"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "the further away the thunderstorm is.",
+    "cn": "说明暴风雨就离我们越远"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "One... two... three...",
+    "cn": "一 二 三"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "That's three.",
+    "cn": "已经到三了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig,Mummy Pig,Peppa,George",
+    "content": "One... two... three... four... five...",
+    "cn": "一 二 三 四 五"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "That's five.",
+    "cn": "已经到五了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig",
+    "content": "The thunderstorm is going away!",
+    "cn": "暴风雨越来越远了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Mummy Pig",
+    "content": "The thunderstorm is over!",
+    "cn": "看来暴风雨结束了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Daddy Pig,Peppa",
+    "content": "Hurray!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "The thunderstorm",
+    "cn": "暴风雨过后"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "has filled the garden with muddy puddles!",
+    "cn": "花园里布满了泥坑"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "Peppa loves jumping up and down in muddy puddles.",
+    "cn": "佩奇最喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Outsider",
+    "content": "Everyone loves jumping up and down in muddy puddles.",
+    "cn": "大家都喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "I love thunderstorms,",
+    "cn": "我最喜欢暴风雨了"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "they make muddy puddles!",
+    "cn": "它一来就会有很多泥坑"
+  },
+  {
+    "sId": 1,
+    "eId": 32,
+    "topic": "Thunderstorm",
+    "role": "Peppa",
+    "content": "Splish, splash, splosh, splish!",
+    "cn": "我最喜欢在泥坑里跳了"
+  }
+]

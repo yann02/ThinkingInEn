@@ -1,0 +1,754 @@
+[
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa and George have been playing in the garden",
+    "cn": "佩奇和乔治在花园里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "Peppa",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "where are your shoes?",
+    "cn": "你的鞋子呢"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "I've lost them.",
+    "cn": "我找不到了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Well, I'm sure we can find them.",
+    "cn": "我确定我们能找到它们"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Maybe we should try the garden?",
+    "cn": "要不然我们去花园里找找吧"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Yes!",
+    "cn": "好的"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Everyone is looking for Peppa's shoes.",
+    "cn": "大家都在寻找佩奇的鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Mummy Pig is looking in the flowerbed.",
+    "cn": "猪妈妈在花坛中找鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa's shoes are not there.",
+    "cn": "佩奇的鞋子不在那儿"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Ho!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Daddy Pig is looking in the wheelbarrow.",
+    "cn": "猪爸爸在手推车里找鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa's shoes are not there.",
+    "cn": "佩奇的鞋子不在那儿"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "Oh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa and George look in the flowerpots.",
+    "cn": "佩奇和乔治在花盆里找鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa's shoes are not there, either.",
+    "cn": "佩奇的鞋子也不在那儿"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "George,Peppa",
+    "content": "Oh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "We've looked everywhere,",
+    "cn": "每个地方都找了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "but we can't find Peppa's shoes!",
+    "cn": "但是找不到佩奇的鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa's shoes are lost.",
+    "cn": "佩奇的鞋子丢了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Now I haven't got any shoes to wear.",
+    "cn": "现在我没有鞋子可穿了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Poor Peppa.",
+    "cn": "可怜的佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Your shoes Were getting a bit old...",
+    "cn": "你的鞋子确实有点旧了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "We'll buy you a new pair!",
+    "cn": "买双新的吧"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Can my new shoes be red, Mummy?",
+    "cn": "能买双红色的新鞋子吗"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Of course, they can.",
+    "cn": "当然可以啦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "I'm going to have new red shoes!",
+    "cn": "我有红色的新鞋子穿啦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Mummy Pig and Peppa are at Miss Rabbit's shoes shop.",
+    "cn": "猪妈妈和佩奇来到兔小姐的鞋店"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Hello, Miss Rabbit.",
+    "cn": "你好兔小姐"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Miss Rabbit",
+    "content": "Hello, Mummy Pig.",
+    "cn": "你好猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "We would like to buy some new shoes for Peppa, please.",
+    "cn": "我们想给佩奇买双新鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Red Shoes!",
+    "cn": "红鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Miss Rabbit",
+    "content": "Oh I'm sure we can find you some lovely new shoes, Peppa!",
+    "cn": "我会给你找双漂亮的新鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Red ones,",
+    "cn": "我想要红色的"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "please.",
+    "cn": "谢谢"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Miss Rabbit",
+    "content": "Of course,",
+    "cn": "没问题"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Miss Rabbit",
+    "content": "red ones.",
+    "cn": "红色的"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Wow! New red shoes!",
+    "cn": "哇哦红色的新鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "George and Daddy Pig are playing draughts.",
+    "cn": "乔治在和猪爸爸下棋"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "well done, George.",
+    "cn": "做的好乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Daddy! Daddy!",
+    "cn": "爸爸 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Look at my new shoes!",
+    "cn": "看看我的新鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "They are red!",
+    "cn": "是红色的呢"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "I say!",
+    "cn": "看到了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "They are red.",
+    "cn": "是红色的"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Mummy,",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "do you like my new shoes?",
+    "cn": "喜欢我的新鞋子吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Yes, Peppa,",
+    "cn": "是的佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "they make you look very smart.",
+    "cn": "你穿这鞋子很漂亮"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "do you like my new shoes?",
+    "cn": "喜欢我的新鞋子吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Everyone likes Peppa's new shoes.",
+    "cn": "大家都喜欢佩奇的新鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "I like my new shoes so much.",
+    "cn": "我太喜欢我的新鞋子了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "I don't want to ever take them off.",
+    "cn": "永远都不想把它们脱下来"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "It is bath time.",
+    "cn": "洗澡时间到了"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa wants to keep her new shoes on,",
+    "cn": "但佩奇不想脱下新鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "even for her bath.",
+    "cn": "穿着它洗澡"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa is in her pajamas.",
+    "cn": "佩奇换上了睡衣"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "She still has her new shoes on.",
+    "cn": "但新鞋子还是没脱下来"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa even wants to Wear her new shoes in bed!",
+    "cn": "佩奇甚至还想穿着新鞋子睡觉"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "are you sure you don't want to take your shoes off?",
+    "cn": "你真的不把鞋子脱下来吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "I don't want to ever take my new shoes off,",
+    "cn": "我永远都不想把鞋子脱下来"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Mummy.",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Very well.",
+    "cn": "那好吧"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Goodnight, Peppa and George.",
+    "cn": "佩奇乔治晚安"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "Goodnight, Mummy!",
+    "cn": "晚安妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Mummy Pig",
+    "content": "Goodnight, Daddy",
+    "cn": "晚安爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Daddy Pig",
+    "content": "Goodnight, my little piggies!",
+    "cn": "晚安我的小家伙们"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "It has been raining all night",
+    "cn": "下了一整夜的雨"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "and now the garden is very wet.",
+    "cn": "现在的花园很潮湿"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Mummy Pig is wearing her boots.",
+    "cn": "猪妈妈穿着靴子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Daddy Pig is wearing his boots.",
+    "cn": "猪爸爸穿着靴子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "George is wearing his boots.",
+    "cn": "乔治也穿着他的靴子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa is still wearing her new red shoes.",
+    "cn": "佩奇却还穿着她的新鞋子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "George is going to play in the wet grass.",
+    "cn": "乔治在潮湿的草丛里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "哦 糟糕"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa loves playing in the wet grass,",
+    "cn": "佩奇喜欢在潮湿的草丛里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "but she doesn't want to get her new shoes wet.",
+    "cn": "但她不想把新鞋子弄湿"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "I can't play in the wet grass, George.",
+    "cn": "我不能在潮湿的草丛里玩乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "George",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "George loves jumping in muddy puddles.",
+    "cn": "乔治喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa loves jumping in puddles,",
+    "cn": "佩奇喜欢在泥坑里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "but she doesn't want to get her new shoes muddy.",
+    "cn": "但她不想让新鞋子粘上泥"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Mummy and Daddy",
+    "cn": "猪妈妈和猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "love jumping up and down in muddy puddles!",
+    "cn": "喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Everyone likes jumping in muddy puddles!",
+    "cn": "大家都喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Where is Peppa going?",
+    "cn": "佩奇要去哪里？"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Outsider",
+    "content": "Peppa is putting on her boots!",
+    "cn": "佩奇穿上了她的靴子"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "If you jump in muddy puddles,",
+    "cn": "如果你要在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 19,
+    "topic": "New Shoes",
+    "role": "Peppa",
+    "content": "you must wear your boots!",
+    "cn": "一定要穿上靴子"
+  }
+]

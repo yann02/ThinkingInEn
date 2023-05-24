@@ -40,6 +40,7 @@ class ExampleStartupBenchmark {
         startActivityAndWait()
     }
 
+    @Test
     fun scroll() = benchmarkRule.measureRepeated(
         packageName = "com.yyw.thinkinginen",
         metrics = listOf(FrameTimingMetric()),
@@ -53,6 +54,22 @@ class ExampleStartupBenchmark {
         val conversations = device.findObject(By.res("tag_conversation"))
         conversations.setGestureMargin(device.displayWidth / 5)
         conversations.fling(Direction.DOWN)
+        device.waitForIdle()
+    }
+
+    @Test
+    fun navigate() = benchmarkRule.measureRepeated(
+        packageName = "com.yyw.thinkinginen",
+        metrics = listOf(FrameTimingMetric()),
+        iterations = 5,
+        startupMode = StartupMode.COLD,
+        setupBlock = {
+            pressHome()
+            startActivityAndWait()
+        }
+    ) {
+        val conversations = device.findObject(By.res("tag_searching"))
+        conversations.click()
         device.waitForIdle()
     }
 }

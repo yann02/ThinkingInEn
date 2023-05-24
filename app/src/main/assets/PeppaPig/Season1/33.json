@@ -1,0 +1,690 @@
+[
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Daddy Pig is taking the family for a drive in the country.",
+    "cn": "今天猪爸爸要开车带大家去玩"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Come on!",
+    "cn": "快点啊"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Is everyone ready?",
+    "cn": "都准备好了吗"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Ready!",
+    "cn": "准备好了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Yes, Daddy Pig, we're ready.",
+    "cn": "准备好了 我们可以出发了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Ah.",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "But the car isn't ready!",
+    "cn": "但车还没有准备好"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Look how messy it is!",
+    "cn": "看看这辆车多脏呀"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Oh, it's not too bad.",
+    "cn": "我觉得没有很糟啊"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "You should see how messy it is inside!",
+    "cn": "你应该看看里面有多乱"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Oh! Naughty, messy Daddy!",
+    "cn": "淘气 邋遢的爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Naughty, messy Daddy!",
+    "cn": "淘气 邋遢的爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Look at all this rubbish!",
+    "cn": "你看看车里的这些垃圾"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Newspapers!",
+    "cn": "一大堆报纸"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "They're mine.",
+    "cn": "这是我的"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Sweets!",
+    "cn": "还有甜食"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "They're mine!",
+    "cn": "这是我的"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Mr. Dinosaur!",
+    "cn": "还有这个恐龙先生"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "George",
+    "content": "Dine-saw!",
+    "cn": "恐龙先生"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "We must clean the car before we go for a drive.",
+    "cn": "在我们出发之前必须把车子清洁干净"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Oh,",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "right you are, Mummy Pig.",
+    "cn": "你说的对 猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Mummy, can we help to clean the car?",
+    "cn": "妈妈 我们能帮忙洗车吗"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Yes, if you want to.",
+    "cn": "是的 当然可以"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Hurray!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Daddy Pig has some warm soapy water to wash the car.",
+    "cn": "猪爸爸接了一些可以用来洗车的温水"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Daddy pig is washing the roof.",
+    "cn": "猪爸爸在清洁车顶"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Mummy Pig is washing the bonnet.",
+    "cn": "而猪妈妈 在清洁引擎盖"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Peppa is washing the doors.",
+    "cn": "佩奇在清洗车门"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "George wants to wash the windows.",
+    "cn": "乔治想去擦车窗"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "But he is too little.",
+    "cn": "但是他太小了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Poor George.",
+    "cn": "可怜的乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Let me help you.",
+    "cn": "我来帮你吧"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Oh, dear!",
+    "cn": "哦 糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "George has dropped his sponge in a muddy puddle.",
+    "cn": "乔治把海绵掉到泥坑里了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "you're making the car all muddy again!",
+    "cn": "你看你又把车子给弄脏了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "I will wash the mud off.",
+    "cn": "让我来把泥洗掉吧"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Peppa, don't use the...muddy water.",
+    "cn": "佩奇别用那个 肮脏的泥水"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Oh, dear!",
+    "cn": "哦 糟糕"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Peppa has thrown the muddy water all over the car.",
+    "cn": "车子被佩奇用泥水 撒了个遍"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "糟糕"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Never mind.",
+    "cn": "没关系"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "We can use the garden hose to clean it off.",
+    "cn": "我们用花园的水管把它冲干净"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Yes! Yes!",
+    "cn": "没错没错"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Can I hold the hose?",
+    "cn": "我去拿水管好吗"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Peppa holds the hose",
+    "cn": "佩奇拿着水管"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "and Daddy Pig turns on the water.",
+    "cn": "猪爸爸打开了水龙头"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Where's the water?",
+    "cn": "怎么没有水呢"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Wahhh!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Arrgh!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Stop!",
+    "cn": "停下来"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Sorry, Mummy.",
+    "cn": "对不起 妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig!",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Please turn off the water!",
+    "cn": "请你快点把水龙头关掉 好吗"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Oh! No need to panic.",
+    "cn": "哦 不用太担心"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Oh, dear,",
+    "cn": "哦 天哪"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "everyone is wet.",
+    "cn": "大家都被淋湿了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "At least the car has been washed.",
+    "cn": "至少我们的车干净了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "We've all been washed.",
+    "cn": "我们也都被洗干净了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "You go and dry yourselves while I polish the car.",
+    "cn": "你们去弄干衣服 我来擦擦车"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "See you later.",
+    "cn": "那一会儿见喽"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "See you later.",
+    "cn": "一会儿见"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Daddy Pig is polishing the car so well,",
+    "cn": "猪爸爸把车擦得很干净"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "he can see his face in it.",
+    "cn": "都能映出他得脸了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "What a funny face!",
+    "cn": "多么搞笑得脸"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "Oh! More funny faces!",
+    "cn": "哦 更多搞笑得脸"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "It's Peppa and George!",
+    "cn": "是佩奇和乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Outsider",
+    "content": "And Mummy Pig.",
+    "cn": "还有猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "What a lovely, shiny car.",
+    "cn": "真是辆闪闪发亮得好车"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Yes,",
+    "cn": "没错"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "I am a bit of an expert at these things.",
+    "cn": "洗车这种事情我可是专家"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "Come on,",
+    "cn": "来吧"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "I'll drive today.",
+    "cn": "今天我来开车"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Is everybody ready?",
+    "cn": "大家准备好了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig,Peppa",
+    "content": "Ready!",
+    "cn": "好了"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Then let's go!",
+    "cn": "现在我们出发吧"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Mummy Pig",
+    "content": "I hope you will all keep this car clean today.",
+    "cn": "希望你们能一直让车这么干净"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Yes, Mummy Pig.",
+    "cn": "好的 妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Yes, Mummy Pig.",
+    "cn": "好的 猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Mummy,",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "now you've made the car all muddy again.",
+    "cn": "现在可是你把车子弄脏了哦"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Daddy Pig",
+    "content": "Naughty Mummy.",
+    "cn": "淘气的妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 33,
+    "topic": "Cleaning the Car",
+    "role": "Peppa",
+    "content": "Naughty, messy Mummy.",
+    "cn": "淘气 邋遢的妈妈"
+  }
+]

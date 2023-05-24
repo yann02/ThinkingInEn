@@ -1,0 +1,634 @@
+[
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "Peppa and George are helping Grandpa Pig in his Garden.",
+    "cn": "佩奇和乔治在花园里帮猪爷爷干活"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Wow",
+    "cn": "哇"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "What a beautiful butterfly.",
+    "cn": "真是一只漂亮的蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Grandpa,",
+    "cn": "爷爷"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Why do butterflies like flowers?",
+    "cn": "为什么蝴蝶会喜欢花朵呢"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "They get their food from flowers.",
+    "cn": "他们可以从花朵里面获取食物"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "How?",
+    "cn": "怎么做？"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "They have very long tongues.",
+    "cn": "蝴蝶有一根非常长的口器"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Longer than mine?",
+    "cn": "比我的舌头还长吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Oh, yes,",
+    "cn": "哦 是的"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "the butterfly's tongue is even longer than yours.",
+    "cn": "蝴蝶的口器可比你的舌头长多了"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "She uses it to drink from the flower.",
+    "cn": "它用口器来吸食花朵中的花蜜"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Wow!",
+    "cn": "哇"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "The butterfly thinks you're a flower.",
+    "cn": "蝴蝶以为你是一朵花"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm not a flower! I'm Peppa Pig!",
+    "cn": "我不是花朵我是佩奇小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "She is so pretty.",
+    "cn": "她真的好漂亮"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I want to be a butterfly.",
+    "cn": "我想做一只蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "Peppa is playing at being a butterfly.",
+    "cn": "佩奇假装自己是一只蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a little butterfly.",
+    "cn": "我是一只小蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "George wants to play, too.",
+    "cn": "乔治也想要玩"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "George! I'm the butterfly!",
+    "cn": "乔治 我才是蝴蝶呢"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "You have to be something else.",
+    "cn": "你去假扮别的东西吧"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I know!",
+    "cn": "有了"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "You can be a wriggly worm! Look! Look!",
+    "cn": "你可以做一条小虫 看看"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a butterfly.",
+    "cn": "我是一只蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "Oh, dear! George does not want to be a worm.",
+    "cn": "哦 糟糕 乔治不想要做一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "He wants to be a butterfly.",
+    "cn": "他也想要做蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "When I was a little piggy,",
+    "cn": "当我还是只小猪的时候"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "I used to like playing at being a Worm.",
+    "cn": "我就特别喜欢假扮成一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "It's very easy to be a worm.",
+    "cn": "做小虫很简单的"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "I'll show you how.",
+    "cn": "我来教你怎么做"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "First, you have to lie down on the ground.",
+    "cn": "首先 你要像这样趴下 趴在地上"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Then, you wriggle around.",
+    "cn": "然后 你要全身摆动起来"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "I'm a wriggly worm!",
+    "cn": "我是一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "George and Grandpa Pig are having such fun",
+    "cn": "乔治和猪爷爷假扮成小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "being wriggly worms.",
+    "cn": "玩得非常开心"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a little butterfly. I'm a little butterfly.",
+    "cn": "我是一只小蝴蝶 我是一只小蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Look! Grandpa.",
+    "cn": "看看"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a little butterfly.",
+    "cn": "我是一只蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Yes, Peppa,",
+    "cn": "是的佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "you're a beautiful butterfly.",
+    "cn": "你是一只美丽的蝴蝶"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Grandpa! George! What are you doing?",
+    "cn": "爷爷 乔治 你们在干什么？"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "We are wriggly worms.",
+    "cn": "我们是两只小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I want to be a wriggly worm, too!",
+    "cn": "我也想假扮成一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a wriggly worm!",
+    "cn": "我是一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "I'm a wriggly worm!",
+    "cn": "我是一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a wriggly worm!",
+    "cn": "我是一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a wriggly worm!",
+    "cn": "我是一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "How do you do?",
+    "cn": "你好吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I love you!",
+    "cn": "我爱你"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a wriggly worm!",
+    "cn": "我是一条小虫"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "That was fun.",
+    "cn": "实在太有意思了"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "What animal do you want to be now?",
+    "cn": "你们现在还想假扮什么动物"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Hmmm!",
+    "cn": "嗯"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I don't know",
+    "cn": "我不知道"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Look, Grandpa! There's a little frog!",
+    "cn": "爷爷 你看 这儿有只青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Why don't you play at being frogs?",
+    "cn": "你们为什么不假扮成一只青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Hmmm,",
+    "cn": "嗯"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "frogs are not as pretty as butterflies",
+    "cn": "可是青蛙没有蝴蝶那么漂亮"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "or as wriggly as worms.",
+    "cn": "也不能像小虫那样扭动"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "But frogs do play a game you like.",
+    "cn": "但是青蛙会玩你喜欢的游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Hmmm...",
+    "cn": "嗯"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "do frogs play dolls' houses?",
+    "cn": "青蛙会玩玩偶之家吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Silly Peppa.",
+    "cn": "可爱的佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "What's your favorite game?",
+    "cn": "你最喜欢的游戏是什么？"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Jumping in muddy puddles!",
+    "cn": "就是在泥坑里面跳"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Grandpa Pig",
+    "content": "Frogs love jumping in muddy puddles.",
+    "cn": "青蛙也喜欢在泥坑里面跳"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "George! Let's play frogs.",
+    "cn": "乔治 我们来假扮青蛙吧"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a little froggy!",
+    "cn": "我是一只小青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "I'm a little froggy!",
+    "cn": "我是一只小青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "The froggies have found a nice big muddy puddle to play in.",
+    "cn": "青蛙们找到了一个大泥坑来玩"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "Peppa and George love jumping up and down in muddy puddles.",
+    "cn": "佩奇和乔治喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Outsider",
+    "content": "Everyone loves jumping up and down in muddy puddles.",
+    "cn": "大家都喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "Butterflies and worms are very nice!",
+    "cn": "蝴蝶和小虫都非常好"
+  },
+  {
+    "sId": 1,
+    "eId": 17,
+    "topic": "Frogs and Worms and Butterflies",
+    "role": "Peppa",
+    "content": "But I like frogs the best!",
+    "cn": "但是我最喜欢青蛙"
+  }
+]

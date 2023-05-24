@@ -1,0 +1,1106 @@
+[
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa and George are playing in the garden.",
+    "cn": "佩奇和乔治在花园里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "To me, George!",
+    "cn": "丢给我吧乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "You threw the ball too hard, George!",
+    "cn": "你的球扔的太用力了乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "So the rules say,",
+    "cn": "按照规则来说"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I win!",
+    "cn": "我赢了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Now it's my turn.",
+    "cn": "现在轮到我了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I win again!",
+    "cn": "我又赢了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Mummy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Mummy Pig",
+    "content": "George.",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Mummy Pig",
+    "content": "Today your big cousin, Chloe is coming to visit!",
+    "cn": "今天堂姐克洛伊要来家里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Yippee!",
+    "cn": "好棒"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Cousin Chloe!",
+    "cn": "我喜欢克洛伊"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Chloe is a big girl,",
+    "cn": "克洛伊跟我一样"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "like me.",
+    "cn": "是个大姑娘了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "So, don't be sad",
+    "cn": "所以如果她觉得你太小了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "if she finds you too little to play with.",
+    "cn": "不和你玩的话 你别伤心"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Daddy Pig",
+    "content": "I'm sure Chloe will play with both of you.",
+    "cn": "我想克洛伊会和你们一起玩的"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Chloe is here!",
+    "cn": "克洛伊来了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Aunty Pig has brought Chloe to spend the day at Peppa's house.",
+    "cn": "猪伯母带着克洛伊来佩奇家里玩了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Chloe is Peppa and George's cousin.",
+    "cn": "克洛伊是佩奇和乔治的堂姐"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Chloe is a bit older than Peppa and George.",
+    "cn": "她比佩奇和乔治大一点儿"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Hello,",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Chloe!",
+    "cn": "克洛伊"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Hello,",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Hello,",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Daddy Pig",
+    "content": "See you later!'",
+    "cn": "一会儿见"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Do you want to play a game?",
+    "cn": "你想玩游戏吗"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Yes!",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Let's play 'Catch!'",
+    "cn": "我们来玩 你跑我追"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa loves playing 'Catch'.",
+    "cn": "佩奇最喜欢这个游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Do you still play 'Catch'?",
+    "cn": "你还玩 你跑我追"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "That's a game for little children.",
+    "cn": "那可是小孩子的游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "We only play",
+    "cn": "我们玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "'Catch'",
+    "cn": "你跑我追"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "because George likes it.",
+    "cn": "是因为乔治喜欢这个游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Okay.",
+    "cn": "好的"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Let's play it for George.",
+    "cn": "那就陪乔治玩吧"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Do you play with the proper rules",
+    "cn": "你们是按大人的规则玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "or the baby rules?",
+    "cn": "还是按小孩子的规则"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Proper rules!",
+    "cn": "按大人的规则玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "I'll start. Peppa!",
+    "cn": "准备好了佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "You're 'it'.",
+    "cn": "你做追的人"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Catch me if you can!",
+    "cn": "有本事抓住我啊"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa is 'it'.",
+    "cn": "佩奇是那个追人的人"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "She has to chase Chloe and George.",
+    "cn": "她要去追克洛伊和乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Can't catch me!",
+    "cn": "抓不住我吧"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I'm going to easily catch you!",
+    "cn": "要抓住你太简单了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "You're so Little!",
+    "cn": "你这么小"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "That's not fair!!",
+    "cn": "这不公平"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "You're helping George!",
+    "cn": "你在帮助乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "That's because he's little.",
+    "cn": "那是因为他还小"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Do you want me to help you?",
+    "cn": "你想我帮你吗"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "No!",
+    "cn": "不"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I don't need help.",
+    "cn": "我不需要帮助"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I'm a big girl like you.",
+    "cn": "我和你一样是大姑娘了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Come on, then, Peppa!",
+    "cn": "快来吧佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Try and catch us!",
+    "cn": "你来追我们呀"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Can't catch us!",
+    "cn": "抓不住我们"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Can't catch us!",
+    "cn": "抓不住我们"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "This is a silly game.",
+    "cn": "这个游戏不好玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Can we play something else?",
+    "cn": "我们能玩别的游戏吗"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Okey,",
+    "cn": "好的"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "I know a really good game for big children.",
+    "cn": "我知道个大孩子们玩的有趣游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "It's called 'Sly Fox'!",
+    "cn": "叫做 狡猾的狐狸"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "'Sly Fox'!!",
+    "cn": "狡猾的狐狸"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I want to play 'Sly Fox'!!",
+    "cn": "我想要玩 狡猾的狐狸"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "What is it?",
+    "cn": "怎么玩呢"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "One person is the 'Sly Fox'",
+    "cn": "一个人来做 狡猾的狐狸"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "and the others",
+    "cn": "其他的人"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "creep up on them.",
+    "cn": "悄悄地走向它"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Me! Me!",
+    "cn": "我玩我玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I want to be the 'Sly Fox'!",
+    "cn": "我要做 狡猾的狐狸"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa is the 'Sly Fox'.",
+    "cn": "佩奇做 狡猾的狐狸"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "While her back is turned,",
+    "cn": "她转过去时"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "the others creep up on her.",
+    "cn": "其他人慢慢的走向她"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "But if Peppa turns and sees someone move,",
+    "cn": "当佩奇转身时看见谁在动"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "they have to go back to the start!",
+    "cn": "那他就得回到原位 重新开始"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "George, I saw you move!",
+    "cn": "乔治我看见你动了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Back to the start!",
+    "cn": "你要回到原位"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Got you!",
+    "cn": "抓住你了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "I win!",
+    "cn": "我赢了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "You moved before I was ready!",
+    "cn": "我还没准备好 你就动了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "The rules say I can move when I like.",
+    "cn": "规则说我随时都可以动"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Don't they, George?",
+    "cn": "是不是乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Now it's Chloe's turn to be the 'Sly Fox'.",
+    "cn": "现在轮到克洛伊来做狡猾的狐狸了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa and George must stay very still.",
+    "cn": "佩奇和乔治必须保持不动"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Whoaao!",
+    "cn": "哇哦"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "I saw you move!",
+    "cn": "我看到你动了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Back to the start!",
+    "cn": "回到原位"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "It's not fair!",
+    "cn": "太不公平了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "You looked too long!",
+    "cn": "你看得太久了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "The rules say,",
+    "cn": "规则说"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "I can look as long as I want.",
+    "cn": "我想看多久就看多久"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Back to the start.",
+    "cn": "回到原位"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "George is the winner!",
+    "cn": "乔治赢了"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Can we play a different game?",
+    "cn": "我们能玩别的游戏吗"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Yes,",
+    "cn": "可以"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "But as long as it's a grown-up game.",
+    "cn": "但必须得是大人玩的游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I know!",
+    "cn": "我知道"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Let's play my favorite game!",
+    "cn": "我们来玩我最喜欢的游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "It's very grown-up!",
+    "cn": "非常大人"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "do you know what Peppa's favorite game is?",
+    "cn": "佩奇最喜欢的游戏是什么"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa's favorite game is",
+    "cn": "佩奇最喜欢的游戏"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "jumping up and down in muddy puddles!",
+    "cn": "就是在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "if you jump in puddles,",
+    "cn": "如果你想要跳泥坑"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "you must wear your boots!",
+    "cn": "你必须得穿上靴子"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "I've brought some boots for you too,",
+    "cn": "我也给你带来了一双靴子"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Chloe!",
+    "cn": "克洛伊"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "I'm too grown-up to jump in muddy puddles.",
+    "cn": "我已经是大人了 不能在泥坑里跳"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "So am I.",
+    "cn": "我也是"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "George loves jumping in muddy puddles.",
+    "cn": "乔治喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Secretly,",
+    "cn": "其实"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa would love to jump in the puddle.",
+    "cn": "佩奇也喜欢"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "But she wants to look grown-up.",
+    "cn": "但她想让自己看上去像个大人"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Daddy Pig",
+    "content": "I hear there's some puddle jumping going on!",
+    "cn": "我听说这里有跳泥坑可以玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Mummy Pig and Daddy Pig",
+    "cn": "猪爸爸和猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "love jumping in muddy puddles!",
+    "cn": "喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "It does look fun.",
+    "cn": "看上去很有趣"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "it does.",
+    "cn": "的确很好玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Maybe there's a rule that says,",
+    "cn": "也许可以增加一条规则"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "big girls can jump in muddy puddles.",
+    "cn": "大姑娘也能在泥坑里玩"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Yes!",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "That's a good rule!",
+    "cn": "这是条好规则"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Chloe",
+    "content": "Race you!",
+    "cn": "看谁先到"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Peppa",
+    "content": "Race you!",
+    "cn": "看谁先到"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Peppa and Chloe love jumping up and down in muddy puddles!",
+    "cn": "佩奇和克洛伊喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "Everyone loves jumping up and down in muddy puddles,",
+    "cn": "大家都喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 1,
+    "eId": 28,
+    "topic": "My Cousin Chloe",
+    "role": "Outsider",
+    "content": "even grown-up girls!",
+    "cn": "大姑娘也喜欢"
+  }
+]

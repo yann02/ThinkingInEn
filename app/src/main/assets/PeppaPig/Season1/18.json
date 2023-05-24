@@ -1,0 +1,746 @@
+[
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Outsider",
+    "content": "Peppa and George are playing in Mummy and Daddy's bedroom.",
+    "cn": "佩奇和乔治在爸爸妈妈的卧室玩呢"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "What's this?",
+    "cn": "这是什么东西？"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Outsider",
+    "content": "Peppa has found a box of old clothes.",
+    "cn": "佩奇找到了一大箱子的旧衣服"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Wow! This is Daddy's hat.",
+    "cn": "哇哦 这个是爸爸的帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "And this is Mummy's dress.",
+    "cn": "这一条是妈妈的裙子"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Let's dress up.",
+    "cn": "我们把这些穿上"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "And pretend to be Mummy and Daddy.",
+    "cn": "假装是爸爸和妈妈吧"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Here is Daddy's hat.",
+    "cn": "这是爸爸的帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "And here is Daddy's coat.",
+    "cn": "这件是爸爸的上衣"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Hello, Daddy Pig.",
+    "cn": "你好啊 爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Now it's my turn. This is Mummy's dress.",
+    "cn": "现在该我了 这条是妈妈的裙子"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "This is Mummy's hat.",
+    "cn": "这顶是妈妈的帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Daddy Pig!",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Where are your shoes?",
+    "cn": "你的鞋子在哪里呢？"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I need some shoes, too.",
+    "cn": "我也需要穿一双鞋子才行"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Now I need to look beautiful,",
+    "cn": "我要打扮得漂漂亮亮的"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "just like Mummy.",
+    "cn": "就像妈妈一样"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Outsider",
+    "content": "Peppa has found Mummy's make-up box.",
+    "cn": "佩奇找到了妈妈的化妆盒"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Aha!",
+    "cn": "啊哈"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "First, some powder.",
+    "cn": "先擦一点粉底"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Lovely!",
+    "cn": "非常好看"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Now for some lipstick.",
+    "cn": "现在再涂一点口红"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "What a pretty Mummy Pig!",
+    "cn": "好漂亮的猪妈妈啊"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Come along, Daddy Pig.",
+    "cn": "过来吧 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "It's time to go to Work.",
+    "cn": "该我们两个出场了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Outsider",
+    "content": "Mummy is working on her computer.",
+    "cn": "猪妈妈正在用电脑工作呢"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Hello, Peppa.",
+    "cn": "你好佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Hello, George.",
+    "cn": "你好乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I beg your pardon?",
+    "cn": "不好意思 我没听清"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Peppa,",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "I was just saying 'hello'.",
+    "cn": "我在跟你打招呼"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I'm not Peppa Pig.",
+    "cn": "我已经不是佩奇了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I'm Mummy Pig.",
+    "cn": "我现在是猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Oh, Yes! Of course.",
+    "cn": "哦 是的 的确如此"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Hello, Mummy Pig.",
+    "cn": "你好 猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Hello,",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "and this is Daddy Pig.",
+    "cn": "这一位是猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "And hello to you, too, Daddy Pig.",
+    "cn": "你也好啊 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Excuse me;",
+    "cn": "真是不好意思"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I've got a lot of work to do!",
+    "cn": "我还有很多工作要做呢"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Hello?",
+    "cn": "喂你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Yes,",
+    "cn": "是这样的"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Do this, do that.",
+    "cn": "做这个 再做那个"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "No,",
+    "cn": "不用了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Thank you.",
+    "cn": "谢谢你"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Goodbye.",
+    "cn": "再见"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Outsider",
+    "content": "Peppa is enjoying pretending to be Mummy Pig.",
+    "cn": "看来佩奇很喜欢装扮成猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Outsider",
+    "content": "But George is getting a bit bored.",
+    "cn": "但是乔治觉得有点无聊了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Sorry, Daddy Pig.",
+    "cn": "对不起 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I'm nearly finished.",
+    "cn": "我很快就好了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "All done!",
+    "cn": "完成了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Come on, Daddy Pig.",
+    "cn": "走吧 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "It's time you did some Work.",
+    "cn": "该轮到你去干活了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Goodbye, Mummy Pig and Daddy Pig.",
+    "cn": "再见了 猪妈妈猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Goodbye.",
+    "cn": "再见了"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Outsider",
+    "content": "Daddy Pig is digging in the garden.",
+    "cn": "猪爸爸在花园里挖坑呢"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Daddy Pig",
+    "content": "Hello, Peppa.",
+    "cn": "你好佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Daddy Pig",
+    "content": "Hello, George.",
+    "cn": "你好啊乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I'm not Peppa!",
+    "cn": "我不是佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I'm Mummy Pig",
+    "cn": "我是猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "And this is Daddy Pig!",
+    "cn": "这一位是猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Daddy pig is here to do some work.",
+    "cn": "猪爸爸他是来这里干活的"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Daddy Pig",
+    "content": "That's very kind of you, Daddy Pig.",
+    "cn": "你可真是太好了 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Daddy Pig",
+    "content": "Now, be careful.",
+    "cn": "千万要小心"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Daddy Pig",
+    "content": "It's a very deep hole.",
+    "cn": "这个坑很深的"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I do hope you are not digging in your best clothe.",
+    "cn": "我希望你现在没有穿着"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Daddy Pig.",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I want to make big snorts, too.",
+    "cn": "我也想发出这么响的声音来"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Ice cream, everyone.",
+    "cn": "大家来吃冰淇淋吧"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Ice cream!",
+    "cn": "有冰淇淋吃"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "You must take off those muddy clothes before you eat.",
+    "cn": "在吃冰淇淋之前得先把脏衣服给脱掉"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "I'm Mummy Pig.",
+    "cn": "我是猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "And this is Daddy Pig.",
+    "cn": "而这一位是猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Are you sure?",
+    "cn": "哦你确定吗？"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Yes.",
+    "cn": "我确定"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "So,",
+    "cn": "那么"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Where are Peppa and George?",
+    "cn": "佩奇和乔治上哪去啦？"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "We don't know.",
+    "cn": "我们也不知道"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Oh, well, that's a shame.",
+    "cn": "哦那真是可惜啊"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Because I've got their favorite ice cream here.",
+    "cn": "我给他们拿了最喜欢的冰淇淋"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "But if we can't find them, Then...",
+    "cn": "但如果找不到他们的话"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Here we are!",
+    "cn": "我们在这儿呢"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Mummy Pig",
+    "content": "There you are!",
+    "cn": "你们在这儿啊"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "Mummy,",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Peppa",
+    "content": "We were just pretending to be you and Daddy.",
+    "cn": "我们是在假装我们是妈妈和爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 18,
+    "topic": "Dressing Up",
+    "role": "Daddy Pig",
+    "content": "You really had us fooled!",
+    "cn": "你们真的骗过我们了"
+  }
+]

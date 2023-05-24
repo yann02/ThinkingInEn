@@ -1,0 +1,562 @@
+[
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa and George are very excited today.",
+    "cn": "佩奇和乔治今天非常的兴奋"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "It is snowing outside!",
+    "cn": "因为外面下雪啦"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Mummy! Can we go and play in the snow?",
+    "cn": "妈妈 我们可以去外面玩雪吗"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Mummy Pig",
+    "content": "Yes, but it's very cold outside,",
+    "cn": "可以 但是外面非常地寒冷"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Mummy Pig",
+    "content": "so you must wrap up warm.",
+    "cn": "所以你们必须多穿点"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Hurray!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Daddy Pig",
+    "content": "And don't forget to wear your hats,",
+    "cn": "还有别忘了把帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Daddy Pig",
+    "content": "and scarves and gloves.",
+    "cn": "围巾还有手套全都戴上"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "It's very cold outside.",
+    "cn": "外面天气非常冷"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa and George must wear their hats...",
+    "cn": "佩奇和乔治必须要戴帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "and scarves...",
+    "cn": "围巾"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "and gloves.",
+    "cn": "和手套"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Come on, George!",
+    "cn": "快点 乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa and George are making footprints in the snow.",
+    "cn": "佩奇和乔治在雪地里留下了足迹"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa and George love making footprints in the snow!",
+    "cn": "佩奇和乔治喜欢在雪地里留下足迹"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "哦糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "It's not funny!",
+    "cn": "这一点都不好笑"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "George, let's play snowballs!",
+    "cn": "乔治 不如我们来打雪仗吧"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa has made a snowball.",
+    "cn": "佩奇做了一个雪球"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa and George are having a lot of fun.",
+    "cn": "佩奇和乔治玩的非常开心"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "come back,",
+    "cn": "你快回来"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "you little piggy!",
+    "cn": "你这只小猪"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Arrgh!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "不好了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Maybe this game is getting a little too rough.",
+    "cn": "打雪仗游戏可能玩的有点过火了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Sorry, George.",
+    "cn": "对不起乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Let's build a snowman!",
+    "cn": "我们来玩堆雪人吧"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa and George are making a snowman.",
+    "cn": "佩奇和乔治开始堆雪人了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "First, they make the body.",
+    "cn": "他们先堆了身体"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "George, this is the snowman's body.",
+    "cn": "乔治 这个就是雪人的身体了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Now, they make the snowman's head.",
+    "cn": "现在他们在堆雪人的头"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Now, he needs arms",
+    "cn": "现在要帮他弄胳膊"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "and eyes and a mouth!",
+    "cn": "还有眼睛和嘴巴"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "George has found some sticks for the snowman's arms.",
+    "cn": "乔治找了两根树枝来做雪人的胳膊"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa has found some stones",
+    "cn": "佩奇找了几块石头"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "for the snowman's eyes and mouth.",
+    "cn": "来做雪人的眼睛和嘴巴"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "This is his face.",
+    "cn": "这就是它的脸了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Now the snowman needs a nose.",
+    "cn": "现在雪人还需要有一个鼻子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Peppa has got a carrot,",
+    "cn": "佩奇找了根胡萝卜"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "to make the snowman's nose.",
+    "cn": "用它来做雪人的鼻子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "The snowman looks very happy.",
+    "cn": "雪人看上去很开心"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "But maybe he is bit cold.",
+    "cn": "但是它可能稍微有一点冷"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "The snowman needs some clothes",
+    "cn": "看来雪人需要穿一件衣服"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "to keep him warm.",
+    "cn": "这样就不冷了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "George has found some clothes",
+    "cn": "乔治找来了一些衣服"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "to keep the snowman nice and warm!",
+    "cn": "这样雪人就不冷了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "The snowman is wearing his hat...",
+    "cn": "雪人戴上了一顶帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "and scarf...",
+    "cn": "围了围巾"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "and gloves.",
+    "cn": "戴了手套"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Mummy! Daddy! Come and look!",
+    "cn": "爸爸 妈妈 快过来看"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Mummy Pig is wearing her hat",
+    "cn": "猪妈妈戴着她的帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "and scraf",
+    "cn": "围巾"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "and gloves.",
+    "cn": "手套过来了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Mummy Pig",
+    "content": "That is the best snowman",
+    "cn": "这个 是我见过的有史以来"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Mummy Pig",
+    "content": "I have ever seen!",
+    "cn": "最棒的雪人了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Daddy Pig looks quite cold.",
+    "cn": "猪爸爸看上去很冷"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "He isn't wearing his hat and scarf and gloves.",
+    "cn": "他的帽子围巾和手套一样都没有戴"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "Daddy, Why aren't you wearing your hat",
+    "cn": "爸爸 你怎么不戴上你的帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "and scarf",
+    "cn": "还有围巾"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Peppa",
+    "content": "and gloves?",
+    "cn": "和你的手套呢"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Daddy Pig",
+    "content": "I don't know where they are!",
+    "cn": "不知道它们跑哪去了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Daddy Pig",
+    "content": "I can't find them anywhere.",
+    "cn": "我哪都找不到它们"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Mummy Pig",
+    "content": "I think I know where Daddy's hat,",
+    "cn": "我想我知道你的帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Mummy Pig",
+    "content": "scarf and gloves are...",
+    "cn": "围巾还有手套在哪儿了"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "Daddy Pig's hat",
+    "cn": "猪爸爸的帽子"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "and scarf and gloves",
+    "cn": "围巾和手套"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Outsider",
+    "content": "are on the snowman!",
+    "cn": "都在雪人身上呢"
+  },
+  {
+    "sId": 1,
+    "eId": 26,
+    "topic": "Snow",
+    "role": "Daddy Pig",
+    "content": "Oh!",
+    "cn": "哦"
+  }
+]

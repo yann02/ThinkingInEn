@@ -1,0 +1,674 @@
+[
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "It is teatime.",
+    "cn": "一家人在喝茶"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "And Mummy Pig has a surprise for everyone.",
+    "cn": "猪妈妈给大家准备了一个惊喜"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Today is a day for pancakes!",
+    "cn": "今天呢我们要吃煎饼"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Pancakes! Delicious!",
+    "cn": "煎饼吗 真是太棒了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "I love pancakes!",
+    "cn": "我喜欢吃煎饼"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Everyone loves pancakes!",
+    "cn": "大家都喜欢煎饼"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "I'm the expert at flipping the pancakes over!",
+    "cn": "我可是一个翻煎饼得高手"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Leave that to me!",
+    "cn": "让我来翻吧"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Are you sure, Daddy Pig?",
+    "cn": "你确定吗 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Last time you got a bit grumpy",
+    "cn": "上次你把煎饼掉地上时"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "when you dropped the pancake on the floor.",
+    "cn": "你可是有点焦躁哦"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "I did not get grumpy.",
+    "cn": "我上次并没有焦躁"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "There was a problem with the frying pan.",
+    "cn": "是那个煎锅有问题"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Mummy.",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Can we help make the pancakes,",
+    "cn": "我们能一起帮忙做煎饼吗"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "please?",
+    "cn": "拜托了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Yes. You can help me make the batter.",
+    "cn": "没问题 你们帮忙做面糊"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "First,",
+    "cn": "首先"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "I put some flour in the bowl.",
+    "cn": "我在碗里倒些面粉"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Now, I add an egg.",
+    "cn": "接着加一个蛋"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Now, the milk.",
+    "cn": "现在加牛奶"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "And I give it all a stir.",
+    "cn": "然后我要搅拌一下"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Mummy, can I stir?",
+    "cn": "妈妈 我能来搅拌吗"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Yes, of course Peppa.",
+    "cn": "当然可以了 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Peppa loves stirring.",
+    "cn": "佩奇喜欢搅拌"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "George wants to stir as well.",
+    "cn": "乔治也想帮忙"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "No,",
+    "cn": "不对"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "George, like this!",
+    "cn": "乔治 要像这样"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Ok, that's enough stirring.",
+    "cn": "好了 已经可以了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "You two sit at the table",
+    "cn": "我做煎饼得时候"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "while I cook the pancakes.",
+    "cn": "你们就坐在桌旁"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Mummy Pig is going to flip the pancake over!",
+    "cn": "猪妈妈要把煎饼翻过来啦"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Hurray!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "You could flip higher, Mummy Pig.",
+    "cn": "你可以翻的更高点 猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "You can show us how,",
+    "cn": "等你做自己的煎饼时"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "when you flip your own pancake, Daddy Pig.",
+    "cn": "可以教我们猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "This first pancake is for George.",
+    "cn": "第一个煎饼是给乔治的"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Mummy Pig pours a little syrup on George's pancake.",
+    "cn": "妈妈在乔治的煎饼上倒了些糖浆"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Delicious!",
+    "cn": "真好吃"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "This pancake is for Peppa.",
+    "cn": "这煎饼是给佩奇的"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Hurray!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Hmmm... you could flip it higher, Mummy Pig.",
+    "cn": "嗯 你可以翻的更高点 猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "You will get a chance to show me",
+    "cn": "等你做自己的煎饼时"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "when you flip you own pancake, Daddy Pig.",
+    "cn": "可以教我们猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Syrup, please!",
+    "cn": "我也要糖浆"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Mmmmmm! Delicious!",
+    "cn": "嗯 真好吃呀"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "This pancake is for Mummy Pig.",
+    "cn": "这个煎饼是猪妈妈自己的"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Hurray!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "You still aren't flipping them high enough,",
+    "cn": "你的煎饼翻得还是不够高"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Mummy Pig.",
+    "cn": "猪妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "The next pancake is yours, Daddy Pig.",
+    "cn": "下一个煎饼就是你的了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "So now you can show us how it should be done.",
+    "cn": "这样你就可以教我们怎么做了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Mmmmmm! Delicious!",
+    "cn": "嗯 太好吃了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Is everyone watching?",
+    "cn": "大家都在看了吗"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "The secret of making a good pancake",
+    "cn": "煎饼要做的好吃秘密就是"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "is to flip it high into the air.",
+    "cn": "一定要把它翻得高高的"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "One... two... three... hoopla!",
+    "cn": "好1 2 3转圈"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Silly Daddy!",
+    "cn": "你失败了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Oh...",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "maybe that was just a bit too high.",
+    "cn": "可能有点太高了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "what a shame,",
+    "cn": "太可惜了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "that was the last pancake.",
+    "cn": "那可是最后一个煎饼"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "It should be a simple matter to get it down.",
+    "cn": "应该很容易就能把它拿下来"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "哦 糟糕了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Daddy Pig cannot reach his pancake.",
+    "cn": "猪爸爸够不到他的煎饼"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Don't worry, Daddy Pig,",
+    "cn": "别着急 猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "I think I know a way to get it down.",
+    "cn": "我想我有办法把它弄下来"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Let's go upstairs, children.",
+    "cn": "我们上楼去 孩子们"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "This way!",
+    "cn": "这边来"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "What is Mummy Pig planning to do?",
+    "cn": "猪妈妈打算做什么呢"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "On the count of three,",
+    "cn": "听我口令"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "we all have to start jumping up and down.",
+    "cn": "我数到3我们一起上下跳"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "One... two... three...",
+    "cn": "1 2 3"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "jump!",
+    "cn": "跳"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "What are they doing?",
+    "cn": "他们在楼上干什么呀"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "It worked!",
+    "cn": "成功了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Outsider",
+    "content": "Now Daddy Pig has his pancake.",
+    "cn": "猪爸爸终于拿到他的煎饼了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Daddy has a pancake on his head!",
+    "cn": "爸爸的煎饼掉在他头上了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Mummy Pig",
+    "content": "Syrup on your pancake, Daddy Pig?",
+    "cn": "煎饼上要倒糖浆吗"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "please.",
+    "cn": "麻烦你了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "One... two... three... hoopla!",
+    "cn": "1 2 3转圈"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Daddy Pig",
+    "content": "Mmmmmm! Delicious!",
+    "cn": "太好吃了"
+  },
+  {
+    "sId": 1,
+    "eId": 29,
+    "topic": "Pancakes",
+    "role": "Peppa",
+    "content": "Silly Daddy.",
+    "cn": "你成功了"
+  }
+]

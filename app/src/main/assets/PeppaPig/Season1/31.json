@@ -1,0 +1,722 @@
+[
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Peppa is going to her first ballet lesson.",
+    "cn": "佩奇要去上第一堂芭蕾课了"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "This is Madame Gazelle,",
+    "cn": "这位是羚羊夫人"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "the ballet teacher.",
+    "cn": "芭蕾舞老师"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Ah, ho!",
+    "cn": "你好"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "You must be young Peppa!",
+    "cn": "你一定就是佩奇了"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "I am Madame Gazelle!",
+    "cn": "我 是 羚羊夫人"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Hello, Madame!",
+    "cn": "您好啊 夫人"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "So sweet!",
+    "cn": "真是一个好姑娘"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Welcome to your first lesson of the ballet!",
+    "cn": "欢迎你来这里上第一节芭蕾课"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "I'll pick you up later!",
+    "cn": "一会儿我来接你"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Bye bye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "Enjoy yourself!",
+    "cn": "祝你愉快"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Here are Peppa's friends,",
+    "cn": "这些是佩奇的朋友"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Candy Cat,",
+    "cn": "小猫坎迪"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Suzy Sheep,",
+    "cn": "小羊苏西"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Danny Dog,",
+    "cn": "小狗丹尼"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Rebecca Rabbit,",
+    "cn": "小兔瑞贝卡"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "and Pedro Pony.",
+    "cn": "和小马佩德罗"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Children,",
+    "cn": "孩子们"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "today we have a new pupil,",
+    "cn": "今天我们来了一个新同学"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Peppa Pig!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Now Peppa,",
+    "cn": "好了 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "run and join your friends!",
+    "cn": "去你的朋友们那儿吧"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Hello, everyone!",
+    "cn": "嗨 大家好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Candy Cat,Pedro Pony,Suzy Sheep,Danny Dog,Rebecca Rabbit",
+    "content": "Hello,",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Candy Cat,Pedro Pony,Suzy Sheep,Danny Dog,Rebecca Rabbit",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Children!",
+    "cn": "孩子们"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "We begin with demi-plier!",
+    "cn": "首先我们 先练习半蹲"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Demi-Plier.",
+    "cn": "这动作 叫半蹲"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Now",
+    "cn": "现在"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "a little jump,",
+    "cn": "小小地跳一下"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "petit jete.",
+    "cn": "交织式跳跃"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "With grace and beauty.",
+    "cn": "动作要优雅美丽"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Petit jete!",
+    "cn": "交织式跳跃"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Grace and beauty!",
+    "cn": "动作要优雅美丽"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Petit jete!",
+    "cn": "交织式跳跃"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Grace and beauty!",
+    "cn": "动作要优雅美丽"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "The ballet lesson is a lot of fun!",
+    "cn": "芭蕾课真是太有意思了"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Raise your arms!",
+    "cn": "请把双手举起来"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Imagine that you are beautiful swans!",
+    "cn": "想象你们是一只漂亮地天鹅"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "And what noise do you think a swan might make?",
+    "cn": "你们觉得天鹅地声音是什么样的呢"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Ah, ho.",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Grace and beauty!",
+    "cn": "动作要优雅美丽"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Peppa loves dancing!",
+    "cn": "佩奇喜欢跳舞"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Everyone loves dancing!",
+    "cn": "大家都喜欢跳舞"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Mummy! Mummy!",
+    "cn": "妈妈 妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "We all danced as swans!",
+    "cn": "我们都像天鹅那样跳舞了"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Madame Gazelle",
+    "content": "Peppa did very well!",
+    "cn": "佩奇表现得非常好"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "I had to dance beautifully",
+    "cn": "我要跳得既优雅"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "and gracefully!",
+    "cn": "又美丽才行"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "That's lovely!",
+    "cn": "那很好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Can I show you how I did it?",
+    "cn": "我给你看看我怎么跳的好吗"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "Let's get home first.",
+    "cn": "我们先回家吧"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "Then you can show Daddy Pig,",
+    "cn": "然后你还可以表演给爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "and George, and me.",
+    "cn": "乔治和我看"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Bye bye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Outsider",
+    "content": "Peppa and Mummy Pig are home!",
+    "cn": "佩奇和猪妈妈到家了"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Daddy!",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "I'm going to show you how to do ballet!",
+    "cn": "我来教你们怎么跳芭蕾舞吧"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig",
+    "content": "Is it difficult?",
+    "cn": "会不会很难呢"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "It was easy for me.",
+    "cn": "对我来说挺简单的"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "But you,",
+    "cn": "但是爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "George, and Mummy",
+    "cn": "乔治和妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "will find it very hard.",
+    "cn": "跳起来就会比较困难了"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "First, we need music.",
+    "cn": "首先我们得来点音乐"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Good.",
+    "cn": "很好"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Now,",
+    "cn": "现在呢"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "George,",
+    "cn": "乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Daddy and Mummy,",
+    "cn": "爸爸和妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "you must copy what I do.",
+    "cn": "你们都得照我的动作来做"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Madame Gazelle used funny words.",
+    "cn": "羚羊夫人用了一个好笑的词"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "But really,",
+    "cn": "但是其实"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "it's just bending your knees",
+    "cn": "只是弯曲你的膝盖"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "and jumping.",
+    "cn": "然后跳起来"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig",
+    "content": "Ah, the petit jete!",
+    "cn": "啊这个叫交织式跳跃"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Daddy!",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "You know the funny words!",
+    "cn": "你居然知道那个好笑的词"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig",
+    "content": "Mummy Pig and I used to be quite good at ballet!",
+    "cn": "妈妈和我以前芭蕾跳得很好的"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "Do be careful,",
+    "cn": "小心点跳"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig.",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig",
+    "content": "Our favorite was the pas de deux!",
+    "cn": "我们最喜欢的舞是双人舞"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig",
+    "content": "Hoop-la!",
+    "cn": "抛起"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig,Mummy Pig",
+    "content": "Ooofff!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig",
+    "content": "That wasn't quite how I remembered it.",
+    "cn": "我记得的好像不是这样的"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Silly Daddy Pig!",
+    "cn": "糊涂爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Daddy Pig",
+    "content": "Maybe we should leave the ballet to Peppa!",
+    "cn": "我们还是让佩奇来表演芭蕾舞吧"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "I am the best at it!",
+    "cn": "我跳的最好了"
+  },
+  {
+    "sId": 1,
+    "eId": 31,
+    "topic": "Ballet Lesson",
+    "role": "Peppa",
+    "content": "I am a beautiful swan!",
+    "cn": "我是一只漂亮的天鹅"
+  }
+]

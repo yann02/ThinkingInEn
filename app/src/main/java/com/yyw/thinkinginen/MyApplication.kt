@@ -1,7 +1,13 @@
 package com.yyw.thinkinginen
 
 import android.app.Application
+import com.yyw.thinkinginen.utils.LoggingExceptionHandler
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class MyApplication : Application()
+class MyApplication : Application(){
+    override fun onCreate() {
+        super.onCreate()
+        LoggingExceptionHandler().startCatch()  //当编译类型为release时，全局异常捕获，日志保存到sdcard
+    }
+}

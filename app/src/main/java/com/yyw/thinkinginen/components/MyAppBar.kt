@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.yyw.thinkinginen.R
@@ -69,7 +70,7 @@ fun MyAppBar(
                 }
             },
             actions = {
-                IconButton(onClick = onSearch) {
+                IconButton(onClick = onSearch, modifier = Modifier.testTag("tag_searching")) {
                     Icon(imageVector = Icons.Outlined.Search, contentDescription = null)
                 }
             }

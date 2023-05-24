@@ -8,13 +8,10 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
-import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.*
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.testTagsAsResourceId
@@ -25,15 +22,11 @@ import androidx.navigation.compose.rememberNavController
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.yyw.thinkinginen.components.*
-import com.yyw.thinkinginen.domain.Result
 import com.yyw.thinkinginen.entities.Episode
 import com.yyw.thinkinginen.entities.Message
 import com.yyw.thinkinginen.entities.Season
-import com.yyw.thinkinginen.entities.vo.ViewMessage
-import com.yyw.thinkinginen.entities.vo.ViewSeason
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
 import java.io.IOException
 
 const val TAG = "wyy"
@@ -44,7 +37,7 @@ class MainActivity : ComponentActivity() {
 
     @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     @OptIn(
-        ExperimentalMaterial3Api::class, ExperimentalMaterial3WindowSizeClassApi::class,
+        ExperimentalMaterial3WindowSizeClassApi::class,
         ExperimentalComposeUiApi::class
     )
     override fun onCreate(savedInstanceState: Bundle?) {

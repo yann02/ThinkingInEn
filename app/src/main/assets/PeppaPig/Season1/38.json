@@ -1,0 +1,994 @@
+[
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Peppa and George are having",
+    "cn": "佩奇和乔治在开一个"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "a fancy dress party.",
+    "cn": "很棒的化装舞会"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "All their friends are invited.",
+    "cn": "他们邀请了所有的朋友"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Peppa is dressed as a fairy princess.",
+    "cn": "佩奇打扮成了一位仙女公主"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "And George is dressed as a dinosaur.",
+    "cn": "乔治打扮成了一只恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "George",
+    "content": "Dine-saw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Here are Peppa's friends,",
+    "cn": "佩奇的朋友都来了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Candy Cat, Suzy Sheep,",
+    "cn": "包括小猫坎迪 小羊苏西"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Danny Dog,",
+    "cn": "小狗丹尼"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Rebecca Rabbit and Pedro Pony.",
+    "cn": "小兔瑞贝卡和小马佩德罗"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Suzy is wearing her nurse's costume.",
+    "cn": "苏西打扮成了护士的样子"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "Hello,",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "Suzy!",
+    "cn": "苏西"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "Hello, Mr. Pig!",
+    "cn": "你好猪先生"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "I'm glad the nurse has arrived!",
+    "cn": "很高兴这儿来了位护士"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "Have you just come from the hospital?",
+    "cn": "你刚从医院出来吗"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "Er,",
+    "cn": "呃"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "I'm not a real nurse.",
+    "cn": "我并不是一个真的护士"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "It's just pretend.",
+    "cn": "我只是扮成护士"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "Very good",
+    "cn": "非常好"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "My, my!",
+    "cn": "哎呀 瞧啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "Who have we here?",
+    "cn": "这是谁呀"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Danny Dog",
+    "content": "Woof! Woof! I'm a pirate!",
+    "cn": "我是一个海盗"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Danny Dog",
+    "content": "Shiver me timbers!",
+    "cn": "这下你害怕了吧"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "Meow! I'm a witch!",
+    "cn": "我是巫婆"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "I can turn you into a frog.",
+    "cn": "我能把你变成青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Pedro Pony",
+    "content": "Neigh! I'm a clown!",
+    "cn": "我是小丑"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "That's funny! And what are you, Rebecca Rabbit?",
+    "cn": "太好笑了你扮的是什么 瑞贝卡"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Rebecca Rabbit",
+    "content": "I'm a carrot.",
+    "cn": "我是胡萝卜"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "Fantastic!",
+    "cn": "扮得可真像"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "Come in.",
+    "cn": "快进来"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "There's a fairy princess and a dinosaur waiting to meet you.",
+    "cn": "里面有仙女公主和恐龙在等你们呢"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Hello, everyone!",
+    "cn": "大家好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep,Candy Cat,Pedro Pony,Danny Dog,Rebecca Rabbit",
+    "content": "Hello, Peppa!",
+    "cn": "你好 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Hello, Suzy,",
+    "cn": "你好啊 苏西"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "I'm Princess Peppa.",
+    "cn": "我是佩奇公主"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "You must bow when you speak to me.",
+    "cn": "你和我说话时记得要鞠躬"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "Hello, your majesty.",
+    "cn": "你好 公主殿下"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "I'm Nurse Suzy!",
+    "cn": "我是护士苏西"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "Open wide",
+    "cn": "嘴巴张大"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "and say 'ahhh'.",
+    "cn": "然后说 啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "'Ahhh'!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Pedro Pony",
+    "content": "Neigh... I'm a clown.",
+    "cn": "我是小丑"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Rebecca Rabbit",
+    "content": "Do something funny!",
+    "cn": "来表演一个"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Danny Dog",
+    "content": "Woof! Rebecca,",
+    "cn": "瑞贝卡"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Danny Dog",
+    "content": "why are you dressed as a carrot?",
+    "cn": "你为什么扮成胡萝卜"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Rebecca Rabbit",
+    "content": "I like carrots.",
+    "cn": "我喜欢胡萝卜"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "George",
+    "content": "Grrrrrrr! Dine saw!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Danny Dog",
+    "content": "A scary dinosaur!",
+    "cn": "有一只可怕的恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Peppa is admiring herself in the mirror.",
+    "cn": "佩奇在欣赏镜子里的自己"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Mirror, mirror on the wall,",
+    "cn": "镜子镜子回答我"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Who is the fairest of them all?",
+    "cn": "世上最漂亮的人是谁"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "You are, Peppa.",
+    "cn": "当然是你了 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "Hello, Peppa.",
+    "cn": "你好 佩奇"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Hello,",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "I'm a little fairy princess.",
+    "cn": "我今天是仙女公主"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "I'm a witch. Meow!",
+    "cn": "我是巫婆"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "And I've got a magic wand!",
+    "cn": "我还有一根魔杖呢"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "I've got a magic wand, too!",
+    "cn": "我也有一根魔杖"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "I can turn you into a frog.",
+    "cn": "我可以把你变成青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "And I'll turn you into a frog.",
+    "cn": "我也可以把你变成青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "Waaaaaaaaaaaa!!!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "George",
+    "content": "Dine saw",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Oh, dear,",
+    "cn": "哦 糟了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "George is scared of his own reflection.",
+    "cn": "乔治被自己的样子吓坏了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "Oh",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "Silly George,",
+    "cn": "我可爱的乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "look.",
+    "cn": "瞧"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "It's you in the mirror.",
+    "cn": "镜子里的那个就是你"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "George",
+    "content": "Grrrrrrrrrrrrrr!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "Children,",
+    "cn": "孩子们"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "It's time to decide who has",
+    "cn": "该决定谁是化妆舞会上"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "the best fancy dress costume.",
+    "cn": "打扮得最好的人了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "We need a judge.",
+    "cn": "我们需要裁判"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa,Suzy Sheep,Candy Cat,Pedro Pony,Danny Dog,Rebecca Rabbit",
+    "content": "Me! Me!",
+    "cn": "我 我"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "As it's Peppa's party,",
+    "cn": "这是佩奇的派对"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "maybe she should be the judge.",
+    "cn": "就让她来做裁判吧"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "I'm the judge! I'm the judge!",
+    "cn": "我是裁判 我是裁判"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Daddy,",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "what is a 'judge'?",
+    "cn": "什么是裁判"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Daddy Pig",
+    "content": "The 'judge' decides who has the best costume.",
+    "cn": "裁判就是决定谁打扮得最好的人"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Oh, goody!",
+    "cn": "哦这样啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Peppa is going to choose who has the best costume.",
+    "cn": "佩奇将会选出谁打扮得最好"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Suzy,",
+    "cn": "苏西"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Can I see your costume, please?",
+    "cn": "能让我仔细看看你的装扮吗"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "Baaa! I'm Nurse Suzy.",
+    "cn": "我是苏西护士"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep",
+    "content": "I make people better.",
+    "cn": "我能减轻人们的病痛"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Very good, Nurse Suzy. Now, Danny!",
+    "cn": "非常好苏西护士 换你了 丹尼"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Danny Dog",
+    "content": "Woof! I'm a pirate!",
+    "cn": "我是个海盗"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Danny Dog",
+    "content": "Shiver me timbers!",
+    "cn": "你觉得怕了吧"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Now, Candy.",
+    "cn": "轮到换坎迪了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "Meow. I'm a witch.",
+    "cn": "我是巫婆"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Candy Cat",
+    "content": "I can turn you into a frog!",
+    "cn": "我可以把你变成青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Well",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "I'm a fairy princess",
+    "cn": "我是仙女公主"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "and I can turn you into a frog!",
+    "cn": "我也可以把你变成青蛙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "Children!",
+    "cn": "孩子们"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Sorry,",
+    "cn": "对不起"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Mummy.",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "Who's next?",
+    "cn": "下一个是谁"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Pedro Pony",
+    "content": "I'm a clown!",
+    "cn": "我是小丑"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "That's funny!",
+    "cn": "非常好笑"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "And Rebecca?",
+    "cn": "还有瑞贝卡"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Rebecca Rabbit",
+    "content": "I'm a carrot.",
+    "cn": "我是胡萝卜"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Lovely.",
+    "cn": "很不错"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "And my little brother, George,",
+    "cn": "看来我的弟弟乔治"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "is a scary dinosaur.",
+    "cn": "打扮成了一只恐龙"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "George",
+    "content": "Grrrrrrrrrrrrrr!",
+    "cn": "啊"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Everyone's costume is very good.",
+    "cn": "每个人的装扮都非常棒"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep,Candy Cat,Pedro Pony,Danny Dog,Rebecca Rabbit",
+    "content": "Hurry! Baa! Meow! Woof! Neigh!.",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "Now you say who the winner is.",
+    "cn": "现在你来公布谁胜出了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Oh, yes!",
+    "cn": "没问题"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Uh hum!",
+    "cn": "咳咳"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "And the winner is...Me!",
+    "cn": "胜出的人是 我"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "Peppa you can't pick yourself!",
+    "cn": "佩奇你不可以选自己的"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "You're the judge!",
+    "cn": "你可是裁判"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Oh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Can't I?",
+    "cn": "不能吗"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Mummy Pig",
+    "content": "You have to pick another winner.",
+    "cn": "你必须得再选一个人了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "Okay,",
+    "cn": "好的"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Peppa",
+    "content": "the carrot wins.",
+    "cn": "那么胡萝卜赢了"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Suzy Sheep,Candy Cat,Pedro Pony,Danny Dog",
+    "content": "Hurry!",
+    "cn": "好耶"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Peppa loves fancy dress parties!",
+    "cn": "佩奇喜欢化装舞会"
+  },
+  {
+    "sId": 1,
+    "eId": 38,
+    "topic": "Fancy Dress Party",
+    "role": "Outsider",
+    "content": "Everyone loves fancy dress parties!",
+    "cn": "每个人都喜欢化装舞会"
+  }
+]
