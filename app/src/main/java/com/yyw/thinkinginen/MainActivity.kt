@@ -19,15 +19,9 @@ import androidx.core.view.WindowCompat
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import com.yyw.thinkinginen.components.*
-import com.yyw.thinkinginen.entities.Episode
-import com.yyw.thinkinginen.entities.Message
-import com.yyw.thinkinginen.entities.Season
 import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import dagger.hilt.android.AndroidEntryPoint
-import java.io.IOException
 
 const val TAG = "wyy"
 
@@ -42,11 +36,8 @@ class MainActivity : ComponentActivity() {
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Log.d(TAG,"111")
         WindowCompat.setDecorFitsSystemWindows(window, false)
-        if (!model.hasInit) {
-            getSentences()
-            model.upDataHasInit()
-        }
         setContentView(
             ComposeView(this).apply {
                 setContent {
@@ -78,50 +69,8 @@ class MainActivity : ComponentActivity() {
             })
     }
 
-    override fun onPause() {
-        super.onPause()
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
         model.settingScrollPosition()
-    }
-
-    private fun getSentences() {
-        Log.d(TAG, "getSentences")
-        val seasons = mutableListOf<Season>()
-        val episodes = mutableListOf<Episode>()
-        val res = mutableListOf<Message>()
-        try {
-            val files = assets.list("PeppaPig")
-//            Log.d("wyy", "files:$files")
-//            Log.d("wyy", "files.size:${files?.size}")
-            if (!files.isNullOrEmpty()) {
-                for ((seasonIndex, s) in files.withIndex()) {
-//                    Log.d("wyy", "s:$s")
-                    val season = seasonIndex + 1
-                    seasons.add(Season(season, "Season $season"))
-                    val subFiles = assets.list("PeppaPig/$s")
-                    subFiles?.sortBy {
-                        it.split(".")[0].toInt()
-                    }
-                    if (!subFiles.isNullOrEmpty()) {
-                        for ((episodeIndex, ss) in subFiles.withIndex()) {
-                            //  seasonIndex * 1000用于区分不同的季，避免重复的episodeId
-                            Log.d(TAG, "ss:$ss")
-                            val episodeId = episodeIndex + 1 + seasonIndex * 1000
-                            val sort = episodeIndex + 1
-//                            Log.d("wyy", "ss:$ss")
-                            val jsonString =
-                                assets.open("PeppaPig/$s/$ss").bufferedReader().use { it.readText() }
-//                            Log.d("wyy", "jsonString:$jsonString")
-                            val listCountryType = object : TypeToken<List<Message>>() {}.type
-                            val temps: List<Message> = Gson().fromJson(jsonString, listCountryType)
-                            res.addAll(temps)
-                            episodes.add(Episode(episodeId, sort, temps[0].topic, season))
-                        }
-                    }
-                }
-            }
-        } catch (ioException: IOException) {
-            ioException.printStackTrace()
-        }
-        model.insertData(seasons, episodes, res)
     }
 }

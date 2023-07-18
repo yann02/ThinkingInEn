@@ -29,7 +29,13 @@ import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun MyDrawerContent(data: List<ViewSeason>, onSeasonClick: (ViewSeason) -> Unit, onEpisodeClick: (Int, Int) -> Unit) {
+fun MyDrawerContent(
+    data: List<ViewSeason>,
+    seasonIdExpand: Int,
+    episodeId: Int,
+    onSeasonClick: (Int) -> Unit,
+    onEpisodeClick: (Int, Int) -> Unit,
+) {
     Log.d(TAG, "MyDrawerContent")
     Column {
         Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
@@ -37,17 +43,19 @@ fun MyDrawerContent(data: List<ViewSeason>, onSeasonClick: (ViewSeason) -> Unit,
             data.forEach { season ->
                 stickyHeader {
                     DrawerItemHeader(season.name, season.episodes.size.toString(), season.isOpen) {
-                        onSeasonClick(season)
+                        onSeasonClick(season.id)
                     }
                 }
-                if (season.isOpen) {
+                if (seasonIdExpand == season.id) {
                     items(items = season.episodes, key = { episode -> episode.episodeId }) { episode ->
                         DrawerItemContent(
                             stringResource(
                                 com.yyw.thinkinginen.R.string.drawer_content,
                                 episode.sort,
                                 episode.name
-                            ), episode.messages.size.toString(), episode.current
+                            ),
+                            episode.messages.size.toString(),
+                            episodeId == episode.episodeId,
                         ) {
                             onEpisodeClick(season.id, episode.episodeId)
                         }
@@ -96,7 +104,12 @@ private fun DrawerItemHeader(
 }
 
 @Composable
-private fun DrawerItemContent(text: String, msgNum: String, selected: Boolean, onEpisodeClick: () -> Unit = {}) {
+private fun DrawerItemContent(
+    text: String,
+    msgNum: String,
+    selected: Boolean,
+    onEpisodeClick: () -> Unit = {}
+) {
     val background = if (selected) {
         Modifier.background(MaterialTheme.colorScheme.primaryContainer)
     } else {

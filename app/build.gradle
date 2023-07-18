@@ -2,7 +2,9 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-    id 'dagger.hilt.android.plugin'
+//    id 'dagger.hilt.android.plugin'
+//    id 'com.google.devtools.ksp'
+    id 'com.google.dagger.hilt.android'
 }
 
 android {
@@ -24,6 +26,11 @@ android {
                 arg("room.schemaLocation", "$projectDir/schemas")
             }
         }
+    }
+
+    // Allow references to generated code
+    kapt {
+        correctErrorTypes true
     }
 
     buildTypes {
@@ -65,7 +72,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.core:core-ktx:1.7.0'
     implementation "androidx.compose.ui:ui:$compose_version"
     implementation "androidx.compose.material:material:$compose_version"
     implementation "androidx.compose.material3:material3:1.0.0-alpha15"
@@ -85,12 +92,14 @@ dependencies {
     kapt "com.google.dagger:hilt-compiler:$hilt_version"
     implementation "androidx.datastore:datastore-preferences:1.0.0"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.0"
-//    def room_version = "2.4.2"
-    def room_version = "2.3.0"
+    def room_version = "2.5.1"
+//    def room_version = "2.3.0"
     implementation "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
+    // To use Kotlin Symbol Processing (KSP)
+//    ksp "androidx.room:room-compiler:$room_version"
 
 //    kapt "android.arch.persistence.room:compiler:1.1.1"
 //    implementation "androidx.room:room-paging:2.5.0-alpha02"
@@ -106,4 +115,11 @@ dependencies {
 
     implementation "com.google.accompanist:accompanist-flowlayout:0.25.1"
     implementation 'androidx.profileinstaller:profileinstaller:1.3.0-rc01'
+
+    implementation "androidx.work:work-runtime-ktx:2.8.1"
+    implementation 'androidx.hilt:hilt-work:1.0.0'
+    // When using Kotlin.
+    kapt 'androidx.hilt:hilt-compiler:1.0.0'
+
+    implementation 'cat.ereza:customactivityoncrash:2.4.0'
 }

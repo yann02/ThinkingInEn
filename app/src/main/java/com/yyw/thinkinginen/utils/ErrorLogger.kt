@@ -17,7 +17,7 @@ class ErrorLogger {
         val fileName = "error_log_$time.txt"
         val fileContents = "Time: $time\n${stackTrace}"
         val root = Environment.getExternalStorageDirectory()
-        val directory = File(root, "BizErrors")
+        val directory = File(root, "TieErrors")
         if (!directory.exists()) {
             directory.mkdirs()
         }

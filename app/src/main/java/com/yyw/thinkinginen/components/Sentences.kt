@@ -5,22 +5,33 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.add
+import androidx.compose.foundation.layout.asPaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.integerResource
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.semantics.heading
-import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.yyw.thinkinginen.R
 import com.yyw.thinkinginen.TAG
@@ -35,20 +46,22 @@ fun Sentences(
     onUpdateLastScrollPosition: (Int) -> Unit,
     onClickContent: (ViewMessage) -> Unit
 ) {
-    Log.d(TAG,"=====Sentences lastPosition:$lastPosition")
-    Log.d(TAG,"=====Sentences scrollToPosition:$scrollToPosition")
+    Log.d(TAG, "=====Sentences lastPosition:$lastPosition")
+    Log.d(TAG, "=====Sentences scrollToPosition:$scrollToPosition")
     val listState = rememberLazyListState(initialFirstVisibleItemIndex = lastPosition)
     if (scrollToPosition != -1) {
         LaunchedEffect(scrollToPosition) {
             listState.animateScrollToItem(scrollToPosition)
-//            listState.scrollToItem(scrollToPosition)
         }
     }
     LazyColumn(
         state = listState,
         contentPadding = WindowInsets.statusBars.add(WindowInsets(top = 90.dp)).asPaddingValues(),
-        modifier = modifier.then(Modifier.fillMaxSize()).testTag("tag_conversation")
+        modifier = modifier
+            .then(Modifier.fillMaxSize())
+            .testTag("tag_conversation")
     ) {
+        Log.d(TAG,"LazyColumn")
         for (index in data.indices) {
             val prevRole = data.getOrNull(index - 1)?.role
             val prevEpisode = data.getOrNull(index - 1)?.eId
@@ -63,8 +76,9 @@ fun Sentences(
             }
         }
     }
-    val firstVisibleItemIndex by remember { derivedStateOf { listState.firstVisibleItemIndex } }
-    onUpdateLastScrollPosition(firstVisibleItemIndex)
+    if (listState.isScrollInProgress) {
+        onUpdateLastScrollPosition(listState.firstVisibleItemIndex)
+    }
 }
 
 @Composable

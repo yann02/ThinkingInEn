@@ -3,10 +3,8 @@ package com.yyw.thinkinginen.components
 import android.util.Log
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
-import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
-import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
@@ -18,20 +16,16 @@ import com.yyw.thinkinginen.domain.data
 import com.yyw.thinkinginen.entities.vo.ViewMessage
 import com.yyw.thinkinginen.entities.vo.ViewSeason
 import kotlinx.coroutines.launch
-import java.util.logging.Logger
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: () -> Unit = {}) {
     Log.d(TAG, "MainView windowSize:$windowSize")
     val seasons: List<ViewSeason> by model.mViewSeasons.collectAsState()
-    val curSeason by model.mCurrentViewSeasonId.collectAsState()
-    val curEpisode by model.mCurrentViewEpisodeSort.collectAsState()
     val lastPosition: Result<Int> by model.mScrollPosition.collectAsState()
-    val messages2: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
-    val episodeName by model.mCurrentViewEpisodeName.collectAsState()
+    val wrapMessages: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
     val drawerOpen by model.drawerShouldBeOpened.collectAsState()
-    Log.d(TAG, "messages2 size:${messages2.data?.size}")
+    Log.d(TAG, "messages2 size:${wrapMessages.data?.size}")
     var scrollToPosition by rememberSaveable {
         mutableStateOf(-1)
     }
@@ -57,7 +51,7 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
         }
     }
     Log.d(TAG, "seasons size:${seasons.size},lastPosition:$lastPosition")
-    if (seasons.isNotEmpty() && lastPosition is Result.Success && messages2 is Result.Success) {
+    if (seasons.isNotEmpty() && lastPosition is Result.Success && wrapMessages is Result.Success) {
         Log.d(TAG, "进来了")
         when (windowSize.widthSizeClass) {
             WindowWidthSizeClass.Compact -> {
@@ -66,14 +60,20 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                     drawerState = drawerState,
                     modifier = Modifier.navigationBarsPadding(),
                     drawerContent = {
-                        MyDrawerContent(seasons, onSeasonClick = { season ->
-                            model.onSeasonClick(season)
-                        }, onEpisodeClick = { sId, eId ->
-                            scope.launch {
-                                drawerState.close()
-                                scrollToPosition = model.onEpisodeClick(sId, eId)
-                            }
-                        })
+                        MyDrawerContent(
+                            seasons,
+                            seasonIdExpand = model.mSeasonIdExpand,
+                            episodeId = model.mViewEpisodeId,
+                            onSeasonClick = { seasonId ->
+                                model.onSeasonClick(seasonId)
+                            },
+                            onEpisodeClick = { sId, eId ->
+                                scope.launch {
+                                    drawerState.close()
+                                    scrollToPosition = model.onEpisodeClick(sId, eId)
+                                }
+                            },
+                        )
                     }) {
                     val topBarState = rememberTopAppBarState()
                     val scrollBehavior =
@@ -92,7 +92,7 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                                     .nestedScroll(scrollBehavior.nestedScrollConnection)
                             ) {
                                 Sentences(
-                                    data = (messages2 as Result.Success).data,
+                                    data = (wrapMessages as Result.Success).data,
                                     lastPosition = (lastPosition as Result.Success).data,
                                     scrollToPosition = scrollToPosition,
                                     modifier = Modifier
@@ -104,8 +104,8 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                             }
                             MyAppBar(
                                 scrollBehavior,
-                                episodeName,
-                                "Episode $curEpisode / Season $curSeason",
+                                model.mViewEpisodeName,
+                                "Episode ${model.mViewEpisodeSort} / Season ${model.mViewSeasonId}",
                                 onNavIconPressed = {
                                     model.openDrawer()
                                 },
@@ -117,18 +117,24 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                     }
                 }
             }
+
             else -> {
                 Log.d(TAG, "WindowWidthSizeClass.else")
                 PermanentNavigationDrawer(drawerContent = {
-                    MyDrawerContent(seasons, onSeasonClick = { season ->
-                        model.onSeasonClick(season)
-                    }, onEpisodeClick = { sId, eId ->
-                        scrollToPosition = model.onEpisodeClick(sId, eId)
+                    MyDrawerContent(
+                        seasons,
+                        seasonIdExpand = model.mSeasonIdExpand,
+                        episodeId = model.mViewEpisodeId,
+                        onSeasonClick = { season ->
+                            model.onSeasonClick(season)
+                        },
+                        onEpisodeClick = { sId, eId ->
+                            scrollToPosition = model.onEpisodeClick(sId, eId)
 //                                                scope.launch {
 //                                                    drawerState.close()
 //                                                    scrollToPosition = model.onEpisodeClick(sId, eId)
 //                                                }
-                    })
+                        })
                 }) {
                     Surface(
                         modifier = Modifier.windowInsetsPadding(
@@ -143,14 +149,14 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                         ) {
                             Spacer(Modifier.windowInsetsTopHeight(WindowInsets.statusBars))
                             Sentences(
-                                data = (messages2 as Result.Success).data,
+                                data = (wrapMessages as Result.Success).data,
                                 lastPosition = (lastPosition as Result.Success).data,
                                 scrollToPosition = scrollToPosition,
                                 modifier = Modifier
                                     .weight(1f)
                                     .navigationBarsPadding(),
                                 onUpdateLastScrollPosition = model::updateLastScrollPosition,
-                                onClickContent = model::onClickMessageById
+                                onClickContent = model::onClickMessageById,
                             )
                         }
                     }

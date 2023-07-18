@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.preferencesDataStore
+import androidx.room.Room
 import com.yyw.thinkinginen.constants.PreferenceKeys.NAME
 import com.yyw.thinkinginen.data.DataStorePreferenceStorage
 import com.yyw.thinkinginen.data.PreferenceStorage
@@ -35,9 +36,16 @@ object AppModule {
     fun providePreferenceStorage(@ApplicationContext context: Context): PreferenceStorage =
         DataStorePreferenceStorage(context.dataStore)
 
+    //    @Singleton
+//    @Provides
+//    fun provideAppDatabase(@ApplicationContext context: Context): AppDatabase {
+//        return AppDatabase.buildDatabase(context)
+//    }
     @Singleton
     @Provides
-    fun provideAppDatabase(@ApplicationContext context: Context): AppDatabase {
-        return AppDatabase.buildDatabase(context)
-    }
+    fun provideAppDatabase(@ApplicationContext context: Context): AppDatabase = Room.databaseBuilder(
+        context,
+        AppDatabase::class.java,
+        "peppa-db"
+    ).build()
 }

@@ -17,11 +17,11 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun episodeDao(): EpisodeDao
     abstract fun messageDao(): MessageDao
 
-    companion object {
-        private const val databaseName = "peppa"
-
-        fun buildDatabase(context: Context): AppDatabase {
-            return Room.databaseBuilder(context, AppDatabase::class.java, databaseName).build()
-        }
-    }
+//    companion object {
+//        private const val databaseName = "peppa"
+//
+//        fun buildDatabase(context: Context): AppDatabase {
+//            return Room.databaseBuilder(context, AppDatabase::class.java, databaseName).build()
+//        }
+//    }
 }

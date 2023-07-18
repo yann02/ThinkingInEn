@@ -12,3 +12,9 @@ class ViewSeason(
 ) {
     var isOpen by mutableStateOf(false)
 }
+
+fun List<ViewSeason>.flatten2ViewMessages(): List<ViewMessage> = this.map { season ->
+    season.episodes.map { episode ->
+        episode.messages
+    }.flatten()
+}.flatten()
