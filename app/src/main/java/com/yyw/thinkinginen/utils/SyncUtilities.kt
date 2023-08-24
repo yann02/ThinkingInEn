@@ -71,6 +71,6 @@ suspend fun Synchronizer.dataSync(
     deleteAll: suspend () -> Unit,
     insertAll: suspend (ResData) -> Unit,
 ) = suspendRunCatching {
-    deleteAll()
+//    deleteAll()
     insertAll(requireResData(context))
 }.isSuccess

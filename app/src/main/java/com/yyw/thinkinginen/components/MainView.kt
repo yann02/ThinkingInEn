@@ -26,9 +26,6 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
     val wrapMessages: Result<List<ViewMessage>> by model.mViewMessages.collectAsState()
     val drawerOpen by model.drawerShouldBeOpened.collectAsState()
     Log.d(TAG, "messages2 size:${wrapMessages.data?.size}")
-    var scrollToPosition by rememberSaveable {
-        mutableStateOf(-1)
-    }
     val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
     if (drawerOpen) {
         // Open drawer and reset state in VM.
@@ -70,7 +67,7 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                             onEpisodeClick = { sId, eId ->
                                 scope.launch {
                                     drawerState.close()
-                                    scrollToPosition = model.onEpisodeClick(sId, eId)
+                                    model.onEpisodeClick(sId, eId)
                                 }
                             },
                         )
@@ -94,7 +91,7 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                                 Sentences(
                                     data = (wrapMessages as Result.Success).data,
                                     lastPosition = (lastPosition as Result.Success).data,
-                                    scrollToPosition = scrollToPosition,
+                                    scrollToPosition = model.scrollToPosition,
                                     modifier = Modifier
                                         .weight(1f)
                                         .navigationBarsPadding(),
@@ -129,12 +126,9 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                             model.onSeasonClick(season)
                         },
                         onEpisodeClick = { sId, eId ->
-                            scrollToPosition = model.onEpisodeClick(sId, eId)
-//                                                scope.launch {
-//                                                    drawerState.close()
-//                                                    scrollToPosition = model.onEpisodeClick(sId, eId)
-//                                                }
-                        })
+                            model.onEpisodeClick(sId, eId)
+                        },
+                    )
                 }) {
                     Surface(
                         modifier = Modifier.windowInsetsPadding(
@@ -151,7 +145,7 @@ fun MainView(model: MainViewModel, windowSize: WindowSizeClass, onClickSearch: (
                             Sentences(
                                 data = (wrapMessages as Result.Success).data,
                                 lastPosition = (lastPosition as Result.Success).data,
-                                scrollToPosition = scrollToPosition,
+                                scrollToPosition = model.scrollToPosition,
                                 modifier = Modifier
                                     .weight(1f)
                                     .navigationBarsPadding(),

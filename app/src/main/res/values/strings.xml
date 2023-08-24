@@ -9,4 +9,5 @@
     <string name="sync_notification_channel_name">Sync</string>
     <string name="sync_notification_channel_description">Background tasks for Now in Android</string>
     <string name="sync_notification_title">Think in English</string>
+    <string name="message_path">Episode %d / Season %d</string>
 </resources>

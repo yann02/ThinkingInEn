@@ -41,7 +41,7 @@ import com.yyw.thinkinginen.ui.theme.ThinkingInEnTheme
 import kotlinx.coroutines.delay
 
 @Composable
-fun SearchView(model: MainViewModel = viewModel(), onBack: () -> Unit) {
+fun SearchView(model: MainViewModel = viewModel(), onBack: () -> Unit, onItemClick: (Int) -> Unit) {
     Surface(modifier = Modifier.fillMaxSize(), tonalElevation = 5.dp) {
         Column {
             val viewMessages by model.mMatchViewMessages.collectAsState()
@@ -54,7 +54,10 @@ fun SearchView(model: MainViewModel = viewModel(), onBack: () -> Unit) {
                 delay(100)
                 model.updatedSearchText(text = text.text)
             }
-            MatchedSentences(data = viewMessages)
+            MatchedSentences(
+                data = viewMessages,
+                onItemClick = onItemClick,
+            )
         }
     }
 }
@@ -120,12 +123,12 @@ fun TopViewForSearch(text: TextFieldValue, textChange: (TextFieldValue) -> Unit,
 }
 
 @Composable
-fun MatchedSentences(data: List<ViewMessage>) {
+fun MatchedSentences(data: List<ViewMessage>, onItemClick: (Int) -> Unit = {}) {
     LazyColumn(modifier = Modifier.fillMaxWidth()) {
         items(data, key = {
             it.messageId
         }) {
-            ItemForMatchedSentences(msg = it)
+            ItemForMatchedSentences(msg = it, onItemClick = onItemClick)
         }
     }
 }
@@ -134,20 +137,20 @@ fun MatchedSentences(data: List<ViewMessage>) {
  * 搜索结果列表的项视图
  */
 @Composable
-fun ItemForMatchedSentences(msg: ViewMessage) {
-    Box(
+fun ItemForMatchedSentences(msg: ViewMessage, onItemClick: (Int) -> Unit) {
+    Column(
         modifier = Modifier
+            .clickable { onItemClick(msg.messageId) }
             .padding(
-                start = dimensionResource(id = R.dimen.padding_left_item), end = dimensionResource(
-                    id = R.dimen.padding_right_item
-                )
+                start = dimensionResource(id = R.dimen.padding_left_item),
+                top = dimensionResource(id = R.dimen.vertical_space),
+                end = dimensionResource(id = R.dimen.padding_right_item)
             )
-            .height(dimensionResource(id = R.dimen.item_height_one_line)),
-        contentAlignment = Alignment.Center
     ) {
         Text(
             text = msg.content, style = MaterialTheme.typography.bodyLarge
         )
+        Text(text = stringResource(id = R.string.message_path, msg.eId - (msg.sId - 1) * 1000, msg.sId))
     }
 }
 

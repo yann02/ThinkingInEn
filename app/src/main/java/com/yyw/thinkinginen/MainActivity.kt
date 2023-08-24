@@ -36,7 +36,6 @@ class MainActivity : ComponentActivity() {
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(TAG,"111")
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContentView(
             ComposeView(this).apply {
@@ -51,7 +50,9 @@ class MainActivity : ComponentActivity() {
                                 modifier = Modifier.semantics {
                                     testTagsAsResourceId = true
                                 }) {
-                                composable("main") {
+                                composable(
+                                    "main",
+                                ) {
                                     MainView(
                                         model = model,
                                         windowSize = windowSize,
@@ -60,7 +61,13 @@ class MainActivity : ComponentActivity() {
                                 composable("search") {
                                     SearchView(
                                         model = model,
-                                        onBack = { navController.navigate("main") })
+                                        onBack = navController::popBackStack,
+                                        onItemClick = { mId ->
+                                            Log.d(TAG,"onItemClick mId:$mId")
+                                            model.onResultItemClickForSearch(mId)
+                                            navController.popBackStack()
+                                        }
+                                    )
                                 }
                             }
                         }

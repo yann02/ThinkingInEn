@@ -121,7 +121,7 @@ class MainViewModel @Inject constructor(
     private var _mLastScrollPosition = 0
 
     fun updateLastScrollPosition(position: Int) {
-        Log.d(TAG,"updateLastScrollPosition position:$position")
+        Log.d(TAG, "updateLastScrollPosition position:$position")
         _mLastScrollPosition = position
         val message = mViewMessages.value.data?.getOrNull(position)
         message?.let { msg ->
@@ -141,10 +141,28 @@ class MainViewModel @Inject constructor(
         }
     }
 
-    fun onEpisodeClick(sId: Int, eId: Int): Int =
-        mViewMessages.value.data?.find { it.sId == sId && it.eId == eId }?.let {
+    var scrollToPosition by mutableStateOf(-1)
+        private set
+
+    fun onEpisodeClick(sId: Int, eId: Int) {
+        scrollToPosition = mViewMessages.value.data?.find { it.sId == sId && it.eId == eId }?.let {
             mViewMessages.value.data?.indexOf(it)
         } ?: -1
+    }
+
+    /**
+     * @param mId [ViewMessage.messageId]
+     */
+    fun onResultItemClickForSearch(mId: Int) {
+        Log.d(TAG,"onResultItemClickForSearch mId:$mId")
+        if (mId == -1){
+            return
+        }
+        val msg = mViewMessages.value.data?.find { it.messageId == mId }
+        mViewMessages.value.data?.indexOf(msg)?.let {
+            scrollToPosition = it
+        }
+    }
 
     fun onSeasonClick(seasonId: Int) {
         mSeasonIdExpand = if (mSeasonIdExpand == seasonId) {
