@@ -13,7 +13,6 @@ import com.yyw.thinkinginen.utils.Synchronizer
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
 @HiltWorker
@@ -25,15 +24,16 @@ class SyncWorker @AssistedInject constructor(
 ) : CoroutineWorker(appContext, workerParams), Synchronizer {
     override suspend fun getForegroundInfo(): ForegroundInfo =
         appContext.syncForegroundInfo()
+
     override suspend fun doWork(): Result = withContext(dispatcher) {
-        val syncedSuccess =
-            withContext(Dispatchers.Default) { mainRepository.sync() }
+        val syncedSuccess = mainRepository.sync()
         if (syncedSuccess) {
             Result.success()
         } else {
             Result.retry()
         }
     }
+
     companion object {
         /**
          * Expedited one time work to sync data on app startup

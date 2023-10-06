@@ -1,0 +1,666 @@
+[
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "Today, Peppa is going to the park.",
+    "cn": "今天 佩奇一家人要去公园"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "It's freezing cold!",
+    "cn": "我觉得今天好冷啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "It is cold!",
+    "cn": "确实是很冷"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Quick! Let's get our warm clothes on!",
+    "cn": "来 我们把保暖衣服穿上"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "On cold days, Peppa and her family",
+    "cn": "天气这么冷 佩奇一家"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "wear their hats and scarves and coats.",
+    "cn": "戴了帽子 围巾 还穿了大衣"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "I'll put the roof up.",
+    "cn": "我把顶篷升起来"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Ooh, And let's get the heating on.",
+    "cn": "哦 把暖气也打开吧"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Everyone nice and warm?",
+    "cn": "大家都暖和了吧"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig,Peppa,George",
+    "content": "Yes, Daddy Pig!",
+    "cn": "是的 爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Then let's go!",
+    "cn": "那我们出发啦"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "This is the park.",
+    "cn": "这儿就是公园"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "We're here!",
+    "cn": "我们到了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig,Peppa,George",
+    "content": "Hooray!",
+    "cn": "好哎"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Mummy,",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "why are all the leave red and yellow?",
+    "cn": "为什么叶子都是黄色和红色的呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "It's Autumn time, Peppa.",
+    "cn": "因为现在是秋天了 佩奇"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "In the Autumn, it gets a bit colder",
+    "cn": "在秋天 天气会变凉"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "and the leaves change color.",
+    "cn": "树叶的颜色会变黄"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "It's quite windy.",
+    "cn": "这风真不小啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Let's play a game to keep warm.",
+    "cn": "我们来玩球 让身体暖起来"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "My turn!",
+    "cn": "轮到我了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Oh, it's not meant to go that away.",
+    "cn": "哦 球不应该往那个方向滚的"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "The wind is blowing the ball along!",
+    "cn": "大风把球吹得好远好远"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "The ball is in the pond!",
+    "cn": "球掉到池塘里去了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Hmmm, I'll just use this stick to reach it.",
+    "cn": "恩 我用这根树枝把它取出来吧"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Just a bit further, Daddy.",
+    "cn": "再稍微远一点 爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Be careful, Daddy Pig",
+    "cn": "小心点儿啊 猪爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Don't worry! I've almost got it.",
+    "cn": "别担心 我快要拿到了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Daddy, is the water cold?",
+    "cn": "爸爸 水里面冷不冷啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "A little bit.",
+    "cn": "有一点点冷"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "The wind has blown the ball out of the pond.",
+    "cn": "大风又把球吹出了池塘"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "That's lucky!",
+    "cn": "太幸运了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Yes, what a stroke of luck!",
+    "cn": "是啊 确实运气不错"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "It's getting even windier,",
+    "cn": "现在风好像刮得更大了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Hold onto your hats.",
+    "cn": "大家把帽子戴紧"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "Oh no! The wind has blown George's hat off.",
+    "cn": "不好 大风把乔治的帽子吹跑了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Don't worry George!",
+    "cn": "别担心 乔治"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig will catch your hat!",
+    "cn": "爸爸会找回你的帽子的"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Quick, Daddy!",
+    "cn": "快啊 爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Look! It's in that little tree!",
+    "cn": "瞧 帽子跑到树上去了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Hmmm. I'll just climb up and get it.",
+    "cn": "嗯 那我就爬上去把它拿下来"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "The tree's much too thin",
+    "cn": "这些树枝太细了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "to take your weight, Daddy Pig!",
+    "cn": "根本承受不了你的重量啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "So, how can we get George's hat?",
+    "cn": "那么 我们怎么把帽子拿下来"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Simple, I'll give the tree a little shake.",
+    "cn": "简单 我摇一摇树就好了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Hmmm, Maybe if I shake it a bit harder.",
+    "cn": "哈 看来我得摇的更厉害一点"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "I thought that sort of thing only happened to me!",
+    "cn": "我以为这种事只会发生在我身上"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "It's not funny.",
+    "cn": "一点都不好笑"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "It's a bit funny, Mummy.",
+    "cn": "还是有一点好笑的 妈妈"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "I suppose it is a bit funny.",
+    "cn": "可能是有那么一点好笑"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Where's George's hat?",
+    "cn": "乔治的帽子在哪"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "It's on your head!",
+    "cn": "在你的头上呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Here's your hat George!",
+    "cn": "你的帽子 乔治"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "Hold onto it this time!",
+    "cn": "这次要抓紧了啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "The wind is blowing all the leaves off the trees.",
+    "cn": "大风把树上所有的叶子都吹走了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Look at me! I'm living into the wind.",
+    "cn": "你看我啊 我可以躺倒在风里面"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "The wind is strong enough to hold Peppa up!",
+    "cn": "风太大了 竟然把佩奇给撑住了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "The wind is strong enough to hold George up!",
+    "cn": "风太大了 乔治也被撑住了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Daddy! Have a go!",
+    "cn": "爸爸 你也来试试"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Er. I'm a bit too heavy...",
+    "cn": "呃 我想我太重了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Come on, Daddy! It's really fun!",
+    "cn": "来嘛 爸爸真的很好玩"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Oh, all right!",
+    "cn": "哦 那么好吧"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "The wind is strong enough to hold up Daddy Pig!",
+    "cn": "风太大了 竟然连猪爸爸也被撑住了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "I say! This is fun!",
+    "cn": "要我说 真的很好玩"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Come on, Mummy Pig! Give it a try!",
+    "cn": "快来吧 猪妈妈 你也来试试"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "But if the wind stops. I'll fall over.",
+    "cn": "但是如果风停了 我会摔倒的"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "The wind won't just stop!",
+    "cn": "这风不会一下子就停的"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "The wind has stopped.",
+    "cn": "风一下子就停了"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "It's not funny!",
+    "cn": "一点儿都不好笑"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Mummy Pig",
+    "content": "It is a bit funny!",
+    "cn": "这还是有一点好笑的"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Now, the wind has stopped. What can we do?",
+    "cn": "现在风停了 我们做什么啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Hmm, What's you favourite game?",
+    "cn": "嗯 你最喜欢的游戏是什么"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Jumping up and down in muddy puddles.",
+    "cn": "我最喜欢在泥坑里跳来跳去的"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "But there aren't any puddles.",
+    "cn": "但这里没有泥坑啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "Just lots of boring, dry leaves.",
+    "cn": "只有一堆无聊的干树叶"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "And what do you do with dry leaves?",
+    "cn": "那我们能拿干树叶做什么呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "I don't know.",
+    "cn": "我不知道"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Daddy Pig",
+    "content": "Jump up and down in them!",
+    "cn": "在干树叶里跳来跳去"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "Daddy Pig loves jumping up and down in leaves.",
+    "cn": "猪爸爸喜欢在干树叶里跳来跳去"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "Peppa loves jumping up and down in leaves.",
+    "cn": "佩奇喜欢在干树叶里跳来跳去"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Outsider",
+    "content": "Everyone loves jumping up and down in leaves.",
+    "cn": "大家都喜欢在干树叶里跳来跳去"
+  },
+  {
+    "sId": 2,
+    "eId": 1002,
+    "topic": "Windy Autumn Day",
+    "role": "Peppa",
+    "content": "This is the best Autumn day ever!",
+    "cn": "这真是最好玩的一个秋天了"
+  }
+]

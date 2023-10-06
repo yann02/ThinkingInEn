@@ -1,0 +1,738 @@
+[
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Peppa and her family have come to the summer fete.",
+    "cn": "佩奇和她的家人来到了夏日游园会"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Look, I display rescue vehicles.",
+    "cn": "看 那里有救援交通工具的展示"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Grandad Dog is showing his pick-up truck",
+    "cn": "狗爷爷展示的是他的拖车"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Granddad Dog",
+    "content": "This is the sound my pick-up truck makes.",
+    "cn": "我的拖车 发出的声音是这样的"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Mommy Sheep is showing the fire engine.",
+    "cn": "羊妈妈展示的是她的消防车"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Suzy Sheep's mummy",
+    "content": "This is the sound fire engine makes.",
+    "cn": "我的消防车发出的声音是这样的"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "And Miss Rabbits is showing her rescue helicopter.",
+    "cn": "还有兔小姐 展示的是救援直升机"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "This is the sound my helicopter makes.",
+    "cn": "我的直升机 发出的声音是这样的"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Helicopter",
+    "content": "Helicopter, reversing helicopter, reversing.",
+    "cn": "直升机后退 直升机后退"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "Would you like to go for a ride.",
+    "cn": "你们想坐上去飞一圈吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "Yes! Please.",
+    "cn": "是的 谢谢你"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "Ok! Hop in!",
+    "cn": "好的 上来吧"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Oh dear! There is no room for me!",
+    "cn": "哦 糟糕 没有我的位子了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Never mind, I'll watch from the ground.",
+    "cn": "没关系 我在地上看就行了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Daddy Pig doesn't like heights.",
+    "cn": "猪爸爸不喜欢那么高"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "Wheehee! We are going up in the air!",
+    "cn": "哦吼 我们要飞上天空了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "Yes! It can go straight up,",
+    "cn": "是的 它可以垂直往上升"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "It can go straight down,",
+    "cn": "它也可以垂直下降"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "It can even loop the loop!",
+    "cn": "它还可以翻跟头呢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "Poor Daddy! He is missing all the fun!",
+    "cn": "可怜的爸爸 他错过了好玩的事"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mummy Pig",
+    "content": "Yes, poor Daddy!",
+    "cn": "是啊 可怜的爸爸"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "One ice-cream, please.",
+    "cn": "一个冰淇淋 谢谢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Mm... that's nice.",
+    "cn": "嗯 味道真不错"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mummy Pig",
+    "content": "Maybe we should land now.",
+    "cn": "我们差不多该降落了吧"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Helicopter",
+    "content": "emergency! emergency!",
+    "cn": "紧急情况 紧急情况"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Helicopter",
+    "content": "Calling rescue helicopter!",
+    "cn": "紧急呼叫救援直升机"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "I'm on my way!",
+    "cn": "马上就到"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "You're in luck! We've got a job to do!",
+    "cn": "你们真幸运 我们要去执行任务了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Mr. Bull is digging up the road.",
+    "cn": "公牛先生正在挖路"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mr. Bull",
+    "content": "Hello, Miss Rabbits!",
+    "cn": "你们好啊 兔小姐"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mr. Bull",
+    "content": "I've got a big metal pipe",
+    "cn": "我们有根大的金属管"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mr. Bull",
+    "content": "that needs lifting!",
+    "cn": "需要你帮忙提起来"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "Ok, Mr. Bull!",
+    "cn": "好的 公牛先生"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mummy Pig",
+    "content": "How can you lift that big pipe?",
+    "cn": "你要怎么把那根大管子提起来"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "With my big magnet.",
+    "cn": "用我的 大磁铁"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "Hooray!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "You must bow when you speak to me.",
+    "cn": "你和我说话时记得要鞠躬"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "What are you going to do with the pipe?",
+    "cn": "那你要怎么处理这根管子呢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "Um... I'm not really sure...",
+    "cn": "呃 我也还不太确定呢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "I know! I'll put it down here",
+    "cn": "我知道了 我就放这儿吧"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "when someone can easily find it.",
+    "cn": "这样别人就会很轻松的找到它了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "Now I can give you a lift home.",
+    "cn": "现在我可以送你们回家了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "Oh what about Daddy?",
+    "cn": "那么爸爸怎么办呢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Hello?",
+    "cn": "你好啊"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig, can you make your own way home?",
+    "cn": "猪爸爸 你可以自己一个人回家吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Mummy Pig",
+    "content": "Miss Rabbit is giving us a lift.",
+    "cn": "兔小姐会顺路送我们回家的"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "OK!",
+    "cn": "好的"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "Daddy Daddy!",
+    "cn": "爸爸 爸爸"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "We went up and down,",
+    "cn": "我们一会儿往上飞一会儿往下"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "and round and round!",
+    "cn": "还绕着圈飞呢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Oh oh, I'm really sad to miss that,",
+    "cn": "太遗憾了 我竟然都错过了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "see you back at home!",
+    "cn": "一会儿家里见"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Who put that pipe there?",
+    "cn": "谁把这根管子放在这儿的"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "I know, I'll take a shortcut!",
+    "cn": "我知道了 我可以绕路走"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Mm... It's a bit muddy!",
+    "cn": "嗯 这路上到处是泥"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Come on, car!",
+    "cn": "加油啊 开过去"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Daddy Pig needs to get home!",
+    "cn": "猪爸爸我还要回家呢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Daddy Pig is stuck.",
+    "cn": "猪爸爸被困住了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "I'll ring for Granddad Dog's",
+    "cn": "我可以打给狗爷爷"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "pick-up truck.",
+    "cn": "让他用拖车来救我"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Granddad Dog",
+    "content": "Hello! Breakdown recovery",
+    "cn": "你好啊 这里是修车厂"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "I‘m stuck in a mud,",
+    "cn": "我被困在泥里了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "can you come and rescue me, please?",
+    "cn": "能不能麻烦你来帮我一下"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Granddad Dog",
+    "content": "Sorry, Daddy Pig,",
+    "cn": "对不起 猪爸爸"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Granddad Dog",
+    "content": "I'm moving a big metal pipe",
+    "cn": "我在搬一个巨大的金属管子"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Granddad Dog",
+    "content": "that someone maniac's left on the road!",
+    "cn": "不知道哪个家伙把它放在路中间"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Granddad Dog",
+    "content": "I'll pass you onto the next rescue service.",
+    "cn": "我帮你转给下一个负责救援的人吧"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Suzy Sheep's mummy",
+    "content": "Hello, fire service!",
+    "cn": "你好 这里是消防队"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "I'm stuck in the mud!",
+    "cn": "我被卡在泥里了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "Can you rescue me, please?",
+    "cn": "泥能来救我吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Suzy Sheep's mummy",
+    "content": "Sorry, Daddy Pig,",
+    "cn": "对不起 猪爸爸"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Suzy Sheep's mummy",
+    "content": "I'm rescuing a tortoise that stuck up a tree.",
+    "cn": "我现在正在救一只跑到树上的乌龟呢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Nobody Cat",
+    "content": "Come down, tortoise,",
+    "cn": "不要动啊 小土豆"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Nobody Cat",
+    "content": "I don't know why you like climbing trees.",
+    "cn": "我真是不明白你为什么那么喜欢爬树"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Nobody Cat",
+    "content": "You are a tortoise",
+    "cn": "你可是一只乌龟啊"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Suzy Sheep's mummy",
+    "content": "Don't worry Daddy Pig,",
+    "cn": "别担心 猪爸爸"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Suzy Sheep's mummy",
+    "content": "I'll pass you onto",
+    "cn": "我帮你转给"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Suzy Sheep's mummy",
+    "content": "the highest rescue service in the land.",
+    "cn": "我们负责最高救援级别的人"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "What's that noise?",
+    "cn": "这是什么声音啊"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Daddy Pig",
+    "content": "I'm flying!",
+    "cn": "我 飞起来了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Miss Rabbit's helicopter has rescued Daddy Pig.",
+    "cn": "兔小姐的直升机 把猪爸爸给救了出来"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa,George",
+    "content": "Hooray!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "Lookie Daddy",
+    "cn": "爸爸真是太幸运了"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa",
+    "content": "get a helicopter ride after all!",
+    "cn": "他最后还是坐上了直升机"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "what my helicopter can do?!",
+    "cn": "直升机能干什么吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Peppa,George",
+    "content": "Yes!",
+    "cn": "好的"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "It can go straight up!",
+    "cn": "它可以垂直升高"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "It can go straight down!",
+    "cn": "它还可以垂直下降"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Miss Rabbit",
+    "content": "It can even loop the loop!",
+    "cn": "它还可以 像这样翻跟头"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "Everyone likes",
+    "cn": "每个人都喜欢"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "going up and down and round and round",
+    "cn": "坐兔小姐的直升机飞上飞下"
+  },
+  {
+    "sId": 4,
+    "eId": 3003,
+    "topic": "Miss Rabbit's Helicopter",
+    "role": "Outsider",
+    "content": "in Miss Rabbit's helicopter.",
+    "cn": "转着圈飞"
+  }
+]

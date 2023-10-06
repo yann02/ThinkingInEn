@@ -1,0 +1,834 @@
+[
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Outsider",
+    "content": "It is raining and the school roof is leaking... again.",
+    "cn": "今天是个雨天 屋顶又开始漏水了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "Didn't I fix this roof for you before Madame Gazelle?",
+    "cn": "上次我不是来修过了吗 羚羊夫人"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Yes Mr Bull,",
+    "cn": "是的 公牛先生"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "but still it goes drippity drip drip!",
+    "cn": "可这雨还是漏啊漏啊漏个不停"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "It's probably a broken roof tile!",
+    "cn": "那有可能是哪一块瓦片破了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "I wonder if it's this one.",
+    "cn": "我在想是不是这一块呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "Has the dripping stopped?",
+    "cn": "现在还在漏水吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "No, it is dripping more!",
+    "cn": "漏啊 漏得更厉害了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "Maybe these are the broken tiles?",
+    "cn": "难道说这些瓦片都破了吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "Is that any better?",
+    "cn": "现在有没有好一点"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "No! It's getting worse!",
+    "cn": "没有 现在变得更糟糕了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "This is a big hole you've got here!",
+    "cn": "这个地方有个很大的洞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "It's going to cost a lot of money to fix!",
+    "cn": "想要修好可能需要花很多钱"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Oh dear.",
+    "cn": "哦 天哪"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Where shall we get the money",
+    "cn": "可我们要去什么地方筹钱"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "to mend the school roof this time?",
+    "cn": "来维修教室的屋顶呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Pedro Pony",
+    "content": "My Daddy did a parachute jump for charity...",
+    "cn": "我爸爸曾经为慈善活动表演过跳伞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Pedro Pony",
+    "content": "...He floated down",
+    "cn": "他从空中飘落下来"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Pedro Pony",
+    "content": "and made lots of money!",
+    "cn": "并且筹了很多的钱"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Others",
+    "content": "Hooray!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Good idea Pedro!",
+    "cn": "真是个好主意 佩德罗"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Hands up who thinks their mummy or daddy",
+    "cn": "觉得自己的爸爸或者妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "would like to do a parachute jump?",
+    "cn": "愿意来表演跳伞的请举手"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Pedro Pony",
+    "content": "Mine mummy! Mine would!",
+    "cn": "我妈妈 我妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Others",
+    "content": "Mine would!",
+    "cn": "我爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "We need just one...",
+    "cn": "我们只需要一位"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Outsider",
+    "content": "Peppa and George have arrived back home.",
+    "cn": "佩奇和乔治放学回家了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "Mummy, the school roof is leaking again.",
+    "cn": "妈妈 今天我们学校的屋顶又漏水了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Is it darling?",
+    "cn": "是吗 亲爱的"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "Yes. Madame Gazelle says",
+    "cn": "是的 羚羊夫人说"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "it needs a lot of money to mend.",
+    "cn": "这次修屋顶要花好多的钱呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Yes, I'm sure it does.",
+    "cn": "是啊 我想也是"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "She asked if somebody's mummy or daddy",
+    "cn": "然后她就问谁的爸爸或妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "would jump out of an aeroplane.",
+    "cn": "愿意表演高空跳伞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "I hope you didn't say Daddy would do it Pappa!",
+    "cn": "哦 希望你没说猪爸爸能去跳伞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "You know he doesn't like heights!",
+    "cn": "你知道的他有点怕高"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "But you don't mind heights do you, Mummy?",
+    "cn": "可是你一点也不怕高啊 对吧 妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "I'm fine with heights.",
+    "cn": "没错 我是不怕高"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "Good!",
+    "cn": "太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Thank you, Mummy Pig",
+    "cn": "谢谢你 猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "for agreeing to jump",
+    "cn": "你能来为我们表演高空跳伞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "from an aeroplane!",
+    "cn": "真是太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "What?!",
+    "cn": "什么"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "But I've never done it before...",
+    "cn": "可是我从来没跳过"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "You'll be fine!",
+    "cn": "没问题的"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Remember it is for the children.",
+    "cn": "别忘了一切都是为了孩子们"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Oh in that case of course I'll do it.",
+    "cn": "哦 既然这样 我当然会去的"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Others",
+    "content": "Hooray for Mummy Pig!",
+    "cn": "猪妈妈太棒了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Outsider",
+    "content": "It is the day of Mummy Pig's parachute jump.",
+    "cn": "今天是猪妈妈高空跳伞的日子"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "I'm still not sure I really want to do this.",
+    "cn": "我不确定自己是不是真的可以跳伞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "It's all with a good cause Mummy Pig.",
+    "cn": "这一切都是为了孩子们 猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "But I don't know how to jump out of an aeroplane?",
+    "cn": "可是我不知道怎么从飞机上跳出来"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Don't worry,",
+    "cn": "不用担心"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "you will get lots of training first.",
+    "cn": "在这之前你会先做很多的训练的"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "Hello, Mummy Pig!",
+    "cn": "你好 猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Outsider",
+    "content": "Mr Rabbit is the parachute trainer.",
+    "cn": "兔先生是一位跳伞教练"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "This is a parachute.",
+    "cn": "这个是一顶降落伞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "It will help you float through the air...",
+    "cn": "等你跳下来的时候 这能让你"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "after you jump.",
+    "cn": "飘在空中"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Should I practice that?",
+    "cn": "那我需要练习一下吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "Practice what?",
+    "cn": "练习什么"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Jumping.",
+    "cn": "练习跳"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "Why not!",
+    "cn": "你练吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "There! You're natural!",
+    "cn": "行了 你很有天赋"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Is that it?",
+    "cn": "这样就行了吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Rabbit",
+    "content": "Yes, you are now fully trained.",
+    "cn": "是的 你已经准备好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Others",
+    "content": "Hooray!",
+    "cn": "太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Miss Rabbit",
+    "content": "All aboard!",
+    "cn": "请上飞机"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "I'm still a tiny bit worried about this jump",
+    "cn": "对于这个跳伞我还是有点紧张"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig.",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "It's ok, Mummy Pig,",
+    "cn": "没事的 猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "I'll come up in the plane with you.",
+    "cn": "我会和你一起坐飞机的"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "'Good luck, Mummy!'",
+    "cn": "祝你好运 妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "Don't worry, Mummy Pig!",
+    "cn": "不用害怕 猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "Remember, you've got a parachute!",
+    "cn": "记住 你背着降落伞呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Yes, Daddy Pig!",
+    "cn": "好的 猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "Oh We are a long way from the ground...",
+    "cn": "哦 我们现在离地面已经很高了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Outsider",
+    "content": "Oh dear!",
+    "cn": "哦 天哪"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Outsider",
+    "content": "Daddy Pig has fallen out of the plane!",
+    "cn": "猪爸爸从飞机里掉出来了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "There she goes!",
+    "cn": "她开始表演了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "No wait, that's Daddy Pig!",
+    "cn": "不对 等等 那是猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Wait for me, Daddy Pig!",
+    "cn": "等等我 猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Mummy Pig has jumped...",
+    "cn": "猪妈妈也跳下来了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "She is going to rescue Daddy Pig!",
+    "cn": "她现在正要去救猪爸爸呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Got you!",
+    "cn": "我抓住你了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Madame Gazelle",
+    "content": "Oh she's got him!",
+    "cn": "哦 她抓住猪爸爸了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Others",
+    "content": "Hooray!",
+    "cn": "太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Peppa",
+    "content": "My Mummy to the rescue!",
+    "cn": "我妈妈真是太勇敢了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "Thank you for saving me, Mummy Pig.",
+    "cn": "你救了我 猪妈妈 谢谢你"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Oh, Daddy Pig, you're starting to slip!",
+    "cn": "哦 猪爸爸 我快要抓不住你了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Outsider",
+    "content": "Mr Bull has just finished mending the school roof.",
+    "cn": "公牛先生已经把学校的屋顶修好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "Lovely job!",
+    "cn": "令人愉快的工作"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "It'll last for years!",
+    "cn": "这下几年都不会出问题了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "I can't hold on...",
+    "cn": "我快抓不住了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Ahh, Daddy!",
+    "cn": "啊 猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mummy Pig",
+    "content": "Is Daddy Pig alright?",
+    "cn": "哦 猪爸爸没什么事吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "Ho Ho... I'm fine.",
+    "cn": "吼吼 我没事"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "Good.",
+    "cn": "太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "Because you need to do that parachute jump again!",
+    "cn": "因为你还需要再上去重新跳一次伞"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "What?!",
+    "cn": "为什么"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "To raise the money",
+    "cn": "为了要筹钱"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Mr. Bull",
+    "content": "to fix this new hole in the school roof!",
+    "cn": "来修补学校屋顶上的这个新窟窿啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Daddy Pig",
+    "content": "Oh! Alright.",
+    "cn": "哦 那好吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4002,
+    "topic": "Parachute Jump",
+    "role": "Others",
+    "content": "Hooray For Daddy Pig!",
+    "cn": "猪爸爸太棒了"
+  }
+]

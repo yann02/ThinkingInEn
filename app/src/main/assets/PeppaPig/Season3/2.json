@@ -1,0 +1,698 @@
+[
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Daddy Pig is doing the washing this morning.",
+    "cn": "今天早上猪爸爸在洗衣服"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Daddy, what's that shirt?",
+    "cn": "爸爸 这件是什么衣服啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "It's my football shirt.",
+    "cn": "这是我的足球服啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Daddy's playing football this afternoon.",
+    "cn": "猪爸爸今天下午要去踢足球"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "But first I have to go to work.",
+    "cn": "但是我要先去工作"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "See you later! Bye!",
+    "cn": "一会儿见 再见"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig,Peppa,George",
+    "content": "Bye-Bye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Poor Daddy, having to go to work.",
+    "cn": "可怜的爸爸他必须得去上班了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Oh, poor Daddy!",
+    "cn": "可怜的猪爸爸"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Come on! Let's play!",
+    "cn": "来吧 我们来玩吧"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Yes, let's play.",
+    "cn": "好的 我们来玩吧"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Peppa loves jumping up and down in muddy puddles.",
+    "cn": "佩奇喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "George loves jumping up and down in muddy puddles.",
+    "cn": "乔治喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Mummy Pig loves jumping up and down in muddy puddles.",
+    "cn": "猪妈妈喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Oh, dear.",
+    "cn": "哦 糟糕"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Mummy! We splashed",
+    "cn": "妈妈 爸爸的足球服"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "daddy's football shirt with mud.",
+    "cn": "被我们弄脏了 上面都是泥"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Oh. Don't worry! We'll just wash it.",
+    "cn": "别担心 我们洗一下就好"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "It will be washed in no time.",
+    "cn": "我们很快就可以洗完"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "And daddy won't know it was ever muddied.",
+    "cn": "猪爸爸不会知道它曾被泥溅到过"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Let's find more things to put in the machine.",
+    "cn": "我们再去多找点东西放进洗衣机里"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Oh, my dress is a bit muddy.",
+    "cn": "哦 我的裙子上也溅到泥了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Mummy Pig and George have found more things to wash.",
+    "cn": "猪妈妈和乔治找到了更多要洗的东西"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Very good, George.",
+    "cn": "非常好乔治"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "We put the clothes in here.",
+    "cn": "我们把衣服放进去"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "And then we switch it down.",
+    "cn": "然后 启动洗衣机"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "The washing machine is filling up with hot, slippery water.",
+    "cn": "很快洗衣机里充满了肥皂水"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Splosh. Splosh. Splosh.",
+    "cn": "洗呀洗 洗呀洗 洗呀洗"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "George",
+    "content": "Splosh. Splosh. Splosh.",
+    "cn": "洗呀洗 洗呀洗 洗呀洗"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "The washing machine is making the whole room shake.",
+    "cn": "洗衣机使得整个房间都震动起来了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Oh, peppa, where's your dress?",
+    "cn": "哦 佩奇 你的裙子呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "I am washing it.",
+    "cn": "我把它放进去洗了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "What? Oh, no.",
+    "cn": "什么 哦 糟糕"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Look Mummy,",
+    "cn": "看啊 妈妈"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "my red dress is all nice and clean.",
+    "cn": "我的红裙子 干净得和新的一样"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Yes, Peppa.",
+    "cn": "是的 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "But look what' it done to everything else.",
+    "cn": "但是你看别的衣服变成什么样了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Oh Dear,",
+    "cn": "哦 糟糕"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Peppa's red dress",
+    "cn": "佩奇得红裙子"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "has made all the white clothes pink.",
+    "cn": "把其他白色得衣服染成了粉色"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Pink isn't a very good color for a football shirt.",
+    "cn": "对足球服来说粉色好像有点不太合适啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Daddy Pig is home from work.",
+    "cn": "猪爸爸下班回家了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Hello, everyone.",
+    "cn": "你们大家好啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Hello, Daddy.",
+    "cn": "你好啊 爸爸"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "Eh, Daddy Pig, we're got a bit of a problem and mm...",
+    "cn": "呃 猪爸爸 我们现在有个小问题 那个"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Tell me later, Mummy Pig.",
+    "cn": "一会儿再说吧 猪妈妈"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "I have to get ready for football.",
+    "cn": "我要快点准备去踢足球了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Now, where's my football shirt.",
+    "cn": "我的足球服去哪儿了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Here.",
+    "cn": "在这儿"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Don't be silly, Peppa.",
+    "cn": "佩奇你个小糊涂"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "That's one of Mummy's dresses. It's Pink.",
+    "cn": "这是猪妈妈得裙子啊 是粉色的"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "No, Daddy. It's your football shirt.",
+    "cn": "不是的 猪爸爸 这件就是你的足球服"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "It's got a bit muddy.",
+    "cn": "它沾上了一点点的泥"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "So we wash it.",
+    "cn": "所以我们把它洗了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "And it all went a bit wrong.",
+    "cn": "但是洗的时候出了点问题"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Sorry, Daddy.",
+    "cn": "对不起 爸爸"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "But I can't wear a pink football shirt.",
+    "cn": "但我不能穿粉色的足球服去踢球啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Why not, Daddy?",
+    "cn": "为什么不行 爸爸"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Pink is a lovely color.",
+    "cn": "粉色是很好看的颜色"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "What do you think George?",
+    "cn": "嗯 你觉得呢 乔治"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "George",
+    "content": "yuk.",
+    "cn": "不好看"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "George does not like pink.",
+    "cn": "乔治一点也不喜欢粉色"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Here are Daddy Pig's friends,",
+    "cn": "猪爸爸的朋友们来了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Mr. Bull, Mr. Rabbit,",
+    "cn": "公牛先生 兔子先生"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Mr. Pony and Mr. Zebra.",
+    "cn": "马先生和斑马先生"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mr. Bull",
+    "content": "Mm! this Daddy Pig comes at a parade.",
+    "cn": "猪爸爸准备好去踢球了吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig",
+    "content": "He'll just be in a moment.",
+    "cn": "他马上就出来了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "My team are in white.",
+    "cn": "他们都是穿白色的"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "I need a white shirt.",
+    "cn": "我需要一件白色的衣服"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "But Daddy, you have the white shirt.",
+    "cn": "但是爸爸 你已经有白色的衣服了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Just take off your jacket. See?",
+    "cn": "能把你的外套脱掉吗 看见吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Fantastic! Thank you, Peppa.",
+    "cn": "真是 太棒了 谢谢你 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Hello, everyone.",
+    "cn": "你们大家好啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mr. Bull,Mr. Rabbit,Mr. Pony,Mr. Zebra",
+    "content": "Hello, Daddy Pig.",
+    "cn": "你好啊 猪爸爸"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mr. Rabbit",
+    "content": "I like your shirt!",
+    "cn": "我喜欢你的衬衫"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mr. Zebra",
+    "content": "Very smart!",
+    "cn": "非常时髦"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Thank you. Come on, let's play football.",
+    "cn": "谢谢 走吧 我们去踢足球吧"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mr. Bull,Mr. Rabbit,Mr. Pony,Mr. Zebra",
+    "content": "Yes!",
+    "cn": "好的"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mr. Bull,Mr. Rabbit,Mr. Pony,Mr. Zebra",
+    "content": "Go!",
+    "cn": "进球啦"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Mummy Pig,Peppa,George",
+    "content": "Hurray!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig,Mr. Bull,Mr. Rabbit,Mr. Pony,Mr. Zebra",
+    "content": "Hurray!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Peppa",
+    "content": "Daddy, you've made your shirt all muddy!",
+    "cn": "爸爸 你又把你的衬衫 给弄脏了"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Of course, Peppa.",
+    "cn": "当然了 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Daddy Pig",
+    "content": "Football shirts are meant to be muddy.",
+    "cn": "踢足球时足球服肯定会被弄脏的"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Daddy Pig loves playing football.",
+    "cn": "猪爸爸喜欢踢足球"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "Everyone loves playing football,",
+    "cn": "大家都喜欢踢足球"
+  },
+  {
+    "sId": 3,
+    "eId": 2002,
+    "topic": "Washing",
+    "role": "Outsider",
+    "content": "especially when it's muddy.",
+    "cn": "尤其是地上有泥的时候"
+  }
+]

@@ -1,0 +1,778 @@
+[
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Outsider",
+    "content": "Today Peppa and George are going to visit a castle.",
+    "cn": "今天 佩奇和乔治要去一座城堡里玩"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "What will we do at the castle, Mummy?",
+    "cn": "城堡里有什么我们可以玩的 妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "Let me see what the guide book says...",
+    "cn": "让我来瞧瞧旅游指南上怎么说的"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Will the castle be good",
+    "cn": "那么城堡里好玩吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "or will it be boring?",
+    "cn": "还是会觉得很无聊呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "It will be good.",
+    "cn": "会很好玩的"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Will we see knights in armour?",
+    "cn": "能看到穿着盔甲的骑士吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Outsider",
+    "content": "George likes knights in armour.",
+    "cn": "乔治喜欢穿着盔甲的骑士"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "You never know George",
+    "cn": "这可不一定 乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "we might even see a dragon?",
+    "cn": "也许我们还能看到龙呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "A pretend dragon, Daddy Pig.",
+    "cn": "是一头假的龙 猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Yes, Daddy,",
+    "cn": "没错 爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "dragons are in storybooks,",
+    "cn": "只有故事书里才会有龙呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "they are not really real!",
+    "cn": "它们都不是真的龙"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Outsider",
+    "content": "Peppa and her family have arrived at the castle.",
+    "cn": "佩奇和她的家人终于抵达了城堡"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "Welcome to the Castle Tour!",
+    "cn": "欢迎你们参加城堡之旅"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "'Cars are parked at owner's risk.'",
+    "cn": "车辆自愿停放 损坏概不负责"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "What does that mean, Daddy?",
+    "cn": "那是什么意思啊 爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "Oh, nothing Peppa.",
+    "cn": "哦 没什么 佩奇"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "They always say that in car parks!",
+    "cn": "在停车场总能听到这样的话"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "Please make your way to the castle",
+    "cn": "现在你们可以去城堡里了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "where you will be met by a knight in armour.",
+    "cn": "在那儿你们会看到穿着盔甲的骑士"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Hello!",
+    "cn": "你们好"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Outsider",
+    "content": "It is Mr Rabbit, dressed as a knight in armour.",
+    "cn": "是兔先生 他穿着盔甲扮成了骑士"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "We start the castle tour here,",
+    "cn": "我们的城堡之旅就从这儿开始"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "at the cannon.",
+    "cn": "先来看大炮"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "In the olden days",
+    "cn": "知道吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "this cannon fired these heavy cannon balls",
+    "cn": "在古时候这种大炮能一下子"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "high up into the sky!",
+    "cn": "把这么重的炮弹发射到高空中"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Daddy, is he going to fire the cannon?",
+    "cn": "爸爸 难道他准备开炮了吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "No, that would be crazy!",
+    "cn": "不会的 那也太疯狂了吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Right! Let's fire the cannon!",
+    "cn": "没错 我们准备开炮吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Five, four, three, two, one! Fire!!",
+    "cn": "5 4 3 2 1 点火"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "That almost hit our car!",
+    "cn": "炮弹差点砸中我们的车"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "We do say:",
+    "cn": "所以说"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "'Cars are parked at owner's risk'!",
+    "cn": "车辆自愿停放损坏 概不负责"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "On with the tour!",
+    "cn": "我们继续参观吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "You're going to see the wonders of the castle,",
+    "cn": "你们会见识到城堡里各种神奇的事"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "eat a real medieval banquet.",
+    "cn": "享用一顿真正的中世纪盛宴"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "Wow! A real medieval banquet!",
+    "cn": "哇哦 享用一顿真正的中世纪盛宴"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "It sounds delicious!",
+    "cn": "听上去就非常美味"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "And meet a Dragon!",
+    "cn": "而且你们还能见到一条龙"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "This is the Royal Throne Room,",
+    "cn": "这个地方就是宝座厅"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "where the King and Queen would sit!",
+    "cn": "国王和王后就是坐在这里的"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Who would like to have a go?",
+    "cn": "谁想上去坐一坐呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Hee hee! George can be King",
+    "cn": "呵呵 乔治来当国王"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "and I'll be a bossy Queen!",
+    "cn": "而我就是专发号施令的王后"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Do this! Do that! Snort!",
+    "cn": "做这个 做那个"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Your majesties, may I carry on with the tour?",
+    "cn": "尊敬的陛下 我们能继续参观了吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Yes, you may.",
+    "cn": "好的 当然可以"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "We have to go through a secret passage!",
+    "cn": "我们待会儿必须通过一条密道"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "But first we have to find the secret passage!",
+    "cn": "不过首先我们得先找到那条密道才行"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "Hmm. These secret passages",
+    "cn": "嗯 一般来说想要开启这些密道"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "usually have some sort of top secret button",
+    "cn": "你就得先找到"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "to open them...",
+    "cn": "开启它们的隐秘按钮才行"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "I don't think it's that big red button, George.",
+    "cn": "我觉得那个红色的大按钮不是开关"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "That would be too obvious.",
+    "cn": "那也太明显了吧 哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Yes, we try to keep it simple.",
+    "cn": "没错 我们不想弄得太复杂"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "This is fun!",
+    "cn": "这真好玩"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "This passage has lead us to the Dining Hall.",
+    "cn": "走过这条密道我们就来到了餐厅"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Wow!",
+    "cn": "哇哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "This must be the medieval banquet!",
+    "cn": "这肯定就是中世纪盛宴了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "Yes! It looks really tasty!",
+    "cn": "没错 看起来很好吃的样子"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "It's all made out of plastic!",
+    "cn": "可这些都是塑料做的"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Yes,",
+    "cn": "是的"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "it's just to show what a real banquet",
+    "cn": "这只是为了呈现真正的盛宴"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "would have looked like.",
+    "cn": "是什么样子的"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "But of course, as part of the tour",
+    "cn": "不过当然了 作为参观的一部分"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "you get to have",
+    "cn": "你们也将享受到"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "your very own real medieval banquet!",
+    "cn": "属于自己的真正的中世纪盛宴"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "Fantastic!",
+    "cn": "这真是太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "Here it is! Your Banquet in a Box",
+    "cn": "就是这个了 装在盒子里的美食"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "Ye olde cheese sandwich,",
+    "cn": "叶奥德奶酪三明治"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "Jester's pickle, and a King's Jelly.",
+    "cn": "小丑酱菜 还有国王果冻"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "It's a little picnic in a box!",
+    "cn": "这就像是装在盒子里的野餐"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "Yes, it's not quite the medieval banquet",
+    "cn": "没错 这和我期待中的中世纪美食"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "I was expecting.",
+    "cn": "有点不太一样呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "And now:",
+    "cn": "好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "it's time to meet the dragon!",
+    "cn": "现在我们是时候去见识一下龙了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "George it won't be a real dragon!",
+    "cn": "乔治 我想它肯定不是真的龙"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Dragons are pretend.",
+    "cn": "要知道龙都是假的"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "Yes, don't be sad",
+    "cn": "对 所以如果兔小姐"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "if it's just Miss Rabbit",
+    "cn": "拿着一个小的布袋木偶"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "holding a little glove puppet.",
+    "cn": "你可别伤心"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mummy Pig",
+    "content": "Wow.",
+    "cn": "哇哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Outsider",
+    "content": "Miss Rabbit is driving a huge robot dragon!",
+    "cn": "兔小姐正在操控着一头巨大的机械龙"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "Do you want to see it breathe fire?",
+    "cn": "你们想不想看它表演喷火啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "Yes Please!",
+    "cn": "好啊 太棒了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "I'm just going to park it!",
+    "cn": "我现在要让它走下去了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Daddy Pig",
+    "content": "Errr It's heading for our car!",
+    "cn": "啊 它朝着我们的汽车走过去了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Another reason we say:",
+    "cn": "车辆自愿停放"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "'Cars are parked at owners's risk'.",
+    "cn": "损坏概不负责"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Miss Rabbit",
+    "content": "And that's the end of the tour!",
+    "cn": "这次的参观就到此结束了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Mr. Rabbit",
+    "content": "Hope you had a lovely time!",
+    "cn": "希望你们玩得很开心"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Peppa",
+    "content": "I think that was George's best day out ever!",
+    "cn": "我想今天是乔治玩得最开心的一天了"
+  },
+  {
+    "sId": 5,
+    "eId": 4001,
+    "topic": "The Castle",
+    "role": "Outsider",
+    "content": "George loves Castles! Everyone loves Castles!",
+    "cn": "乔治喜欢城堡 大家都喜欢城堡"
+  }
+]

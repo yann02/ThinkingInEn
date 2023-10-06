@@ -1,0 +1,666 @@
+[
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "Peppa and George are playing in their bedroom.",
+    "cn": "佩奇和乔治在他们的卧室里玩"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "This will be the best house ever!",
+    "cn": "这会成为有史以来最好的房子"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "George, Richard Rabbit is here.",
+    "cn": "乔治 小兔理查德来了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Richard Rabbit",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "George",
+    "content": "Richard!",
+    "cn": "理查德"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Richard Rabbit",
+    "content": "Dinosaur!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "George",
+    "content": "Dinosaur!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Mr. Rabbit",
+    "content": "Bye bye, Richard.",
+    "cn": "再见 理查德"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Mr. Rabbit",
+    "content": "I'll be back to pick you up later!",
+    "cn": "我一会儿再来 呃 来接你"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "George and Richard are best friends.",
+    "cn": "乔治和理查德是最好的朋友"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "George! Richard!",
+    "cn": "乔治 理查德"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "You've knocked my house down.",
+    "cn": "你们两个把我的房子弄倒了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Please play something not bouncy.",
+    "cn": "你们能不能玩一点安静的游戏"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "George has made the toy basket into a volcano.",
+    "cn": "乔治把玩具篮 变成了一座火山"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "Richard is using toy trees to make a jungle.",
+    "cn": "理查德用玩具树 做成了丛林"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "George has used building blocks to make a river.",
+    "cn": "还用积木 搭出了一条河"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "George,Richard Rabbit",
+    "content": "Dinosaur! Dinosaur!",
+    "cn": "恐龙 恐龙"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "George and Richard have turned the bedroom into dinosaur land.",
+    "cn": "乔治和理查德把卧室 变成了恐龙乐园"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "I leave it. It's too noisy.",
+    "cn": "我要走了 这里太吵了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Detective Potato",
+    "content": "I say potato.",
+    "cn": "我说土豆"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Nobody Potato",
+    "content": "And I say potato.",
+    "cn": "我说马铃薯"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Detective Potato,Nobody Potato",
+    "content": "Potato! Potato! Potato! Potato!",
+    "cn": "土豆 马铃薯"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "The good thing about rainy days",
+    "cn": "下雨时的好处就是"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "is we get to watch",
+    "cn": "我们可以在家里看一些"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "important TV programs.",
+    "cn": "很重要的电视节目"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Detective Potato,Nobody Potato",
+    "content": "Potato! Potato! Potato!",
+    "cn": "土豆 马铃薯"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Mommy, George and Richard",
+    "cn": "妈妈 乔治和理查德"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "have made the bedroom into dinosaur land.",
+    "cn": "把我的卧室变成了一个恐龙乐园"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "And dinosaur land is very noisy.",
+    "cn": "然后恐龙乐园里面非常地吵"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "George has his best friend here,",
+    "cn": "乔治最好地朋友来了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "but I've got no one to play with.",
+    "cn": "但是却没有人和我一起玩"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Mummy Pig",
+    "content": "You could ask Susie Sheep to come over.",
+    "cn": "你可以叫小羊苏西过来和你玩呀"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "Susie Sheep is Peppa's best friend.",
+    "cn": "小羊苏西是佩奇最好的朋友"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Can Susie really come over now?",
+    "cn": "苏西现在就能来吗 是吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "Let's ring her.",
+    "cn": "我们打给她"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "Mie! Hello, Susie Sheep's speaking.",
+    "cn": "你好啊 我是小羊苏西 请说"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Susie, it's me.",
+    "cn": "苏西 是我呀"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Can you come to my house now?",
+    "cn": "你现在可以来我家吗 现在"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "Yes, Peppa!",
+    "cn": "好的 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "Can I wear my nurse's costume?",
+    "cn": "那么我可以穿上我的护士制服吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Yes, but come quickly.",
+    "cn": "可以 但是你要快一点来"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep's mummy",
+    "content": "Bye bye, Susie! I'll be back to...",
+    "cn": "再见 苏西 我一会儿再来"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Quick, Susie!",
+    "cn": "快来 苏西"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep's mummy",
+    "content": "pick you up later.",
+    "cn": "一会儿再来 接你"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "George! Richard! Nurse Susie is here.",
+    "cn": "乔治 理查德 苏西护士来了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "And nurse Susie says this is not dinosaur land.",
+    "cn": "苏西护士说 这里可不是恐龙乐园"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "It's a hospital.",
+    "cn": "而是一个医院"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "And a hospital must be clean and tidy.",
+    "cn": "是医院的话 就必须保持干净整洁"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "The bedroom is not dinosaur land anymore.",
+    "cn": "这个卧室不再是恐龙乐园了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "It is a hospital.",
+    "cn": "而是变成了一个医院"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "I am an important doctor.",
+    "cn": "我是一位经验丰富的医生"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "This dinosaur looks sick.",
+    "cn": "这只恐龙看上去好像生病了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "I agree, doctor.",
+    "cn": "我同意 医生"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "He's a very greeny-ill color.",
+    "cn": "恐龙身上的绿色很像生病的颜色"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "He must go to bed.",
+    "cn": "他必须要上床休息"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "And this dinosaur",
+    "cn": "还有这只恐龙"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "looks very purply-ill color.",
+    "cn": "它的紫色看上去也像是生病的颜色"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "Yes, doctor. He must go to bed, too.",
+    "cn": "没错 医生 他也必须要上床休息"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "George,Richard Rabbit",
+    "content": "Dinosaur!",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "Sh-sh! Quiet in the hospital.",
+    "cn": "不要吵 在医院里 要保持安静哦"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "The bedroom is not a hospital any more.",
+    "cn": "现在卧室不再是医院了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "Now it's a railway station.",
+    "cn": "又变成了火车站"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "No! No!",
+    "cn": "不能这样"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "There aren't any trains in fairyland.",
+    "cn": "仙境里面是没有什么火车的知道吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "Oh, now the bedroom is fairyland.",
+    "cn": "哦 现在的卧室 是仙境了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "Only pretty things are allowed in fairyland.",
+    "cn": "只有漂亮的东西才能够 出现在仙境里"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Mummy Pig",
+    "content": "What's all this crying about?",
+    "cn": "你们两个怎么突然哭了呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "George and Richard",
+    "cn": "乔治和理查德"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "want to play dinosaurs and trains.",
+    "cn": "他们想玩恐龙和火车的游戏"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "And we want to play hospitals and fairies.",
+    "cn": "但是佩奇和我却想玩医院和仙境的游戏"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "Uh, I see the rain has stopped outside.",
+    "cn": "嗯 我看到外面的雨已经不下了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "So?",
+    "cn": "所以呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "So maybe you could all play outside.",
+    "cn": "所以 或许你们都可以出去玩了"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "But they like little boys' games.",
+    "cn": "但是他们喜欢玩小男孩的游戏"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "And we like grown-up girls' games.",
+    "cn": "而我们喜欢女孩玩的游戏 爸爸"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "But after it's been raining in the garden,",
+    "cn": "但是在下过雨的花园里面"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "what you normally find...",
+    "cn": "你们觉得会找到些什么呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Suzy Sheep",
+    "content": "Muddy?",
+    "cn": "泥土"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa",
+    "content": "Puddles!",
+    "cn": "泥坑"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Daddy Pig",
+    "content": "And what are muddy puddles for?",
+    "cn": "那泥坑是用来干什么的呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Peppa,Suzy Sheep,George,Richard Rabbit",
+    "content": "Jumping up and down in!",
+    "cn": "在里面跳来跳去"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "Everyone loves jumping up and down in muddly puddles",
+    "cn": "大家都喜欢在泥坑里跳来跳去"
+  },
+  {
+    "sId": 3,
+    "eId": 2003,
+    "topic": "Richard Rabbit Comes to Play",
+    "role": "Outsider",
+    "content": "whether they're big girls or little boys.",
+    "cn": "不管他们是大姑娘 还是小男孩"
+  }
+]

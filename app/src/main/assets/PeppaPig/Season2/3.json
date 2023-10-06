@@ -1,0 +1,786 @@
+[
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "Peppa and her family are watching",
+    "cn": "佩奇和她的家人们正在观看"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "their favorite television program, Detective Potato.",
+    "cn": "他们最喜欢的电视节目 土豆侦探"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Detective Potato",
+    "content": "I am Detective Potato,",
+    "cn": "我就是土豆侦探了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Detective Potato",
+    "content": "the world famous detective.",
+    "cn": "世上最著名的侦探"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Nobody Potato",
+    "content": "Please help me, Mr. Detective.",
+    "cn": "请你帮帮我 侦探先生"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Nobody Potato",
+    "content": "I can not find my flower anywhere.",
+    "cn": "我哪儿都找不到我的花了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Detective Potato",
+    "content": "Humm, your flower is on the top of your head.",
+    "cn": "哼 你的花朵现在就在你的头上呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Nobody Potato",
+    "content": "Oh, thank you, Mr. Detective.",
+    "cn": "哦 谢谢你 侦探先生"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "That was easy. I can do that.",
+    "cn": "那太简单了 这样我也能做"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Haha, I'm sure you could, Peppa.",
+    "cn": "我也觉得你可以 佩奇"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Daddy, when I grow up,",
+    "cn": "爸爸 等我长大了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "I want to be a famous detective.",
+    "cn": "我要做最著名的侦探"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "George wants to be a detective, too.",
+    "cn": "乔治也想成为一个侦探"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "If you're going to be detectives,",
+    "cn": "如果你们想做侦探的话"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "you each need a hat.",
+    "cn": "你们就需要一顶侦探帽"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Detectives always wear hats.",
+    "cn": "侦探们都是戴着帽子行动的"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Now you look like two proper detectives.",
+    "cn": "现在你们俩就像真正的侦探了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "And we need one of those funny things",
+    "cn": "现在我们还需要那个"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "that makes everything look big?",
+    "cn": "看什么东西都放大的好玩东西"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Mummy Pig",
+    "content": "A magnifying glass.",
+    "cn": "你是说放大镜吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Mummy Pig",
+    "content": "I think we're got one in the kitchen drawer.",
+    "cn": "我记得我们厨房抽屉里有"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Mummy Pig",
+    "content": "Here they are. A real magnifying glass.",
+    "cn": "在这儿呢 一个真正的放大镜"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Wow! How does it work?",
+    "cn": "哇哦 这要怎么用呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Mummy Pig",
+    "content": "You hold it in front of things, and they look bigger.",
+    "cn": "通过它来看东西 东西都会变大"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "The magnifying glass makes the little fish look big.",
+    "cn": "放大镜把小小的东西都放大了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Can I have a go?",
+    "cn": "我能试试吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "The magnifying glass makes George's eyes look very big.",
+    "cn": "放大镜让乔治的眼睛显得特别地大"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Now what you detectives need",
+    "cn": "现在轮到侦探出场了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "is a mystery to solve.",
+    "cn": "有神秘事件要你们解决"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Daddy, what is a miss story?",
+    "cn": "爸爸 什么是神秘事件啊"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "A mystery is something",
+    "cn": "神秘事件就是那些"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "detectives are good at sorting out,",
+    "cn": "侦探们最擅长处理的事情了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "like finding things that are lost.",
+    "cn": "比如找到丢失的东西"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "I know, we can find George's toy dinosaur.",
+    "cn": "我知道 我们可以找到乔治的玩具恐龙"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "That's always getting lost.",
+    "cn": "那个玩具总是会弄丢"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "George",
+    "content": "Dinosaur.",
+    "cn": "恐龙"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "Mr. Dinosaur is not lost.",
+    "cn": "恐龙先生没有被弄丢"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "What about your glasses, daddy?",
+    "cn": "哦 那你的眼镜丢了吗 爸爸"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "You're always losing them.",
+    "cn": "你总是找不到你的眼镜"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Not today, I'm wearing my glasses.",
+    "cn": "今天没有 眼镜我现在正戴着呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "It's not fair.",
+    "cn": "可这样不公平"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "There aren't any miss stories.",
+    "cn": "没有神秘事件需要我们解决"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Would you like me to make you a mystery?",
+    "cn": "要我给你们制造一个神秘事件吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Yes, please.",
+    "cn": "好的 太棒了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "Daddy Pig is going to make a mystery.",
+    "cn": "猪爸爸要制造一个神秘事件"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Now, what's on the table?",
+    "cn": "现在 看看桌上有什么"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "The little fish, teddy,",
+    "cn": "桌上有小鱼 泰迪"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "a Jackin the box and Mr. Dinosaur.",
+    "cn": "盒子里的小丑 和恐龙先生"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "That's right.",
+    "cn": "说的没错"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Now look very hard and try to remember them all.",
+    "cn": "你们要看清楚 把桌上的东西都记下来"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "The little fish, teddy,",
+    "cn": "桌上有小鱼 泰迪"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "a Jackin the box and Mr. Dinosaur.",
+    "cn": "盒子里的小丑 和恐龙先生"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Have you remembered them?",
+    "cn": "你们都记住了吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Yes!",
+    "cn": "记住了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Ok! You just have to go outside for a moment.",
+    "cn": "非常好 麻烦你们先出去门外等一会吧"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "I'll call you when I'm ready.",
+    "cn": "我好了会叫你们进来的"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "It sounds like daddy is going upstairs.",
+    "cn": "听脚步声爸爸好像跑到楼上去了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "And now he is coming down again.",
+    "cn": "不过现在他又下来了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "All right, you can come back inside now.",
+    "cn": "可以了 现在你们可以进来了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "One thing is missing from the table.",
+    "cn": "有一件东西不在桌上了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Do you know what?",
+    "cn": "知道是什么吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Mr. Dinosaur is there,",
+    "cn": "桌上有恐龙先生"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "little fish, Jack in the box.",
+    "cn": "还有小鱼 盒子里的小丑"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "So who's missing?",
+    "cn": "那什么东西不见了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Humm, Teddy.",
+    "cn": "呃 是泰迪"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "That's right. Teddy's gone.",
+    "cn": "回答正确 泰迪不见了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Mummy Pig",
+    "content": "Well done, Peppa and George.",
+    "cn": "干的漂亮 佩奇和乔治"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "It was quite easy for us.",
+    "cn": "这对我们来说很简单啦"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "We're famous detectives.",
+    "cn": "我们是世界著名的侦探"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Ah, but that's only half the mystery.",
+    "cn": "啊 这只是神秘事件的一半"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Where has teddy gone?",
+    "cn": "你们需要找到泰迪"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Oh, I don't know.",
+    "cn": "哦 我不知道"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "What are those little things on the floor?",
+    "cn": "地上的这些小东西是什么"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "The cake crumbs.",
+    "cn": "这是蛋糕碎屑"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "The magnifying glass makes the cake crumbs easy to see.",
+    "cn": "放大镜让地上的蛋糕碎屑清晰可见"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "I wonder if teddy has been eating cake.",
+    "cn": "我想泰迪是不是一直在吃蛋糕呢"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "And the crumbs lead this way.",
+    "cn": "瞧这些蛋糕碎屑 往这儿延伸"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Teddy's been eating a lot of cake.",
+    "cn": "看来泰迪吃了不少蛋糕"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "The crumbs lead into Peppa and George's bedroom.",
+    "cn": "蛋糕碎屑延伸到了佩奇和乔治的房间"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Oh, the crumbs have stopped.",
+    "cn": "哦 蛋糕碎屑没有了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "How could we find teddy?",
+    "cn": "接下来怎么找泰迪"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Ask me some questions.",
+    "cn": "来问我一些问题吧"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "But I would only answer yes or no.",
+    "cn": "但我只会回答你 是的 或者不是"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Ok, humm, is teddy in this room?",
+    "cn": "好的 嗯 泰迪在这房间里吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Yes.",
+    "cn": "是的"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Is teddy in George's bed?",
+    "cn": "泰迪在乔治的床上吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "No.",
+    "cn": "不在"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Is teddy some where high up?",
+    "cn": "泰迪是在 高的地方吗"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Yes.",
+    "cn": "是的"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Teddy's in my bed.",
+    "cn": "泰迪在我的床上"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig,Mummy Pig",
+    "content": "Hooray!",
+    "cn": "答对了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Outsider",
+    "content": "The mystery is solved.",
+    "cn": "神秘事件解决了"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "Do you still want to be a detective",
+    "cn": "你们长大后"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Daddy Pig",
+    "content": "when you grow up, Peppa?",
+    "cn": "还是想做侦探吗 佩奇"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Being a detective is quite hard.",
+    "cn": "看来做侦探还是挺难的"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Next time,",
+    "cn": "我想下次"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "I want to be the one who makes mysteries.",
+    "cn": "我还是做那个制造神秘事件的人吧"
+  },
+  {
+    "sId": 2,
+    "eId": 1003,
+    "topic": "Mysteries",
+    "role": "Peppa",
+    "content": "Like you. Dear daddy.",
+    "cn": "就像你一样 爸爸"
+  }
+]

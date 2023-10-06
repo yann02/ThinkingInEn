@@ -68,9 +68,7 @@ private suspend fun <T> suspendRunCatching(block: suspend () -> T): Result<T> = 
  */
 suspend fun Synchronizer.dataSync(
     context: Context,
-    deleteAll: suspend () -> Unit,
     insertAll: suspend (ResData) -> Unit,
 ) = suspendRunCatching {
-//    deleteAll()
     insertAll(requireResData(context))
 }.isSuccess

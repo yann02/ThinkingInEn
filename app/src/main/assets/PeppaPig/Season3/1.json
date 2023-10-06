@@ -1,0 +1,786 @@
+[
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Outsider",
+    "content": "Daddy pig is making vegetable soup for lunch.",
+    "cn": "猪爸爸在为午餐做蔬菜汤"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Daddy, can I help?",
+    "cn": "爸爸 要我帮忙吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Daddy Pig",
+    "content": "Thank you, peppa.",
+    "cn": "谢谢 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Daddy Pig",
+    "content": "Can you clear away all these vegetable peelings?",
+    "cn": "你能把这些削下来的皮清理掉吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Ok.",
+    "cn": "好的"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "Stop, peppa.",
+    "cn": "等一下 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "Vegetable peelings don't go in the normal bin.",
+    "cn": "蔬菜皮不能直接扔进普通的垃圾桶"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "They go in this brown bin.",
+    "cn": "它们要扔进这个棕色的垃圾桶"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "George",
+    "content": "Banana",
+    "cn": "香蕉"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "That's right, george. It's a banana skin.",
+    "cn": "没错 乔治 那个就是香蕉皮"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "And there are onions and carrots",
+    "cn": "这里还有洋葱 胡萝卜"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "and all sorts of fruit and vegetable leftovers in here.",
+    "cn": "和其他蔬菜削下来的皮都在里面"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "Granny and Grandpa will like these",
+    "cn": "猪爷爷猪奶奶会很喜欢的"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Do granny and grandpa pig",
+    "cn": "难道爷爷和奶奶他们"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "eat potato peelings?",
+    "cn": "会把这些土豆的皮当食物吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Daddy Pig",
+    "content": "No, peppa.",
+    "cn": "不是的 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "They're for grandpa's garden.",
+    "cn": "要放在猪爷爷的花园"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "They help his plants grow.",
+    "cn": "它们可以帮助作物生长"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "We can take these round there after lunch.",
+    "cn": "午餐之后 我们把这些送过去"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Oh, goody.",
+    "cn": "哦 太好了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Outsider",
+    "content": "Mummy pig peppa and george",
+    "cn": "猪妈妈 乔治还有佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Outsider",
+    "content": "are taking the vegetable peelings",
+    "cn": "带着蔬菜的皮"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Outsider",
+    "content": "over to granny and grandpa pigs house.",
+    "cn": "来到了猪爷爷和猪奶奶的家"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "We are here.",
+    "cn": "我们到了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Hurray!",
+    "cn": "太好了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Grandpa pig.",
+    "cn": "爷爷你好"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "George",
+    "content": "grandpa egg.",
+    "cn": "爷爷你好"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "We've got a special present for you.",
+    "cn": "我们有个特别的礼物要送给你"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Ah. Vegetable peelings.",
+    "cn": "啊 原来是蔬菜削下来的皮"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Fantastic. My garden will like these.",
+    "cn": "真是太好了 我的花园正好缺这些"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Does your garden eat vegetables?",
+    "cn": "难道你的花园 吃这些蔬菜吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "No peppa. These peelings",
+    "cn": "不是的 佩奇 这些蔬菜皮"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "are for my compost heap.",
+    "cn": "是用来给堆肥添料的"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "What's that?",
+    "cn": "那是什么啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "I'll show you. Here it is.",
+    "cn": "我来演示给你看 就在这儿呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "It's a wooden box.",
+    "cn": "这是一个木箱子不是吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Yes, peppa.",
+    "cn": "是的 佩奇 但你知道吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "But it's a very clever wooden box.",
+    "cn": "这可是一个非常聪明的木箱子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "I put these peelings in the top",
+    "cn": "我把这些蔬菜皮 倒在上面"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "and then out of the bottom comes lovely rich earth",
+    "cn": "然后在箱子的底下就会出来肥沃的泥土"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Called 'compost'",
+    "cn": "叫做 堆肥"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "How does it do that?",
+    "cn": "为什么会变成这样呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Is it a magic box?",
+    "cn": "难道这是一个魔法箱子吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Hoho. No, peppa.",
+    "cn": "不是的 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "I've got some little friends that give it some help.",
+    "cn": "我还有几个好朋友 他们也帮了点忙"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Where?",
+    "cn": "在哪儿呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "In here. Look",
+    "cn": "在这里面 你瞧啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Ah. Wriggly worm.",
+    "cn": "啊 原来是蚯蚓"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "George",
+    "content": "Wiggle, wiggle.",
+    "cn": "虫子 虫子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Outsider",
+    "content": "The worms turned all the fruit and vegetables into compost.",
+    "cn": "虫子把所有的植物残余变成了堆肥"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Grandpa, can we find some more wriggly worms",
+    "cn": "那爷爷 我们可不可以找些蚯蚓"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "for your composting?",
+    "cn": "放到你的堆肥里面呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "What a good idea!",
+    "cn": "真是个不错的主意啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Come on, george. Let's find some more wriggly worms.",
+    "cn": "来吧 乔治 我们再来多找一些蚯蚓吧"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "A wriggly worm.",
+    "cn": "一条蚯蚓"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "George",
+    "content": "Wiggle! Wiggle!",
+    "cn": "虫子 虫子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "You are a wiggly worm.",
+    "cn": "你是小虫子 你是小虫子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "You are a wiggly worm.",
+    "cn": "你是小虫子 你是小虫子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "How do you do? I love you.",
+    "cn": "你好吗 我爱你"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "You are a wiggly worm.",
+    "cn": "你是小虫子 你是小虫子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Haha! Well done!",
+    "cn": "干得好"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Be a good wiggly worm.",
+    "cn": "你要做条好虫子哦"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "And turn it all into compost.",
+    "cn": "把这些都变成堆肥哦 好吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Then, I can use the compost to...",
+    "cn": "然后 我可以用这个堆肥 去"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "I know, I know.",
+    "cn": "我知道 我知道"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "You put a seed in the ground,",
+    "cn": "你在土里放一颗种子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "cover it in compost",
+    "cn": "然后用堆肥把它盖上"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "And then it grows into a tree.",
+    "cn": "接着它就长成一棵树了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Hoho. Yes, peppa.",
+    "cn": "是的 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "And talking of trees,",
+    "cn": "既然说起树来了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "we'd better go and help granny pig.",
+    "cn": "我们快去帮帮猪奶奶吧"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "She's collecting fruit in the orchard.",
+    "cn": "她现在在果园里面 采摘水果呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "What's the orchard?",
+    "cn": "那什么是果园啊"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "It's where you find fruit trees.",
+    "cn": "就是你能找到果树的地方"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "We've had this orchard since i was a little piggy.",
+    "cn": "在我们小时候就有这些果树了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Hello, granny pig.",
+    "cn": "你好啊 奶奶"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "George",
+    "content": "Granny pig.",
+    "cn": "你好 奶奶"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Granny Pig",
+    "content": "Are you going to help me collect some apples?",
+    "cn": "你们要帮我一起来摘苹果吗"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Yes, granny.",
+    "cn": "是的 奶奶"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Oh, the apples are too high up.",
+    "cn": "哦 那些苹果长得太高了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "Don't worry, peppa.",
+    "cn": "别担心 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "Granny and grandpa",
+    "cn": "猪爷爷和猪奶奶"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig",
+    "content": "have a little trick to collect the apples.",
+    "cn": "摘苹果是有自己的诀窍的"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Everybody hold on to the tree",
+    "cn": "大家一起来抓住这棵树"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Granny Pig",
+    "content": "On the count of three,",
+    "cn": "数到三的时候"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Granny Pig",
+    "content": "shake the tree as much as you can.",
+    "cn": "大家一起用力摇这棵树"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Mummy Pig,Peppa,George,Granny Pig,Grandpa Pig",
+    "content": "One, two, three!",
+    "cn": "1 2 3"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "It's raining apples!",
+    "cn": "正在下 苹果雨"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Granny, can we have an apple please?",
+    "cn": "奶奶 我们可不可以吃一个苹果呢"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Granny Pig",
+    "content": "Of course, peppa.",
+    "cn": "当然可以 佩奇"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "Mm...delicious",
+    "cn": "嗯 太 好吃了"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "And can you guess",
+    "cn": "你们可以猜猜"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "what we do with the apple cores?",
+    "cn": "我们是怎么处理这些苹果核的"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "George",
+    "content": "Wiggle, wiggle!",
+    "cn": "虫子 虫子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "That's right.",
+    "cn": "没错"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Outsider",
+    "content": "The apple cores go into the compost for the worms.",
+    "cn": "把苹果核扔进堆肥里面 去喂虫子"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Grandpa Pig",
+    "content": "Clever george.",
+    "cn": "乔治真聪明呀"
+  },
+  {
+    "sId": 3,
+    "eId": 2001,
+    "topic": "Compost",
+    "role": "Peppa",
+    "content": "And clever wiggly worms, too.",
+    "cn": "而虫子们也非常聪明"
+  }
+]

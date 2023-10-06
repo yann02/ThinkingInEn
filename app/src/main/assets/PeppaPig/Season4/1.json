@@ -1,0 +1,722 @@
+[
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "Peppa and George arrived at grandpa pig's house.",
+    "cn": "佩奇和乔治来猪爷爷和猪奶奶家里玩"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Grandpa pig.",
+    "cn": "你好 爷爷"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "George",
+    "content": "Grandpa pig.",
+    "cn": "你好 爷爷"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "What's this? A cuckoo clock?",
+    "cn": "这个是什么啊 原来是个布谷鸟钟"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Yes, it goes 'cuckoo, cuckoo',",
+    "cn": "是的 它会叫 布谷 布谷"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "but it's broken.",
+    "cn": "可是它现在坏了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Can you mend it please, grandpa pig?",
+    "cn": "你能不能把它修好呢 爷爷"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "En. Let's take it to my shed.",
+    "cn": "嗯 把这个钟拿到我的小屋去吧"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "This is grandpa pig's shed,",
+    "cn": "这里是猪爷爷的小屋"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "where grandpa mends things.",
+    "cn": "猪爷爷就在这里修理东西"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "I'll take a look inside.",
+    "cn": "让我来看看钟的里面"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Grandpa, now you've really broken it.",
+    "cn": "天啊 爷爷 这下你把这个钟彻底弄坏了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Oh, I wonder if I got a book on clocks.",
+    "cn": "喔 我记得我好像有本关于钟表的书"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Ah, here we are-how clocks work.",
+    "cn": "啊 它在这儿呢 钟表工作的原理"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "Grandpa pig has mended the cuckoo clock.",
+    "cn": "猪爷爷终于修好了布谷鸟钟"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa,George",
+    "content": "Hooray.",
+    "cn": "太好了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa,George",
+    "content": "Cuckoo, cuckoo.",
+    "cn": "布谷 布谷 布谷 布谷"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "Mummy pig has come to pick up Peppa and George.",
+    "cn": "猪妈妈来接佩奇和乔治回家了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Mummy, grandpa's mended the cuckoo clock.",
+    "cn": "妈妈 爷爷帮我们把布谷鸟钟修好了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "That's nice.",
+    "cn": "真是太好了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "What's that?",
+    "cn": "那是什么呀"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "It's my old computer.",
+    "cn": "这是我的旧电脑"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "I can't mend that.",
+    "cn": "我可不会修这个东西"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "It's not broken. I've got a new computer.",
+    "cn": "它又没坏 我有一台新电脑了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "I thought you might like my old one.",
+    "cn": "我想你会要旧的这台"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "EIm, I am not sure",
+    "cn": "呃 我 我 我不确定"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "I really need one.",
+    "cn": "我 我 我是不是需要电脑啊"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig",
+    "content": "Oh, a computer. What does it do?",
+    "cn": "哦 一台电脑 它能干吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "You can do letters with it.",
+    "cn": "你可以用它打出字母"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Look, granny.",
+    "cn": "看啊 奶奶"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "A, b, c, d.",
+    "cn": "A B C D"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "And numbers.",
+    "cn": "还有数字"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "1, 2, 3.",
+    "cn": "1 2 3"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig",
+    "content": "I am afraid you might break it",
+    "cn": "我担心我们会按错按钮"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig",
+    "content": "by pressing the wrong button.",
+    "cn": "然后就把它弄坏了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "Don't worry, you can't break it.",
+    "cn": "不用担心 你们是弄不坏的"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Just don't feed it milk",
+    "cn": "只是你们不要喂它 牛奶"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "or biscuits or jelly.",
+    "cn": "或者是饼干 或是果冻"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "The best thing it does is",
+    "cn": "最棒的一点是"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "'Happy Mrs. Chicken'.",
+    "cn": "可以用它玩快乐小鸡的游戏"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "When you press this button, she lays an egg.",
+    "cn": "当你按下这个按钮 她就会下个蛋"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "I am very good at it,",
+    "cn": "我很擅长玩这个游戏"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "but George is the best.",
+    "cn": "但是乔治玩得最好"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig",
+    "content": "That's fun.",
+    "cn": "看起来真有趣"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Perhaps we should keep the computer,",
+    "cn": "也许我们应该留下这台电脑"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "granny pig?",
+    "cn": "你说对不对 猪奶奶"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig,Grandpa Pig",
+    "content": "Goodbye.",
+    "cn": "再见"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig,Peppa,George",
+    "content": "Bye bye.",
+    "cn": "再见"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Shall we do some work",
+    "cn": "你说我们现在是不是"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "on the computer, granny pig?",
+    "cn": "应该研究一下电脑呢 猪奶奶"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig",
+    "content": "Yes, let's do some numbers and letters.",
+    "cn": "是的 我们去打几个数字还有字母吧"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Outsider",
+    "content": "Peppa and her family are having lunch.",
+    "cn": "佩奇和她的家人在吃午餐"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "I've given my old computer",
+    "cn": "我把旧电脑"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "to granny and grandpa.",
+    "cn": "送给猪爷爷还有猪奶奶了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "That's nice.",
+    "cn": "这是好事"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "I wonder how they're getting on with it.",
+    "cn": "我想知道他们用得怎么样了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Hello, Peppa pig speaking.",
+    "cn": "你好 我是小猪佩奇 请说"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Ah, Peppa, I need to ask a question",
+    "cn": "啊 佩奇 我打来是想要问一个"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "about the computer.",
+    "cn": "和电脑有关的问题"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "It's grandpa. He's broken the computer.",
+    "cn": "是爷爷 他把那台电脑弄坏了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "What's the problem with the computer, grandpa pig?",
+    "cn": "电脑到底出什么问题了 猪爷爷"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "It's full of eggs.",
+    "cn": "上面全是鸡蛋"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "Eggs?",
+    "cn": "鸡蛋"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Happy Mrs. Chicken won't lay any more eggs.",
+    "cn": "能不能让快乐小鸡不要再下蛋了吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Computer",
+    "content": "I am broken.",
+    "cn": "出现故障"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "Turn the computer off.",
+    "cn": "先把电脑关掉"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "Now turn it back on again.",
+    "cn": "然后再把它打开"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "Did that fix it?",
+    "cn": "现在好了吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Computer",
+    "content": "I am very broken.",
+    "cn": "故障非常严重"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "That doesn't sound good.",
+    "cn": "听上去似乎不太好"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "Maybe it can't be mended.",
+    "cn": "也许修不好了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "We'll come around and pick it up.",
+    "cn": "我们会过来把它拿回来"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "Granny, we're here to take the computer back.",
+    "cn": "奶奶 我们是来把旧电脑拿回去的"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig",
+    "content": "Oh, grandpa pig has taken it to his shed.",
+    "cn": "哦 猪爷爷把电脑拿去小屋了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "There. That should do it.",
+    "cn": "好了 这样就可以了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Computer",
+    "content": "I am mended.",
+    "cn": "故障解除"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa,George",
+    "content": "Hooray.",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Peppa",
+    "content": "My grandpa is the best at mending things.",
+    "cn": "我爷爷最擅长的就是修理东西了"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Daddy Pig",
+    "content": "Was it very hard to mend?",
+    "cn": "修起来很困难吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Not at all. I found I had this book",
+    "cn": "一点都不难 我发现我有这本书"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "how computers work.",
+    "cn": "电脑工作的原理"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "So you don't want us to take the computer away now.",
+    "cn": "所以现在不需要我们把电脑拿走了吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "No.",
+    "cn": "不用"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "I need it for important work.",
+    "cn": "我还要用它来做非常重要的工作"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Mummy Pig",
+    "content": "For letter and number work?",
+    "cn": "打字母和数字吗"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "No,",
+    "cn": "不是"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "to beat granny pig's Happy Mrs. Chicken's score.",
+    "cn": "我要超过猪奶奶玩快乐小鸡的记录"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Granny Pig",
+    "content": "I laid 4020 eggs.",
+    "cn": "我的记录是四千零二十个蛋"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "So I've got some work to do.",
+    "cn": "所以 我一定要更加地努力才行"
+  },
+  {
+    "sId": 4,
+    "eId": 3001,
+    "topic": "Grandpa Pig's Computer",
+    "role": "Grandpa Pig",
+    "content": "Catching up.",
+    "cn": "超过她"
+  }
+]

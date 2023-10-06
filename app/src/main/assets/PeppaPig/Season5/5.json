@@ -1,0 +1,818 @@
+[
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "It is a lovely sunny day.",
+    "cn": "今天是一个阳光明媚的日子"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Peppa and George are playing on their scooters.",
+    "cn": "佩奇和乔治在玩滑板车"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "George is still learning how to scooter,",
+    "cn": "乔治还没学会怎么玩滑板车"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "he is a bit worried.",
+    "cn": "他有点着急"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Ha ha!",
+    "cn": "哈哈"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "George, Come on!",
+    "cn": "乔治 快来啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "What's the matter George?",
+    "cn": "你这是怎么了 乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Shall I teach you how to scooter?",
+    "cn": "我来教你玩滑板车好不好啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Okay, you hold onto the handlebar like this,",
+    "cn": "好的 你先抓住滑板车的把手"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "with both hands.",
+    "cn": "就像这样 两只手都要抓住"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Now stand on the scooter.",
+    "cn": "然后站到滑板车的上面"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "George",
+    "content": "Oh",
+    "cn": "哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "No, George!",
+    "cn": "这样不对 乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Stand on the scooter with one foot.",
+    "cn": "只要一只脚踩在滑板车上面"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Good!",
+    "cn": "很好"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Now push off with the other foot, like this!",
+    "cn": "现在你的另一只脚蹬一下 就像这样"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "George, you're doing it!",
+    "cn": "乔治 你会玩滑板车了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "George has learnt to scooter!",
+    "cn": "乔治学会玩滑板车了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Beep Beeep!",
+    "cn": "哔哔"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "That's enough scootering for now!",
+    "cn": "现在不能继续玩滑板车了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "It's time to go to playgroup.",
+    "cn": "你们该去幼儿园了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Awwwww!",
+    "cn": "哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "We've only just started scootering!",
+    "cn": "可是我们才刚刚开始玩滑板车呀"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Can we ride our scooters to playgroud, Daddy?",
+    "cn": "我们能滑着滑板车去幼儿园吗 爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Good idea! We could do with the exercise!",
+    "cn": "真是个好主意 刚好可以练习一下"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa,George",
+    "content": "Hooray!",
+    "cn": "太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Ready, steady, go!",
+    "cn": "各就各位 准备好 出发"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Wait for me!",
+    "cn": "等等我啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "See you later, Mummy Pig!",
+    "cn": "待会儿见了 猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "See you later!",
+    "cn": "待会儿见了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Peppa and George",
+    "cn": "佩奇和乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "are riding their scooters to playgroup.",
+    "cn": "滑着滑板车去幼儿园了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Not so fast!...",
+    "cn": "不要滑得太快"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "C'mon Daddy!",
+    "cn": "快点呀 爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Daddy can't keep up!",
+    "cn": "爸爸追不上你们了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Wait for me!",
+    "cn": "等等我"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Peppa and George have arrived at Playgroup.",
+    "cn": "佩奇和乔治来到了幼儿园"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Bye bye, Daddy!",
+    "cn": "再见 爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "George",
+    "content": "Bye bye!",
+    "cn": "再见"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Bye.",
+    "cn": "再见"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Oh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Now I'm going to have to walk back home!",
+    "cn": "看来我只能走路回家了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "What I need... are some wheels.",
+    "cn": "如果我现在有轮子的话就好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Hang on! I've got wheels!",
+    "cn": "哦 等一下 我不是有轮子嘛"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Ha ha!",
+    "cn": "哈哈"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "This is fun!",
+    "cn": "这个真好玩"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Daddy Pig likes scootering.",
+    "cn": "猪爸爸喜欢玩滑板车"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig! You're riding Peppa's scooter!",
+    "cn": "猪爸爸 你在滑佩奇的滑板车"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Yes! Scootering is such fun!",
+    "cn": "没错 滑板车实在太好玩了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "You should try it sometime.",
+    "cn": "有机会你也试一下"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Peppa and George are painting pictures at Playgroup.",
+    "cn": "幼儿园里 佩奇和乔治正在画画"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Madame Gazelle,",
+    "cn": "羚羊夫人"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "we came to school on our scooters today.",
+    "cn": "今天我们是滑着滑板车上学的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Madame Gazelle",
+    "content": "Very good Peppa and George.",
+    "cn": "你们很棒 佩奇和乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Madame Gazelle",
+    "content": "Let's all paint pictures of",
+    "cn": "那我们就一起来画画"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Madame Gazelle",
+    "content": "how we came to school today.",
+    "cn": "今天大家是怎么来上学的吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Rebecca Rabbit",
+    "content": "I came on my bicycle.",
+    "cn": "我是骑自行车来的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Madame Gazelle",
+    "content": "Very good.",
+    "cn": "你很棒"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "A Little Wolf",
+    "content": "I walked here.",
+    "cn": "我是走路来的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Madame Gazelle",
+    "content": "So nice to get the fresh air in your lungs.",
+    "cn": "那你肯定呼吸到很多的新鲜空气"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Danny Dog",
+    "content": "My Grandad brought me in his truck!",
+    "cn": "我是坐着爷爷的卡车来的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Madame Gazelle",
+    "content": "Ah, lovely...",
+    "cn": "啊哈 真厉害"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "It is time",
+    "cn": "放学了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "for Mummy and Daddy Pig",
+    "cn": "猪爸爸和猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "to pick up the children from playgroup.",
+    "cn": "要去幼儿园接孩子了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Have you got the car keys, Daddy Pig?",
+    "cn": "你拿车钥匙了吗 猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "I don't think we should take the car, Mummy Pig.",
+    "cn": "我觉得我们不用开车去 猪妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "But it's a long way to walk to playgroup.",
+    "cn": "可走路去幼儿园的话很远的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "We don't have to walk.",
+    "cn": "我们不用走路去的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "I made that mistake this morning!",
+    "cn": "今天早上我就犯了个错"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "We can scooter!",
+    "cn": "我们可以滑滑板车"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Race you!",
+    "cn": "看谁快"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "What?!",
+    "cn": "什么"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Are you sure?",
+    "cn": "你说真的吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Err... Okay.",
+    "cn": "呃 那好吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Mummy and Daddy Pig are scootering to Playgroup",
+    "cn": "猪爸爸和猪妈妈滑着滑板车"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "to pick up Peppa and George.",
+    "cn": "去幼儿园接佩奇和乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Yippeee!",
+    "cn": "真好玩"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "That was great!",
+    "cn": "这个挺好玩的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "I told you we wouldn't have to walk.",
+    "cn": "我跟你说过不用走路的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Mummy!",
+    "cn": "妈妈"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Daddy!",
+    "cn": "爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "You brought our scooters!",
+    "cn": "你们把滑板车带来了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "Hooray!",
+    "cn": "太好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Ah yes.",
+    "cn": "啊 是的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "That seems to leave us without scooters",
+    "cn": "现在看来我们回去的时候"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "for the journey home...",
+    "cn": "没有滑板车可以用了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Daddy Pig!",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "You said we wouldn't have to walk!",
+    "cn": "你不是说不用走路的嘛"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "We won't have to walk.",
+    "cn": "我们是不用走路啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "But we will have to run!",
+    "cn": "因为我们可以用跑的"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Race you!",
+    "cn": "看谁快"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Hey!",
+    "cn": "嘿"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Wait for me!",
+    "cn": "你等等我啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Peppa",
+    "content": "This is fun!",
+    "cn": "真是太好玩了"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "Peppa!",
+    "cn": "佩奇"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Daddy Pig",
+    "content": "George!",
+    "cn": "乔治"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Mummy Pig",
+    "content": "Wait for Mummy and Daddy!",
+    "cn": "等等爸爸妈妈呀"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Peppa and George love scootering.",
+    "cn": "佩奇和乔治喜欢玩滑板车"
+  },
+  {
+    "sId": 5,
+    "eId": 4005,
+    "topic": "Scooters",
+    "role": "Outsider",
+    "content": "Everyone loves scooting!",
+    "cn": "大家都喜欢玩滑板车"
+  }
+]

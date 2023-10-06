@@ -1,0 +1,746 @@
+[
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "Suzy Sheep has come to play with Peppa.",
+    "cn": "小羊苏西来找佩奇一起玩"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Hello, Peppa. Let's do a bicycle race!",
+    "cn": "你好 佩奇 我们来比赛骑自行车吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Okay.",
+    "cn": "哦 好啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Ready, steady,",
+    "cn": "各就各位 准备好"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Go!",
+    "cn": "出发"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Oh no!",
+    "cn": "哦 不"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "What's the matter Peppa?",
+    "cn": "你怎么了 佩奇"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "My tyre has gone flat!",
+    "cn": "我的自行车轮胎瘪了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "It's only a puncture!",
+    "cn": "这肯定是爆胎了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "I'm a bit of an expert at mending punctures.",
+    "cn": "知道吗 我可是补轮胎的高手哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "First, we take off the wheel.",
+    "cn": "首先 我们把车轮卸下来"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Next, we take the tyre off the wheel...",
+    "cn": "然后 把轮胎从轮毂上弄下来"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Are you coming Peppa?!",
+    "cn": "你要下来了吗 佩奇"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Then , we need a bucket of water...?",
+    "cn": "接着 我们要接一桶水"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Can you do it quickly, Daddy?",
+    "cn": "你能修得快一点吗 爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "I won't be long Peppa.",
+    "cn": "用不了多少时间的 佩奇"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "While you wait,",
+    "cn": "你在等的时候"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "you could pretend to ride a bicycle.",
+    "cn": "可以假装自己正在骑自行车呀"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Pretend?",
+    "cn": "假装在骑"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Yes, your very own pretend bicycle.",
+    "cn": "是啊 一辆你自己想象中的自行车"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Hmmm.",
+    "cn": "恩"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Okay!",
+    "cn": "哦好的"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "I have thought of a very nice bike!",
+    "cn": "我已经想出一辆很漂亮的自行车了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "I'm riding my bicycle",
+    "cn": "我骑着我的自行车"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "lalalalala",
+    "cn": "啦啦啦啦啦"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Why are you walking funny?",
+    "cn": "你走路怎么这么滑稽呀"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "I'm not walking Suzy.",
+    "cn": "我可不是在走路 苏西"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Where's your bicycle?",
+    "cn": "你的自行车在哪儿"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "It's here.",
+    "cn": "就在这里"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "It's a pretend bicycle.",
+    "cn": "这是一辆想象中的自行车"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "It's got sparkly wheels",
+    "cn": "有闪闪发亮的车轮"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "and it's painted like a rainbow!",
+    "cn": "自行车的颜色像彩虹一样"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Oooh, I wish I had a pretend bicycle.",
+    "cn": "哦 我也希望有想象中的自行车"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "You can!",
+    "cn": "你也可以"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "And it can be anything you like!",
+    "cn": "你可以想象成你喜欢的样子"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Okay,",
+    "cn": "好的"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "my pretend bicycle is pink and fluffy.",
+    "cn": "我想象得自行车是粉色得毛茸茸的"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Wow!",
+    "cn": "哇哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "Here is Danny Dog.",
+    "cn": "小狗丹尼来了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Danny Dog",
+    "content": "Hello!",
+    "cn": "你们好啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa,Suzy Sheep",
+    "content": "Hello, Danny!",
+    "cn": "你好啊丹尼"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Danny Dog",
+    "content": "Do you want to play ball?",
+    "cn": "你们想要一起玩球吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Have you got a ball?",
+    "cn": "那么你带球了吗"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Danny Dog",
+    "content": "No.",
+    "cn": "没有"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "It doesn't matter,",
+    "cn": "没有球没关系"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "we can have a pretend ball.",
+    "cn": "我们可以想象有一个球"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Catch Danny!",
+    "cn": "接着 丹尼"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Danny Dog",
+    "content": "Let's give it a big kick!",
+    "cn": "看我用力一踢"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Danny Dog",
+    "content": "Ooof",
+    "cn": "嘿呀"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa,Suzy Sheep",
+    "content": "Oh",
+    "cn": "啊哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Rebecca Rabbit",
+    "content": "Hello, everyone.",
+    "cn": "大家好呀"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "It is Rebecca Rabbit.",
+    "cn": "小兔瑞贝卡来了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Hello, Rebecca,",
+    "cn": "你好啊 瑞贝卡"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "We're playing with a pretend ball.",
+    "cn": "我们正在玩一个想象中的球呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Suzy Sheep",
+    "content": "Until Danny kicked it over there.",
+    "cn": "然后丹尼把球踢到了那边"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "Here is Pedro Pony.",
+    "cn": "小马佩德罗来了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Pedro Pony",
+    "content": "What are you playing?",
+    "cn": "你们在玩什么呢"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Rebecca Rabbit",
+    "content": "We were playing a pretend guessing game",
+    "cn": "我们在玩猜猜我是谁的游戏"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Rebecca Rabbit",
+    "content": "but I think that game is over.",
+    "cn": "不过我想这个游戏已经结束了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Danny Dog",
+    "content": "What game do you want to play Pedro?",
+    "cn": "那么你想玩什么游戏啊佩德罗"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Pedro Pony",
+    "content": "Jumping up and down in muddy puddles!",
+    "cn": "我想在一个泥坑里面跳来跳去"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa,George,Suzy Sheep,Danny Dog,Rebecca Rabbit",
+    "content": "Yes!",
+    "cn": "好啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Let's find some puddles!",
+    "cn": "我们快点去找个泥坑吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Rebecca Rabbit",
+    "content": "Oh.",
+    "cn": "哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Rebecca Rabbit",
+    "content": "There are no puddles.",
+    "cn": "这个地方没有泥坑"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Pedro Pony",
+    "content": "You need rain for puddles.",
+    "cn": "要下雨才会有泥坑"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "We can pretend it's raining...",
+    "cn": "我们可以想象在下雨啊"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "It's raining it's pouring!",
+    "cn": "下雨啦 倾盆大雨"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "A splish, a splosh,",
+    "cn": "一滴一滴 滴下来"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "the rain comes down diddly diddly dee",
+    "cn": "滴哩滴哩滴"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Pedro Pony",
+    "content": "The pretend rain has made pretend puddles!",
+    "cn": "想象中的雨水 形成了想象中的泥坑"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa,George,Suzy Sheep,Danny Dog,Rebecca Rabbit,Pedro Pony",
+    "content": "Hooray!",
+    "cn": "太棒了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Peppa! Your bike is mended!",
+    "cn": "佩奇 你的自行车修好了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "I don't need it now, Daddy!",
+    "cn": "我现在不想骑车了 爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Oh!",
+    "cn": "哦"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "I'm pretending to jump up",
+    "cn": "我现在假装自己"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "and down in muddy puddles!",
+    "cn": "一个泥坑里面跳来跳去"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Ahh yes, those puddles do look rather good.",
+    "cn": "哦 是吗 这个泥坑应该很好玩吧"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "I think I'll do some puddle jumping myself.",
+    "cn": "我也来跟你们一起玩跳泥坑"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Ready...Steady...",
+    "cn": "各就各位 准备好"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "STOP!!",
+    "cn": "停下爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "What's the matter Peppa?!",
+    "cn": "有什么问题吗佩奇"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "If you jump in muddy puddles,",
+    "cn": "如果你也想玩跳泥坑的话"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "you must wear your boots!",
+    "cn": "你一定得穿上雨靴才行"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "But I'm wearing my best pretend boots.",
+    "cn": "我已经穿上了最棒得想象雨靴"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Peppa",
+    "content": "Then you are allowed to jump.",
+    "cn": "那你现在就可以一起跳了"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Ready!",
+    "cn": "各就各位"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Steady!",
+    "cn": "准备好"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Daddy Pig",
+    "content": "Jump!",
+    "cn": "我是个海盗"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "Daddy Pig",
+    "cn": "猪爸爸"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "loves jumping up and down in pretend muddy puddles.",
+    "cn": "喜欢在想象得泥坑里跳来跳去"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "Everyone loves",
+    "cn": "大家都喜欢"
+  },
+  {
+    "sId": 5,
+    "eId": 4004,
+    "topic": "Playing Pretend",
+    "role": "Outsider",
+    "content": "jumping up and down in pretend muddy puddles!",
+    "cn": "在想象得泥坑里跳来跳去"
+  }
+]
